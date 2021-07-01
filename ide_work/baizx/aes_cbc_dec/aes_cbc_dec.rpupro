@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG lfsrWidthDeep="0" slnname="algor_all" lfsrMode="0" value="C:/Users/xuf/Desktop/myWork/ide_work/baizx/aes_cbc_dec/aes_cbc_dec.rpupro" name="aes_cbc_dec" cipherType="0">
+    <XML sort="0" project="/home/xuf/ide_work/baizx/aes_cbc_dc/aes_cbc_dc.rpupro" select="1" value="aes_cbc_dc.xml" name="">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="benes_d_0.benes"/>
+    <SRC value="benes_d_1.benes"/>
+    <SRC value="imd.imd"/>
+    <SRC value="infifo.fifo"/>
+    <SRC value="mem.memory"/>
+    <SRC value="sbox_0.txt"/>
+    <SRC value="sbox_1.txt"/>
+</ALG>

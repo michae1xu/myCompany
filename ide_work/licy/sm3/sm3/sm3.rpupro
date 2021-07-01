@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG lfsrWidthDeep="0" slnname="algor_all" lfsrMode="0" value="C:/Users/xuf/Desktop/myWork/ide_work/licy/sm3/sm3/sm3.rpupro" name="sm3" cipherType="0">
+    <SRC value="./resource/sm3_memory.memory"/>
+    <SRC value="./resource/sm3_benes.benes"/>
+    <SRC value="resource/sm3_imd.imd"/>
+    <SRC value="resource/sm3_plaintext_in.fifo"/>
+    <XML sort="0" project="/home/xuf/ide_work/licy/sm3/sm3/sm3.rpupro" select="1" value="src/sm3_fin.xml" name="">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+</ALG>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG lfsrWidthDeep="0" slnname="algor_all" lfsrMode="0" value="C:/Users/xuf/Desktop/myWork/ide_work/mac/tdes_ecb_dec/tdes_ecb_dec.rpupro" name="tdes_ecb_dec" cipherType="0">
+    <XML sort="0" project="/home/xuf/ide_work/mac/tdes_ecb_dc/tdes_ecb_dc.rpupro" select="1" value="tdes_ecb_dc.xml" name="">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="tdes_ecb_dc_benes_0_init.benes"/>
+    <SRC value="tdes_ecb_dc_benes_1_init.benes"/>
+    <SRC value="tdes_ecb_dc_benes_2_init.benes"/>
+    <SRC value="tdes_ecb_dc_benes_init.benes"/>
+    <SRC value="tdes_ecb_dc_benes_re.benes"/>
+    <SRC value="tdes_ecb_dc_k1_k1_k1_imd.imd"/>
+    <SRC value="tdes_ecb_dc_memory.memory"/>
+    <SRC value="tdes_ecb_dc_plaintext_in.fifo"/>
+    <SRC value="tdes_ecb_dc_sbox_0_init.sbox"/>
+    <SRC value="tdes_ecb_dc_sbox_1_init.sbox"/>
+</ALG>
