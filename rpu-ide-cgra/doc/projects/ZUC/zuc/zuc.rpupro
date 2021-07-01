@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG name="zuc" cipherType="0" slnname="zuc" value="D:/project/Qt/My/_tsinghua/rpu-ide-cgra/doc/projects/ZUC/zuc/zuc.rpupro">
+    <SRC value="resource/zuc_sbox.sbox"/>
+    <SRC value="resource/zuc_mem.memory"/>
+    <SRC value="resource/zuc_imd.imd"/>
+    <SRC value="resource/plaintext_in.fifo"/>
+    <XML project="D:/project/Qt/My/_tsinghua/rpu-ide-cgra/doc/projects/ZUC/zuc/zuc.rpupro" name="" select="1" sort="-1" value="src/zuc.xml">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+</ALG>

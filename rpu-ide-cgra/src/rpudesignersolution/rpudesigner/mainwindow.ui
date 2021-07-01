@@ -1,0 +1,4013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1887</width>
+    <height>1013</height>
+   </rect>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images.qrc">
+    <normaloff>:/images/rpu.png</normaloff>:/images/rpu.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_9">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="handleWidth">
+       <number>0</number>
+      </property>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page_welcome">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_3">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Sunken</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="2,5,5,0,0">
+            <property name="spacing">
+             <number>50</number>
+            </property>
+            <property name="leftMargin">
+             <number>100</number>
+            </property>
+            <property name="topMargin">
+             <number>80</number>
+            </property>
+            <property name="rightMargin">
+             <number>100</number>
+            </property>
+            <property name="bottomMargin">
+             <number>34</number>
+            </property>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_26">
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_13">
+                <property name="bottomMargin">
+                 <number>20</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_27">
+                  <property name="spacing">
+                   <number>20</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_sessionManager">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>会话管理</string>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>20</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                    <property name="shortcut">
+                     <string>Ctrl+S, Ctrl+R</string>
+                    </property>
+                    <property name="autoDefault">
+                     <bool>true</bool>
+                    </property>
+                    <property name="flat">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_13">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_10">
+                <property name="font">
+                 <font>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>示例方案：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_line3">
+                <property name="autoFillBackground">
+                 <bool>true</bool>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QListWidget" name="listWidget_demos">
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="verticalScrollBarPolicy">
+                 <enum>Qt::ScrollBarAlwaysOff</enum>
+                </property>
+                <property name="horizontalScrollBarPolicy">
+                 <enum>Qt::ScrollBarAlwaysOff</enum>
+                </property>
+                <property name="textElideMode">
+                 <enum>Qt::ElideMiddle</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <property name="bottomMargin">
+                 <number>20</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_4">
+                  <property name="spacing">
+                   <number>20</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_newFile">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>新建文件(&amp;F)</string>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>20</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                    <property name="shortcut">
+                     <string>Ctrl+S, Ctrl+R</string>
+                    </property>
+                    <property name="autoDefault">
+                     <bool>true</bool>
+                    </property>
+                    <property name="flat">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_openFile">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>11</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>打开文件(&amp;O)</string>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="shortcut">
+                   <string>Ctrl+S, Ctrl+R</string>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>true</bool>
+                  </property>
+                  <property name="flat">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_4">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="font">
+                 <font>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>最近打开的文件：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_line">
+                <property name="autoFillBackground">
+                 <bool>true</bool>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QListWidget" name="listWidget_files">
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="verticalScrollBarPolicy">
+                 <enum>Qt::ScrollBarAlwaysOff</enum>
+                </property>
+                <property name="horizontalScrollBarPolicy">
+                 <enum>Qt::ScrollBarAlwaysOff</enum>
+                </property>
+                <property name="textElideMode">
+                 <enum>Qt::ElideMiddle</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <property name="spacing">
+               <number>10</number>
+              </property>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <property name="bottomMargin">
+                 <number>20</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_6">
+                  <property name="spacing">
+                   <number>20</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_newPro">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>新建解决方案(&amp;N)</string>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>20</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                    <property name="shortcut">
+                     <string>Ctrl+S, Ctrl+R</string>
+                    </property>
+                    <property name="autoDefault">
+                     <bool>true</bool>
+                    </property>
+                    <property name="flat">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_openPro">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>11</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>打开解决方案(&amp;P)</string>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="shortcut">
+                   <string>Ctrl+S, Ctrl+R</string>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>true</bool>
+                  </property>
+                  <property name="flat">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_5">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="font">
+                 <font>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>最近打开的解决方案：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_line2">
+                <property name="autoFillBackground">
+                 <bool>true</bool>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QListWidget" name="listWidget_pros">
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="verticalScrollBarPolicy">
+                 <enum>Qt::ScrollBarAlwaysOff</enum>
+                </property>
+                <property name="horizontalScrollBarPolicy">
+                 <enum>Qt::ScrollBarAlwaysOff</enum>
+                </property>
+                <property name="textElideMode">
+                 <enum>Qt::ElideMiddle</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>4</width>
+                <height>14</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_20">
+              <item>
+               <widget class="QLabel" name="label_animation">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_edit">
+        <layout class="QVBoxLayout" name="verticalLayout_16">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="CNoCloseWidget" name="widget_xmlEditor" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_10">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QSplitter" name="splitter_2">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="handleWidth">
+               <number>0</number>
+              </property>
+              <widget class="QMdiArea" name="mdiArea">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>5</horstretch>
+                 <verstretch>1</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="background">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>160</red>
+                  <green>160</green>
+                  <blue>160</blue>
+                 </color>
+                </brush>
+               </property>
+               <property name="viewMode">
+                <enum>QMdiArea::TabbedView</enum>
+               </property>
+               <property name="documentMode">
+                <bool>true</bool>
+               </property>
+               <property name="tabsClosable">
+                <bool>true</bool>
+               </property>
+               <property name="tabsMovable">
+                <bool>true</bool>
+               </property>
+               <property name="tabShape">
+                <enum>QTabWidget::Rounded</enum>
+               </property>
+               <property name="tabPosition">
+                <enum>QTabWidget::North</enum>
+               </property>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_resource">
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <property name="leftMargin">
+          <number>3</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="CProjectSettingWidget" name="widget_resourceEdit" native="true">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_17">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_resourceEditTitle">
+              <property name="text">
+               <string>资源编辑：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <property name="spacing">
+               <number>6</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="pushButton_saveResource">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>保存</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_addFifoResourceRowBefore">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>插入之前</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_addFifoResourceRowAfter">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>插入之后</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_deleteFifoResourceRow">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>删除</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_9">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Expanding</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>寻址间隔：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_addressInterval">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>1 BYTE</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>4 BYTE</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>16 BYTE</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>列数：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="spinBox_maxColumn">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+                <property name="maximum">
+                 <number>16</number>
+                </property>
+                <property name="value">
+                 <number>4</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="checkBox_sboxShowInOneLine">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>sbox单列显示</string>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="CResourceEditorTableView" name="tableView_resourceEditor">
+              <property name="alternatingRowColors">
+               <bool>true</bool>
+              </property>
+              <property name="selectionMode">
+               <enum>QAbstractItemView::ContiguousSelection</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget_benesEditor" native="true">
+              <layout class="QVBoxLayout" name="verticalLayout_19">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_16">
+                 <item>
+                  <widget class="QLabel" name="label_20">
+                   <property name="text">
+                    <string>输出口对应表：</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_3">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_benesEditorLoad">
+                   <property name="text">
+                    <string>载入</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_benesEditorGenerate">
+                   <property name="text">
+                    <string>生成</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_12">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_benesEditorReset">
+                   <property name="text">
+                    <string>重置</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QTableView" name="tableView_benesEditor">
+                 <property name="alternatingRowColors">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_proSetting">
+        <layout class="QVBoxLayout" name="verticalLayout_11" stretch="3,2">
+         <property name="leftMargin">
+          <number>3</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="CProjectSettingWidget" name="widget_projectSetting" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_15">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_projectSettingTitle">
+              <property name="text">
+               <string>项目设置：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <property name="spacing">
+               <number>3</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="pushButton_proSettingSave">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_proSettingUp">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_proSettingDown">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_proSettingSelectAll">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_4">
+                <property name="text">
+                 <string>算法类型：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_projectSettingSetSolution">
+                <item>
+                 <property name="text">
+                  <string>未选择</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>对称密码</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>信息摘要</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>消息认证</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>  LFSR宽度x深度：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_lfsrWidthDeep">
+                <item>
+                 <property name="text">
+                  <string>1x32</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>2x16</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_9">
+                <property name="text">
+                 <string>  LFSR抽头模式：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_lfsrMode">
+                <item>
+                 <property name="text">
+                  <string>前16组</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>中16组</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>后16组</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_7">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_forecastClock">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_forecastClock">
+                <property name="toolTip">
+                 <string>预估周期</string>
+                </property>
+                <property name="statusTip">
+                 <string>预估当前项目需要周期树</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="flat">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_statistics">
+                <property name="toolTip">
+                 <string>算法统计评估</string>
+                </property>
+                <property name="statusTip">
+                 <string>统计评估当前算法项目硬件资源使用情况</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="flat">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="CProjectSettingTableView" name="tableView_projectSetting">
+              <property name="dragEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="dragDropOverwriteMode">
+               <bool>false</bool>
+              </property>
+              <property name="dragDropMode">
+               <enum>QAbstractItemView::InternalMove</enum>
+              </property>
+              <property name="alternatingRowColors">
+               <bool>true</bool>
+              </property>
+              <property name="selectionMode">
+               <enum>QAbstractItemView::SingleSelection</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <item>
+            <widget class="QLabel" name="label_filesystem">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="CFileSystemTreeView" name="treeView_explorer"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_resource">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="CResourceListWidget" name="listWidget_resource">
+             <property name="acceptDrops">
+              <bool>true</bool>
+             </property>
+             <property name="movement">
+              <enum>QListView::Static</enum>
+             </property>
+             <property name="resizeMode">
+              <enum>QListView::Adjust</enum>
+             </property>
+             <property name="layoutMode">
+              <enum>QListView::Batched</enum>
+             </property>
+             <property name="viewMode">
+              <enum>QListView::IconMode</enum>
+             </property>
+             <property name="uniformItemSizes">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_runResult">
+        <layout class="QVBoxLayout" name="verticalLayout_18">
+         <property name="leftMargin">
+          <number>3</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="label_runResultProjectName">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_runResultTime">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="1,3">
+           <item>
+            <widget class="QTreeWidget" name="treeWidget_runResult">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>1</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <column>
+              <property name="text">
+               <string>名称</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>说明</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTableWidget" name="tableWidget_runResult">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>3</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="editTriggers">
+              <set>QAbstractItemView::NoEditTriggers</set>
+             </property>
+             <column>
+              <property name="text">
+               <string>PORT0</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>PORT1</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>PORT2</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>PORT3</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_debugLog">
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_cmd" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#widget_cmd {
+background-color: #404244;
+border: 1px solid #222222;
+padding: 10px;
+}
+
+QToolButton {
+color:#D2D2D2;
+}
+
+QLabel {
+color:#D2D2D2;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0,0,10,2,0">
+          <property name="spacing">
+           <number>9</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>1</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>1</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_cmdText">
+            <property name="text">
+             <string>调试输出</string>
+            </property>
+            <property name="indent">
+             <number>10</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_cmdFontSizeZoomIn">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>14</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_cmdFontSizeZoomOut">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>14</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_cmdFontSizeDefault">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>14</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_cmdClear">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>14</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_searchCmd">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="placeholderText">
+             <string>搜索</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_hideDebugLogWidget">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>10</width>
+              <height>10</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit_log">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="CLineEdit" name="lineEdit_cmd">
+          <property name="placeholderText">
+           <string>command</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1887</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <widget class="QMenu" name="menu_F_recentFiles">
+     <property name="title">
+      <string>最近访问的文件(&amp;F)</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menu_P_recentPros">
+     <property name="title">
+      <string>最近访问的解决方案(&amp;P)</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menu_session">
+     <property name="title">
+      <string>会话</string>
+     </property>
+     <addaction name="action_sessionManager"/>
+     <addaction name="separator"/>
+    </widget>
+    <addaction name="action_NewFile"/>
+    <addaction name="action_newSolution"/>
+    <addaction name="action_Open"/>
+    <addaction name="action_openSolution"/>
+    <addaction name="separator"/>
+    <addaction name="menu_F_recentFiles"/>
+    <addaction name="menu_P_recentPros"/>
+    <addaction name="menu_session"/>
+    <addaction name="separator"/>
+    <addaction name="action_closeAllSolution"/>
+    <addaction name="action_closeAllSlnAndEditor"/>
+    <addaction name="separator"/>
+    <addaction name="action_Save"/>
+    <addaction name="action_SaveAs"/>
+    <addaction name="action_SaveAll"/>
+    <addaction name="action_exportSvg"/>
+    <addaction name="separator"/>
+    <addaction name="action_print"/>
+    <addaction name="action_printPreview"/>
+    <addaction name="action_printScreen"/>
+    <addaction name="separator"/>
+    <addaction name="action_Quit"/>
+   </widget>
+   <widget class="QMenu" name="menu_V">
+    <property name="title">
+     <string>视图(&amp;V)</string>
+    </property>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>工具栏</string>
+     </property>
+     <addaction name="action_fileToolBar"/>
+     <addaction name="action_editToolBar"/>
+     <addaction name="action_viewToolBar"/>
+    </widget>
+    <widget class="QMenu" name="menu_3">
+     <property name="title">
+      <string>停靠窗</string>
+     </property>
+     <addaction name="action_element"/>
+     <addaction name="action_solution"/>
+     <addaction name="action_openedFile"/>
+    </widget>
+    <addaction name="action_ShowLine"/>
+    <addaction name="action_grid"/>
+    <addaction name="separator"/>
+    <addaction name="action_moveLeft"/>
+    <addaction name="action_moveRight"/>
+    <addaction name="action_moveUp"/>
+    <addaction name="action_moveDown"/>
+    <addaction name="separator"/>
+    <addaction name="action_zoomIn"/>
+    <addaction name="action_zoomOut"/>
+    <addaction name="action_zoomNormal"/>
+    <addaction name="action_showAll"/>
+    <addaction name="separator"/>
+    <addaction name="action_autoSetPosOfAllItem"/>
+    <addaction name="separator"/>
+    <addaction name="action_scale"/>
+    <addaction name="separator"/>
+    <addaction name="action_showMenuBar"/>
+    <addaction name="menu_2"/>
+    <addaction name="action_lockToolBar"/>
+    <addaction name="menu_3"/>
+    <addaction name="action_fullScreen"/>
+   </widget>
+   <widget class="QMenu" name="menu_H">
+    <property name="title">
+     <string>帮助(&amp;H)</string>
+    </property>
+    <addaction name="action_Help"/>
+    <addaction name="separator"/>
+    <addaction name="action_Log"/>
+    <addaction name="action_Update"/>
+    <addaction name="separator"/>
+    <addaction name="action_changeLicense"/>
+    <addaction name="separator"/>
+    <addaction name="action_Bug"/>
+    <addaction name="action_About"/>
+   </widget>
+   <widget class="QMenu" name="menu_D">
+    <property name="title">
+     <string>调试(&amp;D)</string>
+    </property>
+    <widget class="QMenu" name="menu">
+     <property name="title">
+      <string>运行模式</string>
+     </property>
+     <addaction name="action_simMode"/>
+     <addaction name="action_jointDebugMode"/>
+    </widget>
+    <addaction name="action_Run"/>
+    <addaction name="action_Step"/>
+    <addaction name="action_Stop"/>
+    <addaction name="separator"/>
+    <addaction name="action_Cmd"/>
+    <addaction name="separator"/>
+    <addaction name="action_Code"/>
+    <addaction name="action_parseCmdWord"/>
+    <addaction name="separator"/>
+    <addaction name="action_restoreDebugStatus"/>
+    <addaction name="action_saveDebugStatus"/>
+    <addaction name="separator"/>
+    <addaction name="menu"/>
+   </widget>
+   <widget class="QMenu" name="menu_E">
+    <property name="title">
+     <string>编辑(&amp;E)</string>
+    </property>
+    <addaction name="action_Undo"/>
+    <addaction name="action_Redo"/>
+    <addaction name="separator"/>
+    <addaction name="action_Cut"/>
+    <addaction name="action_Copy"/>
+    <addaction name="action_copyWithLine"/>
+    <addaction name="action_Paste"/>
+    <addaction name="action_delete"/>
+    <addaction name="separator"/>
+    <addaction name="action_selectAll"/>
+    <addaction name="action_selectSame"/>
+    <addaction name="action_find"/>
+    <addaction name="separator"/>
+    <addaction name="action_attribute"/>
+   </widget>
+   <widget class="QMenu" name="menu_T">
+    <property name="title">
+     <string>工具(&amp;T)</string>
+    </property>
+    <addaction name="action_analyze"/>
+    <addaction name="separator"/>
+    <addaction name="action_Setting"/>
+    <addaction name="actiondebug"/>
+    <addaction name="actiondebug_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_W">
+    <property name="title">
+     <string>窗口(&amp;W)</string>
+    </property>
+    <addaction name="action_Close"/>
+    <addaction name="action_CloseAll"/>
+    <addaction name="separator"/>
+    <addaction name="action_xmlEditorShowAsTool"/>
+    <addaction name="separator"/>
+    <addaction name="action_Tile"/>
+    <addaction name="action_Cascade"/>
+    <addaction name="separator"/>
+    <addaction name="action_PreviousWindow"/>
+    <addaction name="action_NextWindow"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_M">
+    <property name="title">
+     <string>修改(&amp;M)</string>
+    </property>
+    <addaction name="action_rotate"/>
+    <addaction name="action_flipHorizintal"/>
+    <addaction name="action_flipVertical"/>
+    <addaction name="separator"/>
+    <addaction name="action_bringToFront"/>
+    <addaction name="action_SendToBackup"/>
+    <addaction name="separator"/>
+    <addaction name="action_alignTopEdge"/>
+    <addaction name="action_alignBottomEdge"/>
+    <addaction name="action_alignLeftEdge"/>
+    <addaction name="action_alignRightEdge"/>
+    <addaction name="action_horizintalEquidistant"/>
+    <addaction name="action_VerticalEquidistant"/>
+    <addaction name="separator"/>
+    <addaction name="action_sameHeight"/>
+    <addaction name="action_sameWidth"/>
+    <addaction name="action_sameSize"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>设备(&amp;C)</string>
+    </property>
+    <addaction name="action_connectToDevice"/>
+    <addaction name="action_disconnectToDevice"/>
+    <addaction name="action_deviceReset"/>
+    <addaction name="separator"/>
+    <addaction name="action_maker"/>
+    <addaction name="action_updateFirmware"/>
+    <addaction name="action_OTP"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_E"/>
+   <addaction name="menu_M"/>
+   <addaction name="menu_V"/>
+   <addaction name="menu_D"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_T"/>
+   <addaction name="menu_W"/>
+   <addaction name="menu_H"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_file">
+   <property name="windowTitle">
+    <string>文件工具栏</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolBar {
+background-color: #404244;
+border-left: 1px solid #222222;
+border-bottom: 1px solid #222222;
+height: 20px;
+}
+
+QToolButton {
+color:#D2D2D2;
+padding-left: 8px;
+}</string>
+   </property>
+   <property name="movable">
+    <bool>true</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::RightToolBarArea|Qt::TopToolBarArea</set>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_NewFile"/>
+   <addaction name="action_Open"/>
+   <addaction name="action_newSolution"/>
+   <addaction name="action_openSolution"/>
+   <addaction name="action_Save"/>
+   <addaction name="action_SaveAs"/>
+   <addaction name="action_exportSvg"/>
+   <addaction name="action_print"/>
+   <addaction name="action_printPreview"/>
+   <addaction name="action_printScreen"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="styleSheet">
+    <string notr="true">QStatusBar {
+background-color: #404244;
+border-top: 1px solid #222222;
+height: 20px;
+}
+
+QLabel {
+color:#D2D2D2;
+}
+
+QStatusBar::item{border: 0px}
+</string>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="toolBar_edit">
+   <property name="windowTitle">
+    <string>编辑工具栏</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolBar {
+background-color: #404244;
+border-bottom: 1px solid #222222;
+border-left: 1px solid #222222;
+height: 20px;
+}
+
+QToolButton {
+color:#D2D2D2;
+padding-left: 8px;
+}</string>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::RightToolBarArea|Qt::TopToolBarArea</set>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_Cut"/>
+   <addaction name="action_Copy"/>
+   <addaction name="action_Paste"/>
+   <addaction name="action_selectAll"/>
+   <addaction name="action_delete"/>
+   <addaction name="action_align"/>
+   <addaction name="action_horizintalEquidistant"/>
+   <addaction name="action_VerticalEquidistant"/>
+   <addaction name="separator"/>
+   <addaction name="action_Undo"/>
+   <addaction name="action_Redo"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_guide">
+   <property name="windowTitle">
+    <string>调试工具栏</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolBar {
+background-color: #404244;
+border-right: 1px solid #222222;
+border-left: 0px;
+}
+
+QToolButton {
+color: #D2D2D2;
+width: 4.5em;
+height: 4em;
+margin: 0em;
+border: 0em;
+padding-top: 0.4em;
+padding-bottom: 0.2em;
+}
+
+QToolButton:hover {
+background-color: #595B5D;
+}
+
+QToolButton[text=&quot;模式&quot;] {
+height: 1.2em;
+}
+
+QToolButton[text=&quot;首页&quot;] {
+background-color: #262829;
+}</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftToolBarArea</set>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_welcome"/>
+   <addaction name="action_edit"/>
+   <addaction name="action_resource"/>
+   <addaction name="action_proSetting"/>
+   <addaction name="action_Cmd"/>
+   <addaction name="actiondebug"/>
+   <addaction name="action_Run"/>
+   <addaction name="action_Step"/>
+   <addaction name="action_Stop"/>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_project">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>5</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetClosable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>解决方案资源管理器</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="CProjectTreeView" name="treeView_project">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_openedFile">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>2</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetClosable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>打开的算法文件</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_2">
+    <layout class="QGridLayout" name="gridLayout_4">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="CListView" name="listView_openedFile">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>2</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_element">
+   <property name="features">
+    <set>QDockWidget::DockWidgetClosable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>元素</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_element">
+    <property name="styleSheet">
+     <string notr="true">.QWidget{
+background-color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QListWidget" name="listWidget_element">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="movement">
+        <enum>QListView::Static</enum>
+       </property>
+       <property name="resizeMode">
+        <enum>QListView::Adjust</enum>
+       </property>
+       <property name="layoutMode">
+        <enum>QListView::Batched</enum>
+       </property>
+       <property name="viewMode">
+        <enum>QListView::IconMode</enum>
+       </property>
+       <property name="uniformItemSizes">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_scaleView">
+   <property name="styleSheet">
+    <string notr="true">.QWidget{
+background-color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetClosable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>缩略图</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QFrame" name="frame_4">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_14">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>没有可用的文件</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="CDockWidget" name="dockWidget_attribute">
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetClosable|QDockWidget::DockWidgetMovable</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>属性设置</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_4">
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QFrame" name="frame_5">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>没有可用的文件</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBar_view">
+   <property name="windowTitle">
+    <string>视图工具栏</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolBar {
+background-color: #404244;
+border-bottom: 1px solid #222222;
+border-left: 1px solid #222222;
+height: 20px;
+}
+
+QToolButton {
+color:#D2D2D2;
+padding-left: 8px;
+}</string>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::RightToolBarArea|Qt::TopToolBarArea</set>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_grid"/>
+   <addaction name="action_ShowLine"/>
+   <addaction name="action_autoMakeAllItem"/>
+   <addaction name="action_autoSetPosOfAllItem"/>
+  </widget>
+  <action name="action_NewFile">
+   <property name="text">
+    <string>新建文件(&amp;F)</string>
+   </property>
+   <property name="iconText">
+    <string>新建文件</string>
+   </property>
+   <property name="toolTip">
+    <string>新建一个文件，并打开编辑窗口</string>
+   </property>
+   <property name="statusTip">
+    <string>新建一个文件，并打开编辑窗口</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="action_Open">
+   <property name="text">
+    <string>打开文件(&amp;O)</string>
+   </property>
+   <property name="iconText">
+    <string>打开文件</string>
+   </property>
+   <property name="toolTip">
+    <string>从本地磁盘打开一个或多个XML文件</string>
+   </property>
+   <property name="statusTip">
+    <string>从本地磁盘打开一个或多个XML文件</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_Save">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>保存(&amp;S)</string>
+   </property>
+   <property name="iconText">
+    <string>保存文件</string>
+   </property>
+   <property name="toolTip">
+    <string>保存当前XML文件的本地磁盘</string>
+   </property>
+   <property name="statusTip">
+    <string>保存当前XML文件的本地磁盘</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action_SaveAs">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>另存为...</string>
+   </property>
+   <property name="iconText">
+    <string>另存为</string>
+   </property>
+   <property name="toolTip">
+    <string>以一个新的名称保存到本地磁盘</string>
+   </property>
+   <property name="statusTip">
+    <string>以一个新的名称保存到本地磁盘</string>
+   </property>
+  </action>
+  <action name="action_Quit">
+   <property name="text">
+    <string>退出(&amp;Q)</string>
+   </property>
+   <property name="iconText">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出RPU Designer</string>
+   </property>
+   <property name="statusTip">
+    <string>退出RPU Designer</string>
+   </property>
+  </action>
+  <action name="action_ShowLine">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>显示连接线</string>
+   </property>
+   <property name="iconText">
+    <string>连接线</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口显示算子连接线</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口显示算子连接线</string>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+  <action name="action_ShowValue">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>显示数值</string>
+   </property>
+   <property name="iconText">
+    <string>数值</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口显示算子数值</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口显示算子数值</string>
+   </property>
+   <property name="shortcut">
+    <string>F4</string>
+   </property>
+  </action>
+  <action name="action_About">
+   <property name="text">
+    <string>关于(&amp;A)</string>
+   </property>
+   <property name="iconText">
+    <string>关于</string>
+   </property>
+   <property name="toolTip">
+    <string>关于RPU Designer</string>
+   </property>
+   <property name="statusTip">
+    <string>关于RPU Designer</string>
+   </property>
+  </action>
+  <action name="action_Run">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>运行(&amp;R)</string>
+   </property>
+   <property name="iconText">
+    <string>运行</string>
+   </property>
+   <property name="toolTip">
+    <string>开始运行当前活动的项目</string>
+   </property>
+   <property name="statusTip">
+    <string>开始运行当前活动的项目</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="action_Next">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>下一周期</string>
+   </property>
+   <property name="toolTip">
+    <string>调试模式，下一周期</string>
+   </property>
+   <property name="statusTip">
+    <string>调试模式，下一周期</string>
+   </property>
+   <property name="shortcut">
+    <string>F10</string>
+   </property>
+  </action>
+  <action name="action_LastClock">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>最后周期</string>
+   </property>
+   <property name="toolTip">
+    <string>调试模式，运行至最后周期，忽略断点</string>
+   </property>
+   <property name="statusTip">
+    <string>调试模式，运行至最后周期，忽略断点</string>
+   </property>
+   <property name="shortcut">
+    <string>F7</string>
+   </property>
+  </action>
+  <action name="action_At">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>跳转</string>
+   </property>
+   <property name="toolTip">
+    <string>调试模式，跳转到设定周期，忽略断点</string>
+   </property>
+   <property name="statusTip">
+    <string>调试模式，跳转到设定周期，忽略断点</string>
+   </property>
+  </action>
+  <action name="action_Help">
+   <property name="text">
+    <string>使用帮助(&amp;H)</string>
+   </property>
+   <property name="iconText">
+    <string>使用帮助</string>
+   </property>
+   <property name="toolTip">
+    <string>关于RPU Designer的使用帮助</string>
+   </property>
+   <property name="statusTip">
+    <string>关于RPU Designer的使用帮助</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="action_Bug">
+   <property name="text">
+    <string>反馈Bug...</string>
+   </property>
+   <property name="toolTip">
+    <string>使用eMail向作者反馈Bug</string>
+   </property>
+   <property name="statusTip">
+    <string>使用EMail向作者反馈Bug</string>
+   </property>
+  </action>
+  <action name="action_Update">
+   <property name="text">
+    <string>在线更新</string>
+   </property>
+   <property name="toolTip">
+    <string>在线更新RPU Designer</string>
+   </property>
+   <property name="statusTip">
+    <string>在线更新RPU Designer</string>
+   </property>
+  </action>
+  <action name="action_Step">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>调试(&amp;D)</string>
+   </property>
+   <property name="iconText">
+    <string>调试</string>
+   </property>
+   <property name="toolTip">
+    <string>开始调试当前活动的项目</string>
+   </property>
+   <property name="statusTip">
+    <string>开始调试当前活动的项目</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="action_Setting">
+   <property name="text">
+    <string>选项</string>
+   </property>
+   <property name="toolTip">
+    <string>关于RPU Designer的设置</string>
+   </property>
+   <property name="statusTip">
+    <string>关于RPU Designer的设置</string>
+   </property>
+  </action>
+  <action name="action_Cut">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>剪切</string>
+   </property>
+   <property name="toolTip">
+    <string>剪切选中的算子到剪贴板</string>
+   </property>
+   <property name="statusTip">
+    <string>剪切选中的算子到剪贴板</string>
+   </property>
+  </action>
+  <action name="action_Copy">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>复制</string>
+   </property>
+   <property name="toolTip">
+    <string>复制选中的算子到剪贴板</string>
+   </property>
+   <property name="statusTip">
+    <string>复制选中的算子到剪贴板</string>
+   </property>
+  </action>
+  <action name="action_Paste">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>黏贴</string>
+   </property>
+   <property name="toolTip">
+    <string>复制剪贴板中的算子到当前编辑窗口</string>
+   </property>
+   <property name="statusTip">
+    <string>复制剪贴板中的算子到当前编辑窗口</string>
+   </property>
+  </action>
+  <action name="action_Undo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>撤销</string>
+   </property>
+   <property name="toolTip">
+    <string>撤销上一步编辑操作</string>
+   </property>
+   <property name="statusTip">
+    <string>撤销上一步编辑操作</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="action_Redo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>恢复</string>
+   </property>
+   <property name="toolTip">
+    <string>重做上一步编辑操作</string>
+   </property>
+   <property name="statusTip">
+    <string>重做上一步编辑操作</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="action_Close">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+   <property name="toolTip">
+    <string>关闭当前编辑窗口</string>
+   </property>
+   <property name="statusTip">
+    <string>关闭当前编辑窗口</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="action_CloseAll">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>关闭所有编辑窗口(&amp;A)</string>
+   </property>
+   <property name="iconText">
+    <string>关闭所有</string>
+   </property>
+   <property name="toolTip">
+    <string>关闭所有打开的编辑窗口</string>
+   </property>
+   <property name="statusTip">
+    <string>关闭所有打开的编辑窗口</string>
+   </property>
+  </action>
+  <action name="action_NextWindow">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>下一个</string>
+   </property>
+   <property name="toolTip">
+    <string>下一个打开的编辑窗口</string>
+   </property>
+   <property name="statusTip">
+    <string>下一个打开的编辑窗口</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Tab</string>
+   </property>
+  </action>
+  <action name="action_PreviousWindow">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>上一个</string>
+   </property>
+   <property name="toolTip">
+    <string>上一个打开的编辑窗口</string>
+   </property>
+   <property name="statusTip">
+    <string>上一个打开的编辑窗口</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Backtab</string>
+   </property>
+  </action>
+  <action name="action_Tile">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>平铺子窗口</string>
+   </property>
+   <property name="toolTip">
+    <string>平铺打开的编辑窗口</string>
+   </property>
+   <property name="statusTip">
+    <string>平铺打开的编辑窗口</string>
+   </property>
+  </action>
+  <action name="action_Cascade">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>层叠子窗口</string>
+   </property>
+   <property name="toolTip">
+    <string>层叠打开的编辑窗口</string>
+   </property>
+   <property name="statusTip">
+    <string>层叠打开的编辑窗口</string>
+   </property>
+  </action>
+  <action name="action_Log">
+   <property name="text">
+    <string>更新日志</string>
+   </property>
+   <property name="toolTip">
+    <string>RPU Designer程序的更新日志</string>
+   </property>
+   <property name="statusTip">
+    <string>RPU Designer程序的更新日志</string>
+   </property>
+  </action>
+  <action name="action_Code">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>生成配置码</string>
+   </property>
+   <property name="iconText">
+    <string>配置码</string>
+   </property>
+   <property name="toolTip">
+    <string>生成配置码</string>
+   </property>
+   <property name="statusTip">
+    <string>生成配置码</string>
+   </property>
+  </action>
+  <action name="action_SaveAll">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>保存所有</string>
+   </property>
+   <property name="toolTip">
+    <string>保存所有打开的文件</string>
+   </property>
+   <property name="statusTip">
+    <string>保存所有打开的文件</string>
+   </property>
+  </action>
+  <action name="action_openSolution">
+   <property name="text">
+    <string>打开解决方案(&amp;P)</string>
+   </property>
+   <property name="iconText">
+    <string>打开项目</string>
+   </property>
+   <property name="toolTip">
+    <string>打开一个或多个项目</string>
+   </property>
+   <property name="statusTip">
+    <string>打开一个或多个项目</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="action_newSolution">
+   <property name="text">
+    <string>新建解决方案(&amp;N)</string>
+   </property>
+   <property name="iconText">
+    <string>新建项目</string>
+   </property>
+   <property name="toolTip">
+    <string>新建一个项目</string>
+   </property>
+   <property name="statusTip">
+    <string>新建一个项目</string>
+   </property>
+  </action>
+  <action name="action_Stop">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>停止(&amp;S)</string>
+   </property>
+   <property name="iconText">
+    <string>停止</string>
+   </property>
+   <property name="toolTip">
+    <string>停止调试，并关闭调试窗</string>
+   </property>
+   <property name="statusTip">
+    <string>停止调试，并关闭调试窗</string>
+   </property>
+  </action>
+  <action name="action_element">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>显示元素</string>
+   </property>
+   <property name="toolTip">
+    <string>显示元素停靠窗</string>
+   </property>
+   <property name="statusTip">
+    <string>显示元素停靠窗</string>
+   </property>
+  </action>
+  <action name="action_attribute">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>图元属性</string>
+   </property>
+   <property name="toolTip">
+    <string>显示选中图元的属性</string>
+   </property>
+   <property name="statusTip">
+    <string>显示选中图元的属性</string>
+   </property>
+  </action>
+  <action name="action_solution">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>显示解决方案资源管理器</string>
+   </property>
+   <property name="toolTip">
+    <string>显示解决方案资源管理器停靠窗</string>
+   </property>
+   <property name="statusTip">
+    <string>显示解决方案资源管理器停靠窗</string>
+   </property>
+  </action>
+  <action name="action_openedFile">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>显示打开的算法文件</string>
+   </property>
+   <property name="toolTip">
+    <string>显示打开的算法文件停靠窗</string>
+   </property>
+   <property name="statusTip">
+    <string>显示打开的算法文件停靠窗</string>
+   </property>
+  </action>
+  <action name="action_fileToolBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>文件工具栏</string>
+   </property>
+   <property name="toolTip">
+    <string>显示文件工具栏</string>
+   </property>
+   <property name="statusTip">
+    <string>显示文件工具栏</string>
+   </property>
+  </action>
+  <action name="action_editToolBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>编辑工具栏</string>
+   </property>
+   <property name="toolTip">
+    <string>显示编辑工具栏</string>
+   </property>
+   <property name="statusTip">
+    <string>显示编辑工具栏</string>
+   </property>
+  </action>
+  <action name="action_debugToolBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>调试工具栏</string>
+   </property>
+   <property name="toolTip">
+    <string>显示调试工具栏</string>
+   </property>
+   <property name="statusTip">
+    <string>显示调试工具栏</string>
+   </property>
+  </action>
+  <action name="action_Cmd">
+   <property name="text">
+    <string>命令窗</string>
+   </property>
+   <property name="toolTip">
+    <string>打开命令行控制台（Ctrl+5）</string>
+   </property>
+   <property name="statusTip">
+    <string>打开命令行控制台（Ctrl+5）</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+5</string>
+   </property>
+  </action>
+  <action name="action_Continue">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>调试运行</string>
+   </property>
+   <property name="toolTip">
+    <string>开始/继续调试，遇到断点则停止</string>
+   </property>
+   <property name="statusTip">
+    <string>开始/继续调试，遇到断点则停止</string>
+   </property>
+  </action>
+  <action name="action_lockToolBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>锁定工具栏</string>
+   </property>
+   <property name="toolTip">
+    <string>锁定工具栏不可移动</string>
+   </property>
+   <property name="statusTip">
+    <string>锁定工具栏不可移动</string>
+   </property>
+  </action>
+  <action name="action_copyWithLine">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>带连线复制</string>
+   </property>
+   <property name="iconText">
+    <string>带参数复制选中的算子到剪贴板</string>
+   </property>
+   <property name="toolTip">
+    <string>带连线复制选中的算子到剪贴板</string>
+   </property>
+   <property name="statusTip">
+    <string>带参数复制选中的算子到剪贴板</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+C</string>
+   </property>
+  </action>
+  <action name="action_selectAll">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>全选</string>
+   </property>
+   <property name="iconText">
+    <string>选中全部图元</string>
+   </property>
+   <property name="toolTip">
+    <string>选择当前编辑窗口中全部图元</string>
+   </property>
+   <property name="statusTip">
+    <string>选择当前编辑窗口中全部图元</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="action_selectSame">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>同类设备选择</string>
+   </property>
+   <property name="iconText">
+    <string>选择当前编辑窗口中同一类型图元</string>
+   </property>
+   <property name="toolTip">
+    <string>选择当前编辑窗口中同一类型图元</string>
+   </property>
+   <property name="statusTip">
+    <string>选择当前编辑窗口中同一类型图元</string>
+   </property>
+  </action>
+  <action name="action_delete">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+   <property name="iconText">
+    <string>删除</string>
+   </property>
+   <property name="toolTip">
+    <string>删除当前编辑窗口选中的图元</string>
+   </property>
+   <property name="statusTip">
+    <string>删除当前编辑窗口选中的图元</string>
+   </property>
+  </action>
+  <action name="action_find">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>查找图元</string>
+   </property>
+   <property name="iconText">
+    <string>当前编辑窗口中查找图元</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口中查找图元</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口中查找图元</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="action_moveLeft">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>向左滚动</string>
+   </property>
+   <property name="iconText">
+    <string>当前编辑窗口向左滚动</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口向左滚动</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口向左滚动</string>
+   </property>
+  </action>
+  <action name="action_moveRight">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>向右滚动</string>
+   </property>
+   <property name="iconText">
+    <string>当前编辑窗口向右滚动</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口向右滚动</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口向右滚动</string>
+   </property>
+  </action>
+  <action name="action_moveUp">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>向上滚动</string>
+   </property>
+   <property name="iconText">
+    <string>当前编辑窗口向上滚动</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口向上滚动</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口向上滚动</string>
+   </property>
+  </action>
+  <action name="action_moveDown">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>向下滚动</string>
+   </property>
+   <property name="iconText">
+    <string>当前编辑窗口向下滚动</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口向下滚动</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口向下滚动</string>
+   </property>
+  </action>
+  <action name="action_zoomIn">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口放大显示比例</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口放大显示比例</string>
+   </property>
+  </action>
+  <action name="action_zoomOut">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口缩小显示比例</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口缩小显示比例</string>
+   </property>
+  </action>
+  <action name="action_zoomNormal">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>正常比例</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口恢复正常显示比例</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口恢复正常显示比例</string>
+   </property>
+  </action>
+  <action name="action_showAll">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>显示全图</string>
+   </property>
+   <property name="iconText">
+    <string>全图</string>
+   </property>
+   <property name="toolTip">
+    <string>显示当前编辑窗口至屏幕尺寸</string>
+   </property>
+   <property name="statusTip">
+    <string>显示当前编辑窗口至屏幕尺寸</string>
+   </property>
+  </action>
+  <action name="action_scale">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>缩略图</string>
+   </property>
+   <property name="iconText">
+    <string>显示缩略图</string>
+   </property>
+   <property name="toolTip">
+    <string>显示缩略图</string>
+   </property>
+   <property name="statusTip">
+    <string>显示缩略图</string>
+   </property>
+  </action>
+  <action name="action_rotate">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>旋转</string>
+   </property>
+   <property name="iconText">
+    <string>旋转当前选中图元</string>
+   </property>
+   <property name="toolTip">
+    <string>旋转当前选中图元</string>
+   </property>
+   <property name="statusTip">
+    <string>旋转当前选中图元</string>
+   </property>
+  </action>
+  <action name="action_flipHorizintal">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>水平翻转</string>
+   </property>
+   <property name="iconText">
+    <string>水平翻转当前选中图元</string>
+   </property>
+   <property name="toolTip">
+    <string>水平翻转当前选中图元</string>
+   </property>
+   <property name="statusTip">
+    <string>水平翻转当前选中图元</string>
+   </property>
+  </action>
+  <action name="action_flipVertical">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>垂直翻转</string>
+   </property>
+   <property name="iconText">
+    <string>垂直翻转当前选中图元</string>
+   </property>
+   <property name="toolTip">
+    <string>垂直翻转当前选中图元</string>
+   </property>
+   <property name="statusTip">
+    <string>垂直翻转当前选中图元</string>
+   </property>
+  </action>
+  <action name="action_bringToFront">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>置前</string>
+   </property>
+   <property name="iconText">
+    <string>移动当前选中图元至最高图层</string>
+   </property>
+   <property name="toolTip">
+    <string>移动当前选中图元至最高图层</string>
+   </property>
+   <property name="statusTip">
+    <string>移动当前选中图元至最高图层</string>
+   </property>
+  </action>
+  <action name="action_SendToBackup">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>置后</string>
+   </property>
+   <property name="iconText">
+    <string>移动当前选中图元至最低图层</string>
+   </property>
+   <property name="toolTip">
+    <string>移动当前选中图元至最低图层</string>
+   </property>
+   <property name="statusTip">
+    <string>移动当前选中图元至最低图层</string>
+   </property>
+  </action>
+  <action name="action_alignTopEdge">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>上对齐</string>
+   </property>
+   <property name="iconText">
+    <string>上对齐选中图元</string>
+   </property>
+   <property name="toolTip">
+    <string>上对齐选中图元</string>
+   </property>
+   <property name="statusTip">
+    <string>上对齐选中图元</string>
+   </property>
+  </action>
+  <action name="action_alignBottomEdge">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>下对齐</string>
+   </property>
+   <property name="iconText">
+    <string>下对齐选中图元</string>
+   </property>
+   <property name="toolTip">
+    <string>下对齐选中图元</string>
+   </property>
+   <property name="statusTip">
+    <string>下对齐选中图元</string>
+   </property>
+  </action>
+  <action name="action_alignLeftEdge">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>左对齐</string>
+   </property>
+   <property name="iconText">
+    <string>左对齐选中图元</string>
+   </property>
+   <property name="toolTip">
+    <string>左对齐选中图元</string>
+   </property>
+   <property name="statusTip">
+    <string>左对齐选中图元</string>
+   </property>
+  </action>
+  <action name="action_alignRightEdge">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>右对齐</string>
+   </property>
+   <property name="iconText">
+    <string>右对齐选中图元</string>
+   </property>
+   <property name="toolTip">
+    <string>右对齐选中图元</string>
+   </property>
+   <property name="statusTip">
+    <string>右对齐选中图元</string>
+   </property>
+  </action>
+  <action name="action_horizintalEquidistant">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>左右等距</string>
+   </property>
+   <property name="iconText">
+    <string>左右等距</string>
+   </property>
+   <property name="toolTip">
+    <string>左右等距选中图元</string>
+   </property>
+   <property name="statusTip">
+    <string>左右等距选中图元</string>
+   </property>
+  </action>
+  <action name="action_VerticalEquidistant">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>上下等距</string>
+   </property>
+   <property name="iconText">
+    <string>上下等距</string>
+   </property>
+   <property name="toolTip">
+    <string>上下等距选中图元</string>
+   </property>
+   <property name="statusTip">
+    <string>上下等距选中图元</string>
+   </property>
+  </action>
+  <action name="action_fullScreen">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>全屏显示</string>
+   </property>
+   <property name="iconText">
+    <string>全屏显示RPU Designer</string>
+   </property>
+   <property name="toolTip">
+    <string>全屏显示RPU Designer</string>
+   </property>
+   <property name="statusTip">
+    <string>全屏显示RPU Designer</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+F10</string>
+   </property>
+  </action>
+  <action name="action_welcome">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>首页</string>
+   </property>
+   <property name="toolTip">
+    <string>显示首页（Ctrl+1）</string>
+   </property>
+   <property name="statusTip">
+    <string>显示首页（Ctrl+1）</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+1</string>
+   </property>
+  </action>
+  <action name="action_edit">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>编辑</string>
+   </property>
+   <property name="toolTip">
+    <string>显示编辑界面（Ctrl+2）</string>
+   </property>
+   <property name="statusTip">
+    <string>显示编辑界面（Ctrl+2）</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+2</string>
+   </property>
+  </action>
+  <action name="action_proSetting">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>项目</string>
+   </property>
+   <property name="iconText">
+    <string>项目</string>
+   </property>
+   <property name="toolTip">
+    <string>浏览编辑项目配置（Ctrl+4）</string>
+   </property>
+   <property name="statusTip">
+    <string>浏览编辑项目配置（Ctrl+4）</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+4</string>
+   </property>
+  </action>
+  <action name="action_resource">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>资源</string>
+   </property>
+   <property name="iconText">
+    <string>资源</string>
+   </property>
+   <property name="toolTip">
+    <string>浏览编辑项目资源（Ctrl+3）</string>
+   </property>
+   <property name="statusTip">
+    <string>浏览编辑项目资源（Ctrl+3）</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+3</string>
+   </property>
+  </action>
+  <action name="action_autoMakeAllItem">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>增加一个重构</string>
+   </property>
+   <property name="toolTip">
+    <string>增加一个重构</string>
+   </property>
+   <property name="statusTip">
+    <string>增加一个重构</string>
+   </property>
+  </action>
+  <action name="action_autoSetPosOfAllItem">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>自动布局</string>
+   </property>
+   <property name="toolTip">
+    <string>自动调整算子位置</string>
+   </property>
+   <property name="statusTip">
+    <string>自动调整算子位置</string>
+   </property>
+  </action>
+  <action name="action_updateFirmware">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>固件更新</string>
+   </property>
+   <property name="toolTip">
+    <string>更新当前连接RPU硬件设备固件</string>
+   </property>
+   <property name="statusTip">
+    <string>更新当前连接RPU硬件设备固件</string>
+   </property>
+  </action>
+  <action name="action_maker">
+   <property name="text">
+    <string>固件签名</string>
+   </property>
+   <property name="toolTip">
+    <string>固件发布签名管理</string>
+   </property>
+   <property name="statusTip">
+    <string>固件发布签名管理</string>
+   </property>
+  </action>
+  <action name="action_grid">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>显示网格</string>
+   </property>
+   <property name="iconText">
+    <string>网格</string>
+   </property>
+   <property name="toolTip">
+    <string>当前编辑窗口显示网格</string>
+   </property>
+   <property name="statusTip">
+    <string>当前编辑窗口显示网格</string>
+   </property>
+  </action>
+  <action name="action_viewToolBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>视图工具栏</string>
+   </property>
+   <property name="toolTip">
+    <string>显示视图工具栏</string>
+   </property>
+   <property name="statusTip">
+    <string>显示视图工具栏</string>
+   </property>
+  </action>
+  <action name="action_closeAllSolution">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>关闭所有解决方案</string>
+   </property>
+   <property name="statusTip">
+    <string>关闭所有解决方案</string>
+   </property>
+  </action>
+  <action name="action_changeLicense">
+   <property name="text">
+    <string>更改密钥</string>
+   </property>
+   <property name="toolTip">
+    <string>更改产品序列号</string>
+   </property>
+   <property name="statusTip">
+    <string>更改产品序列号</string>
+   </property>
+  </action>
+  <action name="action_print">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>打印...</string>
+   </property>
+   <property name="toolTip">
+    <string>打印当前打开的XML文件</string>
+   </property>
+   <property name="statusTip">
+    <string>打印当前打开的XML文件</string>
+   </property>
+  </action>
+  <action name="action_printScreen">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>拷屏...</string>
+   </property>
+   <property name="toolTip">
+    <string>保存当前打开XML屏幕镜像</string>
+   </property>
+   <property name="statusTip">
+    <string>保存当前打开XML屏幕镜像</string>
+   </property>
+  </action>
+  <action name="action_sameHeight">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>等高</string>
+   </property>
+   <property name="toolTip">
+    <string>选中算子设置成等高</string>
+   </property>
+   <property name="statusTip">
+    <string>选中算子设置成等高</string>
+   </property>
+  </action>
+  <action name="action_sameWidth">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>等宽</string>
+   </property>
+   <property name="toolTip">
+    <string>选中算子设置成等宽</string>
+   </property>
+   <property name="statusTip">
+    <string>选中算子设置成等宽</string>
+   </property>
+  </action>
+  <action name="action_sameSize">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>等尺寸</string>
+   </property>
+   <property name="toolTip">
+    <string>选中算子设置成等尺寸</string>
+   </property>
+   <property name="statusTip">
+    <string>选中算子设置成等尺寸</string>
+   </property>
+  </action>
+  <action name="action_printPreview">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>打印预览...</string>
+   </property>
+   <property name="toolTip">
+    <string>打印预览</string>
+   </property>
+   <property name="statusTip">
+    <string>打印预览</string>
+   </property>
+  </action>
+  <action name="action_rcsSetting">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>仿真器设置</string>
+   </property>
+   <property name="iconText">
+    <string>仿真器设置</string>
+   </property>
+   <property name="toolTip">
+    <string>仿真器设置</string>
+   </property>
+   <property name="statusTip">
+    <string>仿真器设置</string>
+   </property>
+  </action>
+  <action name="action_makerSetting">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>固件签名工具管理</string>
+   </property>
+   <property name="statusTip">
+    <string>固件签名工具管理</string>
+   </property>
+  </action>
+  <action name="action_jointDebuggingSetting">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>硬件联调管理</string>
+   </property>
+   <property name="statusTip">
+    <string>硬件联调管理</string>
+   </property>
+  </action>
+  <action name="action_openWaveFile">
+   <property name="text">
+    <string>显示波形</string>
+   </property>
+   <property name="toolTip">
+    <string>显示波形工具</string>
+   </property>
+   <property name="statusTip">
+    <string>显示波形工具</string>
+   </property>
+  </action>
+  <action name="actiondebug">
+   <property name="text">
+    <string>debug调试</string>
+   </property>
+   <property name="iconText">
+    <string>debug</string>
+   </property>
+  </action>
+  <action name="action_connectToDevice">
+   <property name="text">
+    <string>连接设备</string>
+   </property>
+   <property name="toolTip">
+    <string>接连到RPU硬件设备</string>
+   </property>
+   <property name="statusTip">
+    <string>接连到RPU硬件设备</string>
+   </property>
+  </action>
+  <action name="action_deviceReset">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>复位</string>
+   </property>
+   <property name="toolTip">
+    <string>复位当前连接RPU硬件设备</string>
+   </property>
+   <property name="statusTip">
+    <string>复位当前连接RPU硬件设备</string>
+   </property>
+  </action>
+  <action name="action_disconnectToDevice">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>断开连接</string>
+   </property>
+   <property name="toolTip">
+    <string>断开当前RPU硬件设备的连接</string>
+   </property>
+   <property name="statusTip">
+    <string>断开当前RPU硬件设备的连接</string>
+   </property>
+  </action>
+  <action name="action_simMode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>仿真模式</string>
+   </property>
+   <property name="statusTip">
+    <string>仿真模式</string>
+   </property>
+  </action>
+  <action name="action_jointDebugMode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>联调模式</string>
+   </property>
+   <property name="statusTip">
+    <string>联调模式</string>
+   </property>
+  </action>
+  <action name="actiondebug_2">
+   <property name="text">
+    <string>debug调试2</string>
+   </property>
+  </action>
+  <action name="action_exportSvg">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>导出svg...</string>
+   </property>
+   <property name="statusTip">
+    <string>导出svg</string>
+   </property>
+  </action>
+  <action name="action_align">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>对齐</string>
+   </property>
+   <property name="toolTip">
+    <string>对齐选中算子</string>
+   </property>
+   <property name="statusTip">
+    <string>对齐选中算子</string>
+   </property>
+  </action>
+  <action name="action_parseCmdWord">
+   <property name="text">
+    <string>解析配置码</string>
+   </property>
+   <property name="toolTip">
+    <string>反向解析配置码</string>
+   </property>
+   <property name="statusTip">
+    <string>反向解析配置码</string>
+   </property>
+  </action>
+  <action name="action_PauseRun">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>暂停单步调试</string>
+   </property>
+   <property name="statusTip">
+    <string>暂停单步调试</string>
+   </property>
+  </action>
+  <action name="action_sessionManager">
+   <property name="text">
+    <string>会话管理</string>
+   </property>
+   <property name="toolTip">
+    <string>会话管理</string>
+   </property>
+   <property name="statusTip">
+    <string>会话管理</string>
+   </property>
+  </action>
+  <action name="action_closeAllSlnAndEditor">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>关闭所有解决方案和编辑器</string>
+   </property>
+   <property name="statusTip">
+    <string>关闭所有解决方案和编辑器</string>
+   </property>
+  </action>
+  <action name="action_restoreDebugStatus">
+   <property name="text">
+    <string>恢复硬件调试状态...</string>
+   </property>
+   <property name="statusTip">
+    <string>恢复硬件调试状态</string>
+   </property>
+  </action>
+  <action name="action_saveDebugStatus">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>保存硬件调试状态...</string>
+   </property>
+   <property name="statusTip">
+    <string>保存硬件调试状态</string>
+   </property>
+  </action>
+  <action name="action_analyze">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>算法分析</string>
+   </property>
+   <property name="statusTip">
+    <string>统计分析当前活动算法项目</string>
+   </property>
+  </action>
+  <action name="action_OTP">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>OTP配置</string>
+   </property>
+   <property name="toolTip">
+    <string>OTP配置</string>
+   </property>
+   <property name="statusTip">
+    <string>配置当前连接RPU硬件设备OTP信息</string>
+   </property>
+  </action>
+  <action name="action_debugWindow">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>调试窗</string>
+   </property>
+   <property name="toolTip">
+    <string>切换到当前调试窗口</string>
+   </property>
+  </action>
+  <action name="action_showMenuBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>菜单栏</string>
+   </property>
+   <property name="iconText">
+    <string>显示菜单栏</string>
+   </property>
+   <property name="toolTip">
+    <string>显示菜单栏</string>
+   </property>
+  </action>
+  <action name="action_saveWave">
+   <property name="text">
+    <string>记录波形</string>
+   </property>
+  </action>
+  <action name="action_community">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>共享算法</string>
+   </property>
+   <property name="toolTip">
+    <string>共享算法</string>
+   </property>
+   <property name="statusTip">
+    <string>查看共享算法，获取共享的解决方案</string>
+   </property>
+  </action>
+  <action name="action_xmlEditorShowAsTool">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>编辑窗弹出显示</string>
+   </property>
+   <property name="toolTip">
+    <string>编辑窗弹出显示</string>
+   </property>
+   <property name="statusTip">
+    <string>编辑窗弹出显示</string>
+   </property>
+  </action>
+  <zorder>dockWidget_element</zorder>
+  <zorder>dockWidget_scaleView</zorder>
+  <zorder>dockWidget_attribute</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CResourceListWidget</class>
+   <extends>QListWidget</extends>
+   <header>prosetting/cresourcelistwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CProjectSettingTableView</class>
+   <extends>QTableView</extends>
+   <header>prosetting/cprojectsettingtableview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CFileSystemTreeView</class>
+   <extends>QTreeView</extends>
+   <header>prosetting/cfilesystemtreeview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CProjectTreeView</class>
+   <extends>QTreeView</extends>
+   <header>projecttree/cprojecttreeview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CDockWidget</class>
+   <extends>QDockWidget</extends>
+   <header>uistyle/cdockwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CProjectSettingWidget</class>
+   <extends>QWidget</extends>
+   <header>prosetting/cprojectsettingwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CResourceEditorTableView</class>
+   <extends>QTableView</extends>
+   <header>resourceeditor/cresourceeditortableview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CListView</class>
+   <extends>QListView</extends>
+   <header>openedfilelist/clistview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>uistyle/clineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CNoCloseWidget</class>
+   <extends>QWidget</extends>
+   <header>uistyle/cnoclosewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>treeView_project</tabstop>
+  <tabstop>listWidget_demos</tabstop>
+  <tabstop>pushButton_newFile</tabstop>
+  <tabstop>pushButton_openFile</tabstop>
+  <tabstop>listWidget_files</tabstop>
+  <tabstop>pushButton_newPro</tabstop>
+  <tabstop>pushButton_openPro</tabstop>
+  <tabstop>listWidget_pros</tabstop>
+  <tabstop>pushButton_saveResource</tabstop>
+  <tabstop>pushButton_addFifoResourceRowBefore</tabstop>
+  <tabstop>pushButton_addFifoResourceRowAfter</tabstop>
+  <tabstop>pushButton_deleteFifoResourceRow</tabstop>
+  <tabstop>comboBox_addressInterval</tabstop>
+  <tabstop>spinBox_maxColumn</tabstop>
+  <tabstop>checkBox_sboxShowInOneLine</tabstop>
+  <tabstop>tableView_resourceEditor</tabstop>
+  <tabstop>pushButton_benesEditorLoad</tabstop>
+  <tabstop>pushButton_benesEditorGenerate</tabstop>
+  <tabstop>pushButton_benesEditorReset</tabstop>
+  <tabstop>tableView_benesEditor</tabstop>
+  <tabstop>pushButton_proSettingSave</tabstop>
+  <tabstop>pushButton_proSettingUp</tabstop>
+  <tabstop>pushButton_proSettingDown</tabstop>
+  <tabstop>pushButton_proSettingSelectAll</tabstop>
+  <tabstop>comboBox_projectSettingSetSolution</tabstop>
+  <tabstop>pushButton_forecastClock</tabstop>
+  <tabstop>pushButton_statistics</tabstop>
+  <tabstop>tableView_projectSetting</tabstop>
+  <tabstop>treeView_explorer</tabstop>
+  <tabstop>listWidget_resource</tabstop>
+  <tabstop>treeWidget_runResult</tabstop>
+  <tabstop>tableWidget_runResult</tabstop>
+  <tabstop>pushButton_cmdFontSizeZoomIn</tabstop>
+  <tabstop>pushButton_cmdFontSizeZoomOut</tabstop>
+  <tabstop>pushButton_cmdFontSizeDefault</tabstop>
+  <tabstop>pushButton_cmdClear</tabstop>
+  <tabstop>lineEdit_searchCmd</tabstop>
+  <tabstop>pushButton_hideDebugLogWidget</tabstop>
+  <tabstop>textEdit_log</tabstop>
+  <tabstop>pushButton_sessionManager</tabstop>
+  <tabstop>listView_openedFile</tabstop>
+  <tabstop>listWidget_element</tabstop>
+  <tabstop>dockWidget_attribute</tabstop>
+ </tabstops>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

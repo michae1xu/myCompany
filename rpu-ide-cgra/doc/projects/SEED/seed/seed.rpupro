@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG slnname="seed" name="seed" value="C:/Users/Lenovo/Desktop/rpu_new/seed/seed.rpupro" cipherType="0">
+    <XML project="C:/Users/Lenovo/Desktop/rpu_new/seed/seed.rpupro" select="1" name="" value="src/seed.xml" sort="0">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="resource/plaintext_in.fifo"/>
+    <SRC value="resource/vector_0_init.imd"/>
+    <SRC value="resource/benes.benes"/>
+    <SRC value="resource/mem.memory"/>
+    <SRC value="resource/sbox_0_init .sbox"/>
+    <SRC value="resource/sbox_1_init .sbox"/>
+    <SRC value="resource/sbox_2_init .sbox"/>
+    <SRC value="resource/sbox_3_init .sbox"/>
+</ALG>

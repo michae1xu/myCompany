@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RcaRcuSetting</class>
+ <widget class="QDialog" name="RcaRcuSetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>292</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RCU设置</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetFixedSize</enum>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_rcu_id">
+       <property name="text">
+        <string>RCU ID：</string>
+       </property>
+       <property name="buddy">
+        <cstring>spinBox_address1</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_rcu_id">
+       <item>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Memory Read</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>128/32位选择：</string>
+        </property>
+        <property name="buddy">
+         <cstring>comboBox_read_post</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="comboBox_read_post">
+        <item>
+         <property name="text">
+          <string>128位</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>32位</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>模式：</string>
+        </property>
+        <property name="buddy">
+         <cstring>comboBox_read_mode</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBox_read_mode">
+        <item>
+         <property name="text">
+          <string>固定模式</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>累加模式</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>阈值累加</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>累加&amp;阈值清零</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_address1">
+        <property name="text">
+         <string>起始地址1(0x)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_address1</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QSpinBox" name="spinBox_address1">
+        <property name="maximum">
+         <number>383</number>
+        </property>
+        <property name="displayIntegerBase">
+         <number>16</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_address1_2">
+        <property name="text">
+         <string>起始地址2(0x)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_address2</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QSpinBox" name="spinBox_address2">
+        <property name="maximum">
+         <number>383</number>
+        </property>
+        <property name="displayIntegerBase">
+         <number>16</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_address1_3">
+        <property name="text">
+         <string>起始地址3(0x)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_address3</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QSpinBox" name="spinBox_address3">
+        <property name="maximum">
+         <number>383</number>
+        </property>
+        <property name="displayIntegerBase">
+         <number>16</number>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_address1_4">
+        <property name="text">
+         <string>起始地址4(0x)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_address4</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QSpinBox" name="spinBox_address4">
+        <property name="maximum">
+         <number>383</number>
+        </property>
+        <property name="displayIntegerBase">
+         <number>16</number>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_address1_5">
+        <property name="text">
+         <string>偏移(0x)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_read_offset</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QSpinBox" name="spinBox_read_offset">
+        <property name="maximum">
+         <number>95</number>
+        </property>
+        <property name="displayIntegerBase">
+         <number>16</number>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_address1_6">
+        <property name="text">
+         <string>读写(阈值)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_read_rwTimes</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QSpinBox" name="spinBox_read_rwTimes">
+        <property name="maximum">
+         <number>255</number>
+        </property>
+        <property name="displayIntegerBase">
+         <number>10</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Memory Write</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>模式：</string>
+        </property>
+        <property name="buddy">
+         <cstring>comboBox_read_mode</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="comboBox_write_mode">
+        <item>
+         <property name="text">
+          <string>固定模式</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>累加模式</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>阈值累加</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>累加&amp;阈值清零</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_address1_7">
+        <property name="text">
+         <string>起始地址(0x)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_address1</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QSpinBox" name="spinBox_address">
+        <property name="maximum">
+         <number>95</number>
+        </property>
+        <property name="displayIntegerBase">
+         <number>16</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_address1_8">
+        <property name="text">
+         <string>数据掩盖(0b)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_address2</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboBox_mask">
+        <item>
+         <property name="text">
+          <string>'0000</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'0001</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'0010</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'0011</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'0100</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'0101</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'0110</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'0111</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'1000</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'1001</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'1010</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'1011</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'1100</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'1101</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'1110</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>'1111</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_address1_11">
+        <property name="text">
+         <string>偏移(0x)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_read_offset</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QSpinBox" name="spinBox_write_offset">
+        <property name="maximum">
+         <number>95</number>
+        </property>
+        <property name="displayIntegerBase">
+         <number>16</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_address1_12">
+        <property name="text">
+         <string>读写(阈值)：</string>
+        </property>
+        <property name="buddy">
+         <cstring>spinBox_read_rwTimes</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QSpinBox" name="spinBox_write_rwTimes">
+        <property name="maximum">
+         <number>255</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>comboBox_read_post</tabstop>
+  <tabstop>comboBox_read_mode</tabstop>
+  <tabstop>spinBox_address1</tabstop>
+  <tabstop>spinBox_address2</tabstop>
+  <tabstop>spinBox_address3</tabstop>
+  <tabstop>spinBox_address4</tabstop>
+  <tabstop>spinBox_read_offset</tabstop>
+  <tabstop>spinBox_read_rwTimes</tabstop>
+  <tabstop>comboBox_write_mode</tabstop>
+  <tabstop>spinBox_address</tabstop>
+  <tabstop>comboBox_mask</tabstop>
+  <tabstop>spinBox_write_offset</tabstop>
+  <tabstop>spinBox_write_rwTimes</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>RcaRcuSetting</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>477</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>RcaRcuSetting</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>477</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>237</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

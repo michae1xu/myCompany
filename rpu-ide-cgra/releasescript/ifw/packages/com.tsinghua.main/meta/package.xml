@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>                                                                
+<Package>                                                                
+<DisplayName>RPU Designer核心组件</DisplayName>                                                                
+<Description>RPU Designer核心组件</Description>                                                                
+<Version>0.1.3</Version>  
+<ReleaseDate>2021-06-08</ReleaseDate>
+<Checkable>false</Checkable>                                                                
+</Package>                                                                

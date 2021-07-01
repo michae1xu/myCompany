@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/toolbar.qss</file>
+        <file>images/splash.png</file>
+        <file>images/chip.png</file>
+        <file>sn/sn</file>
+        <file>images/down-arrow.png</file>
+        <file>images/splash-hidpi.png</file>
+        <file>images/rpu.ico</file>
+        <file>images/rpu.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/Folder128.png</file>
+        <file>image/order128.png</file>
+        <file>image/connected.png</file>
+        <file>image/disconnect.png</file>
+    </qresource>
+</RCC>

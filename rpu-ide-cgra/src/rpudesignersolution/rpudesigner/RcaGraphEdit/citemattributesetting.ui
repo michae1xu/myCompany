@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CItemAttributeSetting</class>
+ <widget class="QWidget" name="CItemAttributeSetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>313</width>
+    <height>565</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>311</width>
+        <height>563</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_attribute_error">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget_attribute">
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <widget class="QWidget" name="page_nothing">
+          <layout class="QGridLayout" name="gridLayout">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>未选择图元</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_bcu">
+          <layout class="QFormLayout" name="formLayout">
+           <property name="horizontalSpacing">
+            <number>6</number>
+           </property>
+           <property name="verticalSpacing">
+            <number>6</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>BCU ID</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_id</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_id">
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>BCU来源：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_source</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_source">
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>OUTFIFO0输入类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_inputType0</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_inputType0">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>OUTFIFO0输入选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_inputPort0</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_inputPort0"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>OUTFIFO1输入类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_inputType1</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_inputType1">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>OUTFIFO1输入选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_inputPort1</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_inputPort1"/>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_16">
+             <property name="text">
+              <string>OUTFIFO2输入类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_inputType2</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_inputType2">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>OUTFIFO2输入选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_inputPort2</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_inputPort2"/>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>OUTFIFO3输入类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_inputType3</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_inputType3">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>OUTFIFO3输入选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bcu_inputPort3</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QComboBox" name="comboBox_bcu_inputPort3"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_rcu">
+          <layout class="QVBoxLayout" name="verticalLayout_16">
+           <property name="spacing">
+            <number>3</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_rcu_id">
+               <property name="text">
+                <string>RCU ID：</string>
+               </property>
+               <property name="buddy">
+                <cstring>comboBox_rcu_id</cstring>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_rcu_id">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <item>
+                <property name="text">
+                 <string>0</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox">
+             <property name="title">
+              <string>Memory Read</string>
+             </property>
+             <layout class="QFormLayout" name="formLayout_3">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_18">
+                <property name="text">
+                 <string>128/32位选择：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>comboBox_rcu_read_post</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QComboBox" name="comboBox_rcu_read_post">
+                <item>
+                 <property name="text">
+                  <string>128位</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>32位</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_19">
+                <property name="text">
+                 <string>模式：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>comboBox_rcu_read_mode</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QComboBox" name="comboBox_rcu_read_mode">
+                <item>
+                 <property name="text">
+                  <string>固定模式</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>累加模式</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>阈值累加</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>累加&amp;阈值清零</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_address1">
+                <property name="text">
+                 <string>起始地址1(0x)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>spinBox_rcu_read_address1</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QSpinBox" name="spinBox_rcu_read_address1">
+                <property name="maximum">
+                 <number>383</number>
+                </property>
+                <property name="displayIntegerBase">
+                 <number>16</number>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_address1_2">
+                <property name="text">
+                 <string>起始地址2(0x)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>spinBox_rcu_read_address2</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QSpinBox" name="spinBox_rcu_read_address2">
+                <property name="maximum">
+                 <number>383</number>
+                </property>
+                <property name="displayIntegerBase">
+                 <number>16</number>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_address1_3">
+                <property name="text">
+                 <string>起始地址3(0x)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>spinBox_rcu_read_address3</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QSpinBox" name="spinBox_rcu_read_address3">
+                <property name="maximum">
+                 <number>383</number>
+                </property>
+                <property name="displayIntegerBase">
+                 <number>16</number>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="label_address1_4">
+                <property name="text">
+                 <string>起始地址4(0x)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>spinBox_rcu_read_address4</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QSpinBox" name="spinBox_rcu_read_address4">
+                <property name="maximum">
+                 <number>383</number>
+                </property>
+                <property name="displayIntegerBase">
+                 <number>16</number>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="0">
+               <widget class="QLabel" name="label_address1_5">
+                <property name="text">
+                 <string>偏移(0x)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>spinBox_rcu_read_offset</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1">
+               <widget class="QSpinBox" name="spinBox_rcu_read_offset">
+                <property name="maximum">
+                 <number>95</number>
+                </property>
+                <property name="displayIntegerBase">
+                 <number>16</number>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0">
+               <widget class="QLabel" name="label_address1_6">
+                <property name="text">
+                 <string>读写(阈值)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>spinBox_rcu_read_rwTimes</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="1">
+               <widget class="QSpinBox" name="spinBox_rcu_read_rwTimes">
+                <property name="maximum">
+                 <number>255</number>
+                </property>
+                <property name="displayIntegerBase">
+                 <number>10</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_2">
+             <property name="title">
+              <string>Memory Write</string>
+             </property>
+             <layout class="QFormLayout" name="formLayout_2">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_17">
+                <property name="text">
+                 <string>模式：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>comboBox_rcu_write_mode</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QComboBox" name="comboBox_rcu_write_mode">
+                <item>
+                 <property name="text">
+                  <string>固定模式</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>累加模式</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>阈值累加</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>累加&amp;阈值清零</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_address1_7">
+                <property name="text">
+                 <string>起始地址(0x)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>spinBox_rcu_write_address</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QSpinBox" name="spinBox_rcu_write_address">
+                <property name="maximum">
+                 <number>95</number>
+                </property>
+                <property name="displayIntegerBase">
+                 <number>16</number>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_address1_8">
+                <property name="text">
+                 <string>数据掩盖(0b)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>comboBox_rcu_write_mask</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QComboBox" name="comboBox_rcu_write_mask">
+                <item>
+                 <property name="text">
+                  <string>'0000</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'0001</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'0010</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'0011</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'0100</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'0101</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'0110</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'0111</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'1000</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'1001</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'1010</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'1011</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'1100</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'1101</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'1110</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>'1111</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_address1_11">
+                <property name="text">
+                 <string>偏移(0x)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>spinBox_rcu_write_offset</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QSpinBox" name="spinBox_rcu_write_offset">
+                <property name="maximum">
+                 <number>95</number>
+                </property>
+                <property name="displayIntegerBase">
+                 <number>16</number>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_address1_12">
+                <property name="text">
+                 <string>读写(阈值)：</string>
+                </property>
+                <property name="buddy">
+                 <cstring>spinBox_rcu_write_rwTimes</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QSpinBox" name="spinBox_rcu_write_rwTimes">
+                <property name="maximum">
+                 <number>255</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_bfu">
+          <layout class="QFormLayout" name="formLayout_5">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_32">
+             <property name="text">
+              <string>BFU ID：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_id</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="comboBox_bfu_id">
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>6</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>7</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_39">
+             <property name="text">
+              <string>算子：        </string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_operator</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,0">
+             <item>
+              <widget class="QComboBox" name="comboBox_bfu_operator">
+               <item>
+                <property name="text">
+                 <string>au</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>lu</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>su</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_help">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="flat">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_40">
+             <property name="text">
+              <string>表达式：      </string>
+             </property>
+             <property name="buddy">
+              <cstring>lineEdit_bfu_express</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="lineEdit_bfu_express"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_41">
+             <property name="text">
+              <string>Bypass：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_bypass</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QComboBox" name="comboBox_bfu_bypass">
+             <item>
+              <property name="text">
+               <string>A</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>B</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>T</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_funcAuMod">
+             <property name="text">
+              <string>模：          </string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_funcAuMod</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QComboBox" name="comboBox_bfu_funcAuMod">
+             <item>
+              <property name="text">
+               <string>2^32</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2^16</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2^8</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2^31-1</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_bypassExp">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="text">
+              <string>Bypass表达式：</string>
+             </property>
+             <property name="buddy">
+              <cstring>lineEdit_bfu_bypassExp</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="lineEdit_bfu_bypassExp"/>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_33">
+             <property name="text">
+              <string>输入A类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_inputAType</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QComboBox" name="comboBox_bfu_inputAType">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>入口FIFO</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MEM输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="label_34">
+             <property name="text">
+              <string>输入A选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_inputAChoice</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QComboBox" name="comboBox_bfu_inputAChoice"/>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label_35">
+             <property name="text">
+              <string>输入B类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_inputBType</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QComboBox" name="comboBox_bfu_inputBType">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>入口FIFO</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MEM输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="label_36">
+             <property name="text">
+              <string>输入B选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_inputBChoice</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QComboBox" name="comboBox_bfu_inputBChoice"/>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="label_37">
+             <property name="text">
+              <string>输入T类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_inputTType</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1">
+            <widget class="QComboBox" name="comboBox_bfu_inputTType">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>入口FIFO</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MEM输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="11" column="0">
+            <widget class="QLabel" name="label_38">
+             <property name="text">
+              <string>输入T选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_bfu_inputTChoice</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="1">
+            <widget class="QComboBox" name="comboBox_bfu_inputTChoice"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_sbox">
+          <layout class="QFormLayout" name="formLayout_4">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_43">
+             <property name="text">
+              <string>SBOX ID：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_id</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="comboBox_sbox_id">
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_46">
+             <property name="text">
+              <string>Group0：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_group0</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="comboBox_sbox_group0">
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_47">
+             <property name="text">
+              <string>Group1：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_group1</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QComboBox" name="comboBox_sbox_group1">
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_48">
+             <property name="text">
+              <string>Group2：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_group2</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QComboBox" name="comboBox_sbox_group2">
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_49">
+             <property name="text">
+              <string>Group3：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_group3</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QComboBox" name="comboBox_sbox_group3">
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_50">
+             <property name="text">
+              <string>模式：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_mode</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QComboBox" name="comboBox_sbox_mode">
+             <item>
+              <property name="text">
+               <string>4bit-4bit拼接</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>6bit-4bit拼接</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>8bit-8bit拼接</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>8bit-8bit异或</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>8bit-32bit</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>9bit-9bit一路</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_51">
+             <property name="text">
+              <string>数据源：</string>
+             </property>
+             <property name="buddy">
+              <cstring>lineEdit_sbox_path</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <layout class="QHBoxLayout" name="horizontalLayout_13">
+             <item>
+              <widget class="QLineEdit" name="lineEdit_sbox_path"/>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton_sbox">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="label_44">
+             <property name="text">
+              <string>输入类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_input0Type</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QComboBox" name="comboBox_sbox_input0Type">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>入口FIFO</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MEM输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label_45">
+             <property name="text">
+              <string>输入选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_input0Choice</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QComboBox" name="comboBox_sbox_input0Choice"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_benes">
+          <layout class="QFormLayout" name="formLayout_6">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_52">
+             <property name="text">
+              <string>BENES ID：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_benes_id</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="comboBox_benes_id">
+             <item>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_61">
+             <property name="text">
+              <string>配置数据源：</string>
+             </property>
+             <property name="buddy">
+              <cstring>lineEdit_benes_path</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <layout class="QHBoxLayout" name="horizontalLayout_15">
+             <item>
+              <widget class="QLineEdit" name="lineEdit_benes_path"/>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton_benes">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_53">
+             <property name="text">
+              <string>输入0类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_input0Type</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QComboBox" name="comboBox_benes_input0Type">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>入口FIFO</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MEM输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_54">
+             <property name="text">
+              <string>输入0选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_sbox_input0Choice</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QComboBox" name="comboBox_benes_input0Choice"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_55">
+             <property name="text">
+              <string>输入1类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_benes_input1Type</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QComboBox" name="comboBox_benes_input1Type">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>入口FIFO</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MEM输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_56">
+             <property name="text">
+              <string>输入1选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_benes_input1Choice</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QComboBox" name="comboBox_benes_input1Choice"/>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_57">
+             <property name="text">
+              <string>输入2类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_benes_input2Type</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QComboBox" name="comboBox_benes_input2Type">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>入口FIFO</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MEM输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="label_58">
+             <property name="text">
+              <string>输入2选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_benes_input2Choice</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QComboBox" name="comboBox_benes_input2Choice"/>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label_59">
+             <property name="text">
+              <string>输入3类型：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_benes_input3Type</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QComboBox" name="comboBox_benes_input3Type">
+             <item>
+              <property name="text">
+               <string>空</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>当前行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出X</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BFU输出Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行SBOX输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>上一行BENES输出</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>入口FIFO</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MEM输出</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="label_60">
+             <property name="text">
+              <string>输入3选择：</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox_benes_input3Choice</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QComboBox" name="comboBox_benes_input3Choice"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_imd">
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <item>
+              <widget class="QLabel" name="label_imdPort">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>IMD PORT：</string>
+               </property>
+               <property name="buddy">
+                <cstring>comboBox_memoryPort</cstring>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_imdPort">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <item>
+                <property name="text">
+                 <string>0</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>476</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_rch">
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <item>
+              <widget class="QLabel" name="label_rchPort">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>RCH PORT：</string>
+               </property>
+               <property name="buddy">
+                <cstring>comboBox_memoryPort</cstring>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_rchPort">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <item>
+                <property name="text">
+                 <string>0</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_group">
+               <property name="text">
+                <string>更多编号</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>476</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_memory">
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_memoryPort">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>MEM PORT：</string>
+               </property>
+               <property name="buddy">
+                <cstring>comboBox_memoryPort</cstring>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_memoryPort">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <item>
+                <property name="text">
+                 <string>0</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>476</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+  <action name="action_sbox_resource">
+   <property name="text">
+    <string>选择资源...</string>
+   </property>
+   <property name="toolTip">
+    <string>选择资源</string>
+   </property>
+  </action>
+  <action name="action_sbox_explorer">
+   <property name="text">
+    <string>选择文件...</string>
+   </property>
+   <property name="toolTip">
+    <string>选择文件</string>
+   </property>
+  </action>
+  <action name="action_benes_resource">
+   <property name="text">
+    <string>选择资源...</string>
+   </property>
+   <property name="toolTip">
+    <string>选择资源</string>
+   </property>
+  </action>
+  <action name="action_benes_explorer">
+   <property name="text">
+    <string>选择文件...</string>
+   </property>
+   <property name="toolTip">
+    <string>选择文件</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

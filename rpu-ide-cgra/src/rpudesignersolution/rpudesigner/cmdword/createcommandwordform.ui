@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateCommandWordForm</class>
+ <widget class="QDialog" name="CreateCommandWordForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1215</width>
+    <height>657</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>生成命令字</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <layout class="QGridLayout" name="gridLayout_arraySim">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>请勾选需要生成命令字的XML文件：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QTableView" name="tableView"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>HeadSetting</string>
+         </property>
+         <layout class="QFormLayout" name="formLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>OnlySim</string>
+            </property>
+            <property name="buddy">
+             <cstring>comboBox_onlySim</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBox_onlySim">
+            <item>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>RMode[0]</string>
+            </property>
+            <property name="buddy">
+             <cstring>comboBox_rmode0</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="comboBox_rmode0">
+            <item>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>RMode[1]</string>
+            </property>
+            <property name="buddy">
+             <cstring>comboBox_rmode1</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QComboBox" name="comboBox_rmode1">
+            <item>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>GAP</string>
+            </property>
+            <property name="buddy">
+             <cstring>lineEdit_gap</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEdit_gap">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Source</string>
+            </property>
+            <property name="buddy">
+             <cstring>comboBox_source</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QComboBox" name="comboBox_source">
+            <property name="editable">
+             <bool>false</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>MemroyPort0</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort5</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort6</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort7</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort8</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort9</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort11</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort12</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort13</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort14</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort15</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>InFIFO0</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>InFIFO1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>InFIFO2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>InFIFO3</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>Dest</string>
+            </property>
+            <property name="buddy">
+             <cstring>comboBox_dest</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QComboBox" name="comboBox_dest">
+            <property name="editable">
+             <bool>false</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>MemroyPort0</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort5</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort6</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort7</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort8</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort9</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort11</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort12</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort13</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort14</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>MemroyPort15</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>InFIFO0</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>InFIFO1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>InFIFO2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>InFIFO3</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>BurstNum</string>
+            </property>
+            <property name="buddy">
+             <cstring>lineEdit_burstnum</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QLineEdit" name="lineEdit_burstnum">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>LoopNum</string>
+            </property>
+            <property name="buddy">
+             <cstring>lineEdit_loopnum</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1">
+           <widget class="QLineEdit" name="lineEdit_loopnum">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>RepeatNum</string>
+            </property>
+            <property name="buddy">
+             <cstring>lineEdit_repreatnum</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLineEdit" name="lineEdit_repreatnum">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="4,3,3,3,4">
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_image">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>:/images/success.png</pixmap>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_text">
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>生成配置码成功</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_info">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>点击浏览按钮查看生成的文件</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1,0,0,0">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>总进度：</string>
+       </property>
+       <property name="indent">
+        <number>2</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="progressBar">
+       <property name="value">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_start">
+       <property name="text">
+        <string>运行</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_cancel">
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>comboBox_onlySim</tabstop>
+  <tabstop>comboBox_rmode0</tabstop>
+  <tabstop>comboBox_rmode1</tabstop>
+  <tabstop>lineEdit_gap</tabstop>
+  <tabstop>comboBox_source</tabstop>
+  <tabstop>comboBox_dest</tabstop>
+  <tabstop>lineEdit_burstnum</tabstop>
+  <tabstop>lineEdit_loopnum</tabstop>
+  <tabstop>lineEdit_repreatnum</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>CreateCommandWordForm</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1163</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1201</x>
+     <y>651</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

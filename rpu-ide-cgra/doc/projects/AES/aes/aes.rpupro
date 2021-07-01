@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG value="C:/project/rpu_designer/doc/projects/AES/aes/aes.rpupro" name="aes" slnname="aes" cipherType="0">
+    <XML sort="-1" select="1" value="src/aes_0_cfg_ecb.xml" name="" project="D:/Work/suanfa/aes1.6/aes/aes1.6/aes1.6.rpupro">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="resource/benes_0_init.benes"/>
+    <SRC value="resource/benes_1_init.benes"/>
+    <SRC value="resource/plaintext_in.fifo"/>
+    <SRC value="resource/sbox_0_init.sbox"/>
+    <SRC value="resource/sbox_1_init.sbox"/>
+    <SRC value="resource/memory.memory"/>
+    <SRC value="resource/vector_0_init.memory"/>
+    <SRC value="resource/vector_2_init.memory"/>
+    <SRC value="resource/imd.imd"/>
+</ALG>

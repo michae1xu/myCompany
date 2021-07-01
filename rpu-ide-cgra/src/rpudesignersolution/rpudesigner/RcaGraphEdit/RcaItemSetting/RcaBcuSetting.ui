@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RcaBcuSetting</class>
+ <widget class="QDialog" name="RcaBcuSetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>301</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BCU设置</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetFixedSize</enum>
+   </property>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>BCU来源：</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox_bcuSource</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="comboBox_bcuSource">
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>OUTFIFO0输入类型：</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox_inputType0</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="comboBox_inputType0">
+     <item>
+      <property name="text">
+       <string>空</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BFU输出X</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BFU输出Y</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行SBOX输出</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BENES输出</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>OUTFIFO0输入选择：</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox_inputPort0</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QComboBox" name="comboBox_inputPort0"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>OUTFIFO1输入类型：</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox_inputType1</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="comboBox_inputType1">
+     <item>
+      <property name="text">
+       <string>空</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BFU输出X</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BFU输出Y</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行SBOX输出</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BENES输出</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>OUTFIFO1输入选择：</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox_inputPort1</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QComboBox" name="comboBox_inputPort1"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>OUTFIFO2输入类型：</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox_inputType2</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QComboBox" name="comboBox_inputType2">
+     <item>
+      <property name="text">
+       <string>空</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BFU输出X</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BFU输出Y</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行SBOX输出</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BENES输出</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>OUTFIFO2输入选择：</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox_inputPort2</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QComboBox" name="comboBox_inputPort2"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>OUTFIFO3输入类型：</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox_inputType3</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QComboBox" name="comboBox_inputType3">
+     <item>
+      <property name="text">
+       <string>空</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BFU输出X</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BFU输出Y</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行SBOX输出</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>当前行BENES输出</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>OUTFIFO3输入选择：</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox_inputPort3</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QComboBox" name="comboBox_inputPort3"/>
+   </item>
+   <item row="10" column="0" colspan="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>BCU ID</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="comboBox_bcuId">
+     <item>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>comboBox_bcuSource</tabstop>
+  <tabstop>comboBox_inputType0</tabstop>
+  <tabstop>comboBox_inputPort0</tabstop>
+  <tabstop>comboBox_inputType1</tabstop>
+  <tabstop>comboBox_inputPort1</tabstop>
+  <tabstop>comboBox_inputType2</tabstop>
+  <tabstop>comboBox_inputPort2</tabstop>
+  <tabstop>comboBox_inputType3</tabstop>
+  <tabstop>comboBox_inputPort3</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>RcaBcuSetting</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>RcaBcuSetting</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

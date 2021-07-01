@@ -1,0 +1,110 @@
+﻿QToolBar {
+background-color: #404244;
+color: #D2D2D2;
+border: none;
+spacing: 8px;
+/*padding-left: 9px;
+padding-top: 1px;
+padding-bottom: 1px;*/
+padding: 1px;
+}
+
+QToolBar::separator {
+width: 1px;
+background-color: #D2D2D2;
+}
+
+/*
+QToolBar:handle {
+background: #404244;
+border-left: 1px dotted yellow;
+color: #D2D2D2;
+}
+*/
+
+QToolButton {
+color:#D2D2D2;
+/*padding-left: 8px;*/
+}
+
+QLabel {
+color:#D2D2D2;
+}
+
+QComboBox {
+background-color: #404244;
+border: none;
+color: #D2D2D2;
+padding-right: 6px;
+}
+
+
+QComboBox::drop-down {
+subcontrol-origin: padding;
+subcontrol-position: top right;
+border: none;
+}
+
+QComboBox::down-arrow {
+/*border: 1px solid #D2D2D2;
+width: 6px;
+height: 6px;
+background-color: #404244;*/
+image: url(:images/down-arrow.png);
+}
+
+QComboBox::down-arrow:on
+{
+top: 1px;
+}
+
+/*
+QComboBox:!editable
+{
+color: white;
+font: bold 10pt;
+border-image: url(:images/button.png) 16;
+border-width: 16px;
+padding: -16px 0px;
+min-height: 32px;
+min-width: 60px;
+}
+
+QComboBox:!editable:hover
+{
+border-image: url(:images/button-hover.png) 16;
+}
+
+QComboBox:!editable:on
+{
+color: lightgray;
+border-image: url(:images/button-pressed.png) 16;
+padding-top: -15px;
+padding-bottom: -17px;
+}
+
+QComboBox::down-arrow
+{
+image: url(:images/down-arrow.png);
+}
+
+QComboBox::down-arrow:on
+{
+top: 1px;
+}
+
+QPushButton{
+border-image: url(:images/arrow-down.png) 1;
+min-height: 20px;
+min-width: 12px;
+
+}
+
+QPushButton:hover{
+border-image: url(:images/arrow-down-hover.png) 1;
+}
+
+QPushButton:pressed {
+border-image: url(:images/arrow-down-pressed.png) 1;
+color: lightgray;
+}*/
