@@ -47,7 +47,7 @@
 	创建分支：
 	0)git branch mybranch	(创建分支)
 	0)git checkout -b mybranch	(创建并切换分支)
-	1)git checkou master	(切换分支)
+	1)git checkout master	(切换分支)
 	2)git branch	(查看分支)
 	合并分支：
 	0)git merge mybranch	(在master上合并mybranch分之内容)
