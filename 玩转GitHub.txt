@@ -1,0 +1,57 @@
+1、GitHub.com,Create a new repository:
+	1)michae1xu/myCompany
+	2)得到ssh：https://github.com/michae1xu/myCompany.git
+2、完成GitHub.com和本地仓库的链接
+	0)本地下载Git:
+	1)新建目录:CodeGitHub
+	2)cd d:/CodeGitHub
+	3)打开cmd完成配置工作
+		cmd:git config --global user.name 'michae1xu'
+			git config --global user.email 'xwcheng2011@163.com'
+			git config -l
+	4)创建仓库，添加远端ssh：
+		cmd:git init
+			git remote add origin https://github.com/michae1xu/myCompany.git
+	5)提交到远端
+		cmd:git status
+			git add *
+			git commit -m 'first commit'
+			git push -u origin master(此处有细节)
+				error:Logon failed, use ctrl+c to cancel basic credential prompt.
+				参考：https://www.cnblogs.com/steamed-twisted-roll/p/14155092.html
+				第一次会提示输入GitHub邮箱和密码
+				第二次会提示输入令牌(Note,token)，这样生成的，网页右上角头像->setting->Developer setting->Personal access token
+	6)clone远程仓库：
+		cmd:git clone https://github.com/michae1xu/myCompany.git
+3、常规操作
+	提交：
+	0)git add readme.txt
+	1)git commit -m 'readme.txt提交'
+	3)git status
+	4)git diff readme.txt
+	5)git log | git log -pretty=oneline
+	回撤的两种方式：
+	0)git reset --hard HEAD^
+	1)git reflog & git reset --hard 6fcfc89
+	2)git checkout --readme.txt
+	创建分支：
+	0)git branch mybranch	(创建分支)
+	0)git checkout -b mybranch	(创建并切换分支)
+	1)git checkou master	(切换分支)
+	2)git branch	(查看分支)
+	合并分支：
+	0)git merge mybranch	(在master上合并mybranch分之内容)
+	删除分支：
+	0)git branch -d mybranch
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
