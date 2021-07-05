@@ -1,0 +1,7 @@
+build-*
+*.user
+.vs
+Debug
+Release
+systemc-2.3.0a
+lib
