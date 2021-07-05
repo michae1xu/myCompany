@@ -22,7 +22,17 @@
 				第一次会提示输入GitHub邮箱和密码
 				第二次会提示输入令牌(Note,token)，这样生成的，网页右上角头像->setting->Developer setting->Personal access token
 	6)clone远程仓库：
-		cmd:git clone https://github.com/michae1xu/myCompany.git
+		0)cmd:git clone https://github.com/michae1xu/myCompany.git
+		可能出现问题：
+		error:Warning: Permanently added 'gitee.com,120.55.226.24' (ECDSA) to the list of known hosts.
+		1)git config --global user.name 'michae1xu'
+		  git config --global user.email 'michaelxu4311@gmail.com'
+		2)delete .ssh文件夹下的konwn_hosts
+		3)git cmd:ssh-keygen -t rsa -C "michaelxu4311@gmail.com"
+		回车，并复制.ssh文件夹下的id_rsa.pub内容
+		4)gitHub网站，setting->SSH and GPG keys->New SSH key->Add SSH key
+		5)回到0),再次执行clone
+		
 3、常规操作
 	提交：
 	0)git add readme.txt
@@ -37,7 +47,7 @@
 	创建分支：
 	0)git branch mybranch	(创建分支)
 	0)git checkout -b mybranch	(创建并切换分支)
-	1)git checkou master	(切换分支)
+	1)git checkout master	(切换分支)
 	2)git branch	(查看分支)
 	合并分支：
 	0)git merge mybranch	(在master上合并mybranch分之内容)
