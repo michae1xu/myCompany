@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG value="C:/Users/hxm/Desktop/xml配置/aes1.6/aes/aes1.6/aes1.6.rpupro" name="aes1" slnname="aes" cipherType="0">
+    <XML value="aes_0_cfg_ecb.xml" name="" project="D:/Work/suanfa/aes1.6/aes/aes1.6/aes1.6.rpupro" sort="-1" select="1">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="benes_0_init.txt"/>
+    <SRC value="benes_1_init.txt"/>
+    <SRC value="plaintext_in.txt"/>
+    <SRC value="sbox_0_init.txt"/>
+    <SRC value="sbox_1_init.txt"/>
+    <SRC value="aaaaa.txt"/>
+    <SRC value="vector_0_init.txt"/>
+    <SRC value="vector_2_init.txt"/>
+    <XML value="test.xml" name="" project="C:/Users/hxm/Desktop/xml配置/aes1.6/aes/aes1.6/aes1.6.rpupro" sort="-1" select="1">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+</ALG>

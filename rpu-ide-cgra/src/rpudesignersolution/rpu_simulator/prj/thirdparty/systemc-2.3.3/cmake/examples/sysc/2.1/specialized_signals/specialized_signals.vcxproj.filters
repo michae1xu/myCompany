@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\scx_signal_int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\scx_signal_uint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\scx_signal_signed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\scx_signal_unsigned.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\scx_signal_int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\scx_signal_uint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\scx_signal_signed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\scx_signal_unsigned.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\2.1\specialized_signals\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{272F3430-7E70-38B6-B239-77D163EB782D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5546E751-EABE-379C-B011-FA20A58B49F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

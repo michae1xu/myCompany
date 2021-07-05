@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\e11ef745845f3f41743a40a21e2045af\check.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\check" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{14B94FEC-EFE2-314A-AFF6-BFF63323CFCA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

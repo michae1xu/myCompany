@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG value="E:/IDE/验证/ZUC/zuc/zuc.rpupro" name="zuc" slnname="zuc" cipherType="0">
+    <XML sort="0" value="src/zuc.xml" name="" select="1" project="E:/IDE/验证/ZUC/zuc/zuc.rpupro">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="resource/zuc_sbox.sbox"/>
+    <SRC value="resource/zuc_mem.memory"/>
+    <SRC value="resource/zuc_imd.imd"/>
+    <SRC value="resource/plaintext_in.fifo"/>
+</ALG>

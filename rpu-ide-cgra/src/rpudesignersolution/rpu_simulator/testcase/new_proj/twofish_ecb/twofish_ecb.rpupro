@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG slnname="new_proj" cipherType="0" name="twofish_ecb" value="F:/project/new_proj/new_proj/twofish_ecb/twofish_ecb.rpupro">
+    <SRC value="plaintext_in.fifo"/>
+    <SRC value="sbox_0_init.txt"/>
+    <XML project="F:/project/new_proj/new_proj/twofish_ecb/twofish_ecb.rpupro" sort="0" select="1" name="" value="twofish_mc.xml">
+        <FIFO>
+            <INPUT value=":/plaintext_in.fifo" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value=":/memory.memory" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="1"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="imd.imd"/>
+    <SRC value="sbox_1_init.txt"/>
+    <SRC value="sbox_2_init.txt"/>
+    <SRC value="memory.memory"/>
+</ALG>

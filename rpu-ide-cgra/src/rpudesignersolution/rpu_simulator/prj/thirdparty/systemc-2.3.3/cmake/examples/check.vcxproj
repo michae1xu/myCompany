@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D32939E1-4172-310F-816A-3D14F3770008}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>check</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\e11ef745845f3f41743a40a21e2045af\check.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\program\cmake\bin\ctest.exe -C Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\program\cmake\bin\ctest.exe -C Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\program\cmake\bin\ctest.exe -C Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\program\cmake\bin\ctest.exe -C Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/jun/Downloads/systemc-2.3.3/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\program\cmake\bin\cmake.exe -SC:/Users/jun/Downloads/systemc-2.3.3 -BC:/Users/jun/Downloads/systemc-2.3.3/cmake --check-stamp-file C:/Users/jun/Downloads/systemc-2.3.3/cmake/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/jun/Downloads/systemc-2.3.3/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\program\cmake\bin\cmake.exe -SC:/Users/jun/Downloads/systemc-2.3.3 -BC:/Users/jun/Downloads/systemc-2.3.3/cmake --check-stamp-file C:/Users/jun/Downloads/systemc-2.3.3/cmake/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/jun/Downloads/systemc-2.3.3/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\program\cmake\bin\cmake.exe -SC:/Users/jun/Downloads/systemc-2.3.3 -BC:/Users/jun/Downloads/systemc-2.3.3/cmake --check-stamp-file C:/Users/jun/Downloads/systemc-2.3.3/cmake/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/jun/Downloads/systemc-2.3.3/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\program\cmake\bin\cmake.exe -SC:/Users/jun/Downloads/systemc-2.3.3 -BC:/Users/jun/Downloads/systemc-2.3.3/cmake --check-stamp-file C:/Users/jun/Downloads/systemc-2.3.3/cmake/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\CMakeFiles\check">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\ZERO_CHECK.vcxproj">
+      <Project>{8B0A913C-319B-3629-A5C8-D9CC12D48332}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\at_1_phase\at_1_phase.vcxproj">
+      <Project>{7C06FFE8-6144-30EB-869B-7AFFDBEC123D}</Project>
+      <Name>at_1_phase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\at_2_phase\at_2_phase.vcxproj">
+      <Project>{052660B6-A432-3649-BA12-0E0A02E82FB6}</Project>
+      <Name>at_2_phase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\at_4_phase\at_4_phase.vcxproj">
+      <Project>{3DF1EE80-E9FF-3672-A725-1565B3CF0A4A}</Project>
+      <Name>at_4_phase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\at_extension_optional\at_extension_optional.vcxproj">
+      <Project>{4A4D5F5A-DA62-30CE-BC28-D2B0C2034C54}</Project>
+      <Name>at_extension_optional</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\at_mixed_targets\at_mixed_targets.vcxproj">
+      <Project>{B242C80B-C2A0-3921-AD2A-D7FC332948E4}</Project>
+      <Name>at_mixed_targets</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\at_ooo\at_ooo.vcxproj">
+      <Project>{7EB9C776-6461-32AF-A534-F2396F6036AE}</Project>
+      <Name>at_ooo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.1\dpipe\dpipe.vcxproj">
+      <Project>{B45B67CE-FCBA-3822-968B-E59ACA440F2C}</Project>
+      <Name>dpipe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\fft\fft_flpt\fft_flpt.vcxproj">
+      <Project>{BB77E3F4-CB4C-3DA9-9280-A5E34F202439}</Project>
+      <Name>fft_flpt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\fft\fft_fxpt\fft_fxpt.vcxproj">
+      <Project>{8B6E42A9-5D86-3264-B7CD-A5E9188E229A}</Project>
+      <Name>fft_fxpt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\fir\fir.vcxproj">
+      <Project>{F53D9970-F4A8-3A3B-A4A5-0CDCB68D787F}</Project>
+      <Name>fir</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\fir\fir_rtl.vcxproj">
+      <Project>{C8127C56-1C9D-32C5-AE43-3730F22970D2}</Project>
+      <Name>fir_rtl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.1\forkjoin\forkjoin.vcxproj">
+      <Project>{984C6D8A-273A-3961-99A6-E024FF869B30}</Project>
+      <Name>forkjoin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\lt\lt.vcxproj">
+      <Project>{C64F0EAA-5C90-3DFB-8F69-8B03D24BEED4}</Project>
+      <Name>lt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\lt_dmi\lt_dmi.vcxproj">
+      <Project>{451D7C8A-44ED-3ACF-9782-DA28B36356FA}</Project>
+      <Name>lt_dmi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\lt_extension_mandatory\lt_extension_mandatory.vcxproj">
+      <Project>{275B6B19-D79C-32C1-8DE1-47C4728498E9}</Project>
+      <Name>lt_extension_mandatory</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\lt_mixed_endian\lt_mixed_endian.vcxproj">
+      <Project>{5ABCAF23-36A2-3B5A-AB94-0AC55336B293}</Project>
+      <Name>lt_mixed_endian</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\tlm\lt_temporal_decouple\lt_temporal_decouple.vcxproj">
+      <Project>{B86C5099-5EBB-325B-AC32-540E924A9AD0}</Project>
+      <Name>lt_temporal_decouple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\pipe\pipe.vcxproj">
+      <Project>{E26A1CB5-35E1-39A8-945F-7C2691AB1FF3}</Project>
+      <Name>pipe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\pkt_switch\pkt_switch.vcxproj">
+      <Project>{6E3AD2A2-4F17-3B04-AC71-FBC7C9C7096D}</Project>
+      <Name>pkt_switch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.1\reset_signal_is\reset_signal_is.vcxproj">
+      <Project>{40FCA017-1255-3C29-817A-E2CAF445C729}</Project>
+      <Name>reset_signal_is</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\risc_cpu\risc_cpu.vcxproj">
+      <Project>{27FEB829-04DC-334C-BD0B-891FF735BD86}</Project>
+      <Name>risc_cpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\rsa\rsa.vcxproj">
+      <Project>{D06AB2FB-A333-387C-BBC5-FBF9A9D6A2D7}</Project>
+      <Name>rsa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.1\sc_export\sc_export.vcxproj">
+      <Project>{E7E1418F-A96B-3E49-A78F-F98F4B2EC536}</Project>
+      <Name>sc_export</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.1\sc_report\sc_report.vcxproj">
+      <Project>{29D8C58C-3231-3C8D-A5AD-C8FA372973F8}</Project>
+      <Name>sc_report</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.3\sc_rvd\sc_rvd.vcxproj">
+      <Project>{7FDDDC82-A96B-3303-9B23-D6132B1D3469}</Project>
+      <Name>sc_rvd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.3\sc_ttd\sc_ttd.vcxproj">
+      <Project>{1C0EEC85-57EC-3E39-A685-9D7B145A99D8}</Project>
+      <Name>sc_ttd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.1\scx_barrier\scx_barrier.vcxproj">
+      <Project>{4722AFB1-5929-36A5-A2C2-7B557873A619}</Project>
+      <Name>scx_barrier</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.1\scx_mutex_w_policy\scx_mutex_w_policy.vcxproj">
+      <Project>{5A3F601E-F73D-34F2-9C51-5356CFF2627B}</Project>
+      <Name>scx_mutex_w_policy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.3\simple_async\simple_async.vcxproj">
+      <Project>{355AC47C-A0CE-358F-BB3D-B341B3541F9D}</Project>
+      <Name>simple_async</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\simple_bus\simple_bus.vcxproj">
+      <Project>{A2E5884C-04FF-3214-AE2B-BA00F73930D2}</Project>
+      <Name>simple_bus</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\simple_fifo\simple_fifo.vcxproj">
+      <Project>{96AB9A3A-AC87-3FE9-8382-A7AEBB8EFFC6}</Project>
+      <Name>simple_fifo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\simple_perf\simple_perf.vcxproj">
+      <Project>{B3709790-4185-3336-8693-5C064FC301A4}</Project>
+      <Name>simple_perf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jun\Downloads\systemc-2.3.3\cmake\examples\sysc\2.1\specialized_signals\specialized_signals.vcxproj">
+      <Project>{F62A9213-88A3-3290-B4AC-2C973E48930C}</Project>
+      <Name>specialized_signals</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

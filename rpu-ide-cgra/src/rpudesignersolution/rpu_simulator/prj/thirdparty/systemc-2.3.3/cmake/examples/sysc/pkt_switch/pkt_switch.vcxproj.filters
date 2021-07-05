@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\fifo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\sender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\switch_clk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\receiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\pkt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\fifo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\sender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\switch_clk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\switch_reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\receiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pkt_switch\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{272F3430-7E70-38B6-B239-77D163EB782D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5546E751-EABE-379C-B011-FA20A58B49F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

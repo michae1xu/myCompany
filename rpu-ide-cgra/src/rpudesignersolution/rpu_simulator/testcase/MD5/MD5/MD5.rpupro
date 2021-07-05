@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG cipherType="0" slnname="MD5" name="MD5" value="E:/IDE/验证/MD5/MD5/MD5.rpupro">
+    <XML sort="-1" name="" value="src/MD5.xml" select="1" project="E:/IDE/验证/MD5/MD5/MD5/MD5.rpupro">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <XML sort="-1" name="" value="src/MD5.xml" select="1" project="E:/IDE/验证/MD5/MD5/MD5.rpupro">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="resource/plaintext_in.infifo"/>
+    <SRC value="resource/md5_mem.memory"/>
+    <SRC value="resource/md5_imd.imd"/>
+    <SRC value="resource/plaintext_in.fifo"/>
+    <SRC value="resource/md5_benes.benes"/>
+</ALG>

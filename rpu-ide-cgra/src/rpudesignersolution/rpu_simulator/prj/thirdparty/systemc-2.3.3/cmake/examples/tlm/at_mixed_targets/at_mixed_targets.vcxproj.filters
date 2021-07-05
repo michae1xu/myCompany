@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\at_mixed_targets\src\at_mixed_targets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\at_mixed_targets\src\at_mixed_targets_top.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\at_mixed_targets\src\initiator_top.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\src\traffic_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\src\memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\src\report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\src\at_target_1_phase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\src\at_target_2_phase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\src\at_target_4_phase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\src\select_initiator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\at_mixed_targets\include\at_mixed_targets_top.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\at_mixed_targets\include\initiator_top.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\include\traffic_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\include\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\include\reporting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\include\at_target_1_phase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\include\at_target_2_phase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\include\at_target_4_phase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\common\include\select_initiator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\tlm\at_mixed_targets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{272F3430-7E70-38B6-B239-77D163EB782D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5546E751-EABE-379C-B011-FA20A58B49F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

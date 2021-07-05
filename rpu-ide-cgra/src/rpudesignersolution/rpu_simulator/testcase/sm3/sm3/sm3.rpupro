@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG name="sm3" slnname="sm3" value="E:/IDE/验证/sm3/sm3/sm3.rpupro" cipherType="0">
+    <SRC value="./resource/sm3_memory.memory"/>
+    <SRC value="./resource/sm3_benes.benes"/>
+    <SRC value="resource/sm3_imd.imd"/>
+    <SRC value="resource/sm3_plaintext_in.fifo"/>
+    <XML project="E:/IDE/验证/sm3/sm3/sm3.rpupro" select="1" name="" value="src/sm3_fin.xml" sort="-1">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <XML project="E:/IDE/验证/sm3/sm3/sm3.rpupro" select="1" name="" value="src/sm3_fin.xml" sort="-1">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+</ALG>

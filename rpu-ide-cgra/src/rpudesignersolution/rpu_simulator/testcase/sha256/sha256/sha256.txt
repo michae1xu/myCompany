@@ -1,0 +1,1553 @@
+10:11:10: Starting E:\IDE\saber\build-rpu_fin-Desktop_Qt_5_12_9_MinGW_64_bit-Debug\debug\rpu_fin.exe ...
+[SREG] Mode was set to 1
+[IMD] Data erased
+[IMD] (428a2f98,71374491,b5c0fbcf,e9b5dba5,3956c25b,59f111f1,923f82a4,ab1c5ed5,d807aa98,12835b01,243185be,550c7dc3,72be5d74,80deb1fe,9bdc06a7,c19bf174,e49b69c1,efbe4786,fc19dc6,240ca1cc,2de92c6f,4a7484aa,5cb0a9dc,76f988da,983e5152,a831c66d,b00327c8,bf597fc7,c6e00bf3,d5a79147,6ca6351,14292967,27b70a85,2e1b2138,4d2c6dfc,53380d13,650a7354,766a0abb,81c2c92e,92722c85,a2bfe8a1,a81a664b,c24b8b70,c76c51a3,d192e819,d6990624,f40e3585,106aa070,19a4c116,1e376c08,2748774c,34b0bcb5,391c0cb3,4ed8aa4a,5b9cca4f,682e6ff3,748f82ee,78a5636f,84c87814,8cc70208,90befffa,a4506ceb,bef9a3f7,c67178f2,178f2,78f2,8f2,f2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,)
+[IMD] (428a2f98,71374491,b5c0fbcf,e9b5dba5,3956c25b,59f111f1,923f82a4,ab1c5ed5,d807aa98,12835b01,243185be,550c7dc3,72be5d74,80deb1fe,9bdc06a7,c19bf174,e49b69c1,efbe4786,fc19dc6,240ca1cc,2de92c6f,4a7484aa,5cb0a9dc,76f988da,983e5152,a831c66d,b00327c8,bf597fc7,c6e00bf3,d5a79147,6ca6351,14292967,27b70a85,2e1b2138,4d2c6dfc,53380d13,650a7354,766a0abb,81c2c92e,92722c85,a2bfe8a1,a81a664b,c24b8b70,c76c51a3,d192e819,d6990624,f40e3585,106aa070,19a4c116,1e376c08,2748774c,34b0bcb5,391c0cb3,4ed8aa4a,5b9cca4f,682e6ff3,748f82ee,78a5636f,84c87814,8cc70208,90befffa,a4506ceb,bef9a3f7,c67178f2,178f2,78f2,8f2,f2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,)
+[IMD] Mode was set to 0
+[IMD] (428a2f98,71374491,b5c0fbcf,e9b5dba5,)
+[OPERATOR BFU] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:61626380,b:0,t:0,x:61626380,y:0
+[OPERATOR BFU] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[SREG]:4,5,6,7,8,9,a,b,c,d,e,f,61626380,0,0,0,)
+[OPERATOR BFU] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[SREG]:8,9,a,b,c,d,e,f,61626380,0,0,0,0,0,0,0,)
+[OPERATOR BFU] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[SREG]:c,d,e,f,61626380,0,0,0,0,0,0,0,0,0,0,0,)
+[OPERATOR BFU] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:0,b:18,t:0,x:0,y:18
+[SREG]:61626380,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,)
+[OPERATOR BFU] Mode is au,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:6a09e667,b:bb67ae85,t:0,x:6a09e667,y:bb67ae85
+[OPERATOR BFU] Mode is au,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:3c6ef372,b:a54ff53a,t:0,x:3c6ef372,y:a54ff53a
+[OPERATOR BFU] Mode is au,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:510e527f,b:9b05688c,t:0,x:510e527f,y:9b05688c
+[OPERATOR BFU] Mode is au,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0,a:1f83d9ab,b:5be0cd19,t:0,x:1f83d9ab,y:5be0cd19
+[SREG] Mode was set to 1
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:61626380,t:0,x:61626380,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:61626380,b:0,t:0,x:61626380,y:61626380
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:18,b:18,t:0,x:f0000,y:18
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:18,b:f0000,t:0,x:f0000,y:18
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0000,b:0,t:0,x:f0000,y:f0000
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:f0000,t:0,x:f0000,y:0
+[SREG]:0,0,0,0,0,0,0,0,0,0,0,0,0,18,61626380,f0000,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:61626380,b:61626380,t:0,x:7db03c9d,y:61626380
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:61626380,b:7db03c9d,t:0,x:7da86405,y:61626380
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7da86405,b:0,t:0,x:7da86405,y:7da86405
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:7da86405,t:0,x:7da86405,y:0
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:f0000,b:f0000,t:0,x:60000006,y:f0000
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0000,b:60000006,t:0,x:600003c6,y:f0000
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:600003c6,b:0,t:0,x:600003c6,y:600003c6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:600003c6,t:0,x:600003c6,y:0
+[SREG]:0,0,0,0,0,0,0,0,0,0,0,18,61626380,f0000,7da86405,600003c6,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:7da86405,b:7da86405,t:0,x:3e821161,y:7da86405
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7da86405,b:3e821161,t:0,x:3e9d7b78,y:7da86405
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e9d7b78,b:0,t:0,x:3e9d7b78,y:3e9d7b78
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:3e9d7b78,t:0,x:3e9d7b78,y:0
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:600003c6,b:600003c6,t:0,x:19bfc00,y:600003c6
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:600003c6,b:19bfc00,t:0,x:183fc00,y:600003c6
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:183fc00,b:0,t:0,x:183fc00,y:183fc00
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:183fc00,t:0,x:183fc00,y:0
+[SREG]:0,0,0,0,0,0,0,0,0,18,61626380,f0000,7da86405,600003c6,3e9d7b78,183fc00,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:3e9d7b78,b:3e9d7b78,t:0,x:12d3189d,y:3e9d7b78
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e9d7b78,b:12d3189d,t:0,x:12dcbfc3,y:3e9d7b78
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:18,b:0,t:0,x:18,y:18
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:12dcbfc3,b:0,t:0,x:12dcbfc3,y:12dcbfc3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:18,b:12dcbfc3,t:0,x:12dcbfdb,y:18
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:183fc00,b:183fc00,t:0,x:818000f1,y:183fc00
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:183fc00,b:818000f1,t:0,x:8180600e,y:183fc00
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:61626380,b:0,t:0,x:61626380,y:61626380
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8180600e,b:0,t:0,x:8180600e,y:8180600e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:61626380,b:8180600e,t:0,x:e2e2c38e,y:61626380
+[SREG]:0,0,0,0,0,0,0,18,61626380,f0000,7da86405,600003c6,3e9d7b78,183fc00,12dcbfdb,e2e2c38e,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:12dcbfdb,b:12dcbfdb,t:0,x:c816eb35,y:12dcbfdb
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:12dcbfdb,b:c816eb35,t:0,x:c8125c1a,y:12dcbfdb
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0000,b:0,t:0,x:f0000,y:f0000
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c8125c1a,b:0,t:0,x:c8125c1a,y:c8125c1a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0000,b:c8125c1a,t:0,x:c8215c1a,y:f0000
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:e2e2c38e,b:e2e2c38e,t:0,x:39b6ad2d,y:e2e2c38e
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e2e2c38e,b:39b6ad2d,t:0,x:398e159d,y:e2e2c38e
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7da86405,b:0,t:0,x:7da86405,y:7da86405
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:398e159d,b:0,t:0,x:398e159d,y:398e159d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7da86405,b:398e159d,t:0,x:b73679a2,y:7da86405
+[SREG]:0,0,0,0,0,18,61626380,f0000,7da86405,600003c6,3e9d7b78,183fc00,12dcbfdb,e2e2c38e,c8215c1a,b73679a2,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:c8215c1a,b:c8215c1a,t:0,x:858e3d14,y:c8215c1a
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c8215c1a,b:858e3d14,t:0,x:85bc3543,y:c8215c1a
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:600003c6,b:0,t:0,x:600003c6,y:600003c6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:85bc3543,b:0,t:0,x:85bc3543,y:85bc3543
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:600003c6,b:85bc3543,t:0,x:e5bc3909,y:600003c6
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:b73679a2,b:b73679a2,t:0,x:f3e50d7d,y:b73679a2
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b73679a2,b:f3e50d7d,t:0,x:f3c8c0e3,y:b73679a2
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e9d7b78,b:0,t:0,x:3e9d7b78,y:3e9d7b78
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f3c8c0e3,b:0,t:0,x:f3c8c0e3,y:f3c8c0e3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e9d7b78,b:f3c8c0e3,t:0,x:32663c5b,y:3e9d7b78
+[SREG]:0,0,0,18,61626380,f0000,7da86405,600003c6,3e9d7b78,183fc00,12dcbfdb,e2e2c38e,c8215c1a,b73679a2,e5bc3909,32663c5b,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:e5bc3909,b:e5bc3909,t:0,x:9ba5ce69,y:e5bc3909
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5bc3909,b:9ba5ce69,t:0,x:9b9ca167,y:e5bc3909
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:183fc00,b:0,t:0,x:183fc00,y:183fc00
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9b9ca167,b:0,t:0,x:9b9ca167,y:9b9ca167
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:183fc00,b:9b9ca167,t:0,x:9d209d67,y:183fc00
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:32663c5b,b:32663c5b,t:0,x:d9a6ff7f,y:32663c5b
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:32663c5b,b:d9a6ff7f,t:0,x:d9aa66f0,y:32663c5b
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:0,t:0,x:0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:12dcbfdb,b:0,t:0,x:12dcbfdb,y:12dcbfdb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d9aa66f0,b:0,t:0,x:d9aa66f0,y:d9aa66f0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:12dcbfdb,b:d9aa66f0,t:0,x:ec8726cb,y:12dcbfdb
+[SREG]:0,18,61626380,f0000,7da86405,600003c6,3e9d7b78,183fc00,12dcbfdb,e2e2c38e,c8215c1a,b73679a2,e5bc3909,32663c5b,9d209d67,ec8726cb,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:9d209d67,b:9d209d67,t:0,x:5d1f3d34,y:9d209d67
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9d209d67,b:5d1f3d34,t:0,x:5d387513,y:9d209d67
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:18,b:18,t:0,x:30060000,y:18
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:18,b:30060000,t:0,x:30060003,y:18
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e2e2c38e,b:0,t:0,x:e2e2c38e,y:e2e2c38e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5d387513,b:30060003,t:0,x:8d3e7516,y:5d387513
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e2e2c38e,b:8d3e7516,t:0,x:702138a4,y:e2e2c38e
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:ec8726cb,b:ec8726cb,t:0,x:77bc8bd3,y:ec8726cb
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ec8726cb,b:77bc8bd3,t:0,x:7787aa1a,y:ec8726cb
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:61626380,b:61626380,t:0,x:9822dc9f,y:61626380
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:61626380,b:9822dc9f,t:0,x:940e90ef,y:61626380
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c8215c1a,b:18,t:0,x:c8215c32,y:c8215c1a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7787aa1a,b:940e90ef,t:0,x:b963b09,y:7787aa1a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c8215c32,b:b963b09,t:0,x:d3b7973b,y:c8215c32
+[SREG]:61626380,f0000,7da86405,600003c6,3e9d7b78,183fc00,12dcbfdb,e2e2c38e,c8215c1a,b73679a2,e5bc3909,32663c5b,9d209d67,ec8726cb,702138a4,d3b7973b,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:702138a4,b:702138a4,t:0,x:bb46b614,y:702138a4
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:702138a4,b:bb46b614,t:0,x:bb5abe5a,y:702138a4
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:f0000,b:f0000,t:0,x:c0001e03,y:f0000
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0000,b:c0001e03,t:0,x:c001fe03,y:f0000
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b73679a2,b:61626380,t:0,x:1898dd22,y:b73679a2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bb5abe5a,b:c001fe03,t:0,x:7b5cbc5d,y:bb5abe5a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1898dd22,b:7b5cbc5d,t:0,x:93f5997f,y:1898dd22
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:d3b7973b,b:d3b7973b,t:0,x:397a93ad,y:d3b7973b
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d3b7973b,b:397a93ad,t:0,x:394e7e48,y:d3b7973b
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:7da86405,b:7da86405,t:0,x:13fa0fa2,y:7da86405
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7da86405,b:13fa0fa2,t:0,x:1c4f0322,y:7da86405
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5bc3909,b:f0000,t:0,x:e5cb3909,y:e5bc3909
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:394e7e48,b:1c4f0322,t:0,x:559d816a,y:394e7e48
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5cb3909,b:559d816a,t:0,x:3b68ba73,y:e5cb3909
+[SREG]:7da86405,600003c6,3e9d7b78,183fc00,12dcbfdb,e2e2c38e,c8215c1a,b73679a2,e5bc3909,32663c5b,9d209d67,ec8726cb,702138a4,d3b7973b,93f5997f,3b68ba73,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:93f5997f,b:93f5997f,t:0,x:7f903b84,y:93f5997f
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:93f5997f,b:7f903b84,t:0,x:7fb4c6e2,y:93f5997f
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:600003c6,b:600003c6,t:0,x:8c319807,y:600003c6
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:600003c6,b:8c319807,t:0,x:8031987f,y:600003c6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:32663c5b,b:7da86405,t:0,x:b00ea060,y:32663c5b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7fb4c6e2,b:8031987f,t:0,x:ffe65f61,y:7fb4c6e2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b00ea060,b:ffe65f61,t:0,x:aff4ffc1,y:b00ea060
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:3b68ba73,b:3b68ba73,t:0,x:4a77fad9,y:3b68ba73
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3b68ba73,b:4a77fad9,t:0,x:4a7920f7,y:3b68ba73
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:3e9d7b78,b:3e9d7b78,t:0,x:aea33551,y:3e9d7b78
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e9d7b78,b:aea33551,t:0,x:a9709a3e,y:3e9d7b78
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9d209d67,b:600003c6,t:0,x:fd20a12d,y:9d209d67
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4a7920f7,b:a9709a3e,t:0,x:f3e9bb35,y:4a7920f7
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fd20a12d,b:f3e9bb35,t:0,x:f10a5c62,y:fd20a12d
+[SREG]:3e9d7b78,183fc00,12dcbfdb,e2e2c38e,c8215c1a,b73679a2,e5bc3909,32663c5b,9d209d67,ec8726cb,702138a4,d3b7973b,93f5997f,3b68ba73,aff4ffc1,f10a5c62,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:aff4ffc1,b:aff4ffc1,t:0,x:e018e204,y:aff4ffc1
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:aff4ffc1,b:e018e204,t:0,x:e0331f3b,y:aff4ffc1
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:183fc00,b:183fc00,t:0,x:ff030798,y:183fc00
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:183fc00,b:ff030798,t:0,x:ff337818,y:183fc00
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ec8726cb,b:3e9d7b78,t:0,x:2b24a243,y:ec8726cb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e0331f3b,b:ff337818,t:0,x:df669753,y:e0331f3b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2b24a243,b:df669753,t:0,x:a8b3996,y:2b24a243
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:f10a5c62,b:f10a5c62,t:0,x:65bd26a4,y:f10a5c62
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f10a5c62,b:65bd26a4,t:0,x:65816433,y:f10a5c62
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:12dcbfdb,b:12dcbfdb,t:0,x:99d37dc8,y:12dcbfdb
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:12dcbfdb,b:99d37dc8,t:0,x:9b88ea33,y:12dcbfdb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:702138a4,b:183fc00,t:0,x:71a534a4,y:702138a4
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:65816433,b:9b88ea33,t:0,x:10a4e66,y:65816433
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:71a534a4,b:10a4e66,t:0,x:72af830a,y:71a534a4
+[SREG]:12dcbfdb,e2e2c38e,c8215c1a,b73679a2,e5bc3909,32663c5b,9d209d67,ec8726cb,702138a4,d3b7973b,93f5997f,3b68ba73,aff4ffc1,f10a5c62,a8b3996,72af830a,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:a8b3996,b:a8b3996,t:0,x:fbf9c414,y:a8b3996
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a8b3996,b:fbf9c414,t:0,x:fbfb66da,y:a8b3996
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:e2e2c38e,b:e2e2c38e,t:0,x:ad267d3f,y:e2e2c38e
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e2e2c38e,b:ad267d3f,t:0,x:b17a254e,y:e2e2c38e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d3b7973b,b:12dcbfdb,t:0,x:e6945716,y:d3b7973b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fbfb66da,b:b17a254e,t:0,x:ad758c28,y:fbfb66da
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e6945716,b:ad758c28,t:0,x:9409e33e,y:e6945716
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:72af830a,b:72af830a,t:0,x:31e47702,y:72af830a
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:72af830a,b:31e47702,t:0,x:31f8dce2,y:72af830a
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:c8215c1a,b:c8215c1a,t:0,x:6296f0b0,y:c8215c1a
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c8215c1a,b:6296f0b0,t:0,x:7b92db33,y:c8215c1a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:93f5997f,b:e2e2c38e,t:0,x:76d85d0d,y:93f5997f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:31f8dce2,b:7b92db33,t:0,x:ad8bb815,y:31f8dce2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:76d85d0d,b:ad8bb815,t:0,x:24641522,y:76d85d0d
+[SREG]:c8215c1a,b73679a2,e5bc3909,32663c5b,9d209d67,ec8726cb,702138a4,d3b7973b,93f5997f,3b68ba73,aff4ffc1,f10a5c62,a8b3996,72af830a,9409e33e,24641522,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:9409e33e,b:9409e33e,t:0,x:cdf89885,y:9409e33e
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9409e33e,b:cdf89885,t:0,x:cddd9afd,y:9409e33e
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:b73679a2,b:b73679a2,t:0,x:db06c13e,y:b73679a2
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b73679a2,b:db06c13e,t:0,x:cde00e0a,y:b73679a2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3b68ba73,b:c8215c1a,t:0,x:38a168d,y:3b68ba73
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cddd9afd,b:cde00e0a,t:0,x:9bbda907,y:cddd9afd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:38a168d,b:9bbda907,t:0,x:9f47bf94,y:38a168d
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:24641522,b:24641522,t:0,x:883556be,y:24641522
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:24641522,b:883556be,t:0,x:883c4fbb,y:24641522
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:e5bc3909,b:e5bc3909,t:0,x:1d89011d,y:e5bc3909
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5bc3909,b:1d89011d,t:0,x:13e863c,y:e5bc3909
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:aff4ffc1,b:b73679a2,t:0,x:672b7963,y:aff4ffc1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:883c4fbb,b:13e863c,t:0,x:897ad5f7,y:883c4fbb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:672b7963,b:897ad5f7,t:0,x:f0a64f5a,y:672b7963
+[SREG]:e5bc3909,32663c5b,9d209d67,ec8726cb,702138a4,d3b7973b,93f5997f,3b68ba73,aff4ffc1,f10a5c62,a8b3996,72af830a,9409e33e,24641522,9f47bf94,f0a64f5a,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:9f47bf94,b:9f47bf94,t:0,x:2838dc4b,y:9f47bf94
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9f47bf94,b:2838dc4b,t:0,x:281f0da4,y:9f47bf94
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:32663c5b,b:32663c5b,t:0,x:397200e1,y:32663c5b
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:32663c5b,b:397200e1,t:0,x:3f3ec76a,y:32663c5b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f10a5c62,b:e5bc3909,t:0,x:d6c6956b,y:f10a5c62
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:281f0da4,b:3f3ec76a,t:0,x:675dd50e,y:281f0da4
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d6c6956b,b:675dd50e,t:0,x:3e246a79,y:d6c6956b
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:f0a64f5a,b:f0a64f5a,t:0,x:ee462647,y:f0a64f5a
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0a64f5a,b:ee462647,t:0,x:ee7a0fd4,y:f0a64f5a
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:9d209d67,b:9d209d67,t:0,x:e863a672,y:9d209d67
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9d209d67,b:e863a672,t:0,x:fbc7b5de,y:9d209d67
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a8b3996,b:32663c5b,t:0,x:3cf175f1,y:a8b3996
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ee7a0fd4,b:fbc7b5de,t:0,x:ea41c5b2,y:ee7a0fd4
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3cf175f1,b:ea41c5b2,t:0,x:27333ba3,y:3cf175f1
+[SREG]:9d209d67,ec8726cb,702138a4,d3b7973b,93f5997f,3b68ba73,aff4ffc1,f10a5c62,a8b3996,72af830a,9409e33e,24641522,9f47bf94,f0a64f5a,3e246a79,27333ba3,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:3e246a79,b:3e246a79,t:0,x:b873b8d6,y:3e246a79
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e246a79,b:b873b8d6,t:0,x:b87c31cc,y:3e246a79
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:ec8726cb,b:ec8726cb,t:0,x:5e6bf56c,y:ec8726cb
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ec8726cb,b:5e6bf56c,t:0,x:43fb11b5,y:ec8726cb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:72af830a,b:9d209d67,t:0,x:fd02071,y:72af830a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b87c31cc,b:43fb11b5,t:0,x:fc774381,y:b87c31cc
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fd02071,b:fc774381,t:0,x:c4763f2,y:fd02071
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:27333ba3,b:27333ba3,t:0,x:faa5f77f,y:27333ba3
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:27333ba3,b:faa5f77f,t:0,x:faac3bb1,y:27333ba3
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:702138a4,b:702138a4,t:0,x:6c95e79,y:702138a4
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:702138a4,b:6c95e79,t:0,x:8cd796d,y:702138a4
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9409e33e,b:ec8726cb,t:0,x:80910a09,y:9409e33e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:faac3bb1,b:8cd796d,t:0,x:379b51e,y:faac3bb1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:80910a09,b:379b51e,t:0,x:840abf27,y:80910a09
+[SREG]:702138a4,d3b7973b,93f5997f,3b68ba73,aff4ffc1,f10a5c62,a8b3996,72af830a,9409e33e,24641522,9f47bf94,f0a64f5a,3e246a79,27333ba3,c4763f2,840abf27,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:c4763f2,b:c4763f2,t:0,x:5d8747ab,y:c4763f2
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c4763f2,b:5d8747ab,t:0,x:5d845673,y:c4763f2
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:d3b7973b,b:d3b7973b,t:0,x:92699bc3,y:d3b7973b
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d3b7973b,b:92699bc3,t:0,x:881f6924,y:d3b7973b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:24641522,b:702138a4,t:0,x:94854dc6,y:24641522
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5d845673,b:881f6924,t:0,x:e5a3bf97,y:5d845673
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:94854dc6,b:e5a3bf97,t:0,x:7a290d5d,y:94854dc6
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:840abf27,b:840abf27,t:0,x:8773284,y:840abf27
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:840abf27,b:8773284,t:0,x:856302b,y:840abf27
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:93f5997f,b:93f5997f,t:0,x:99780fcf,y:93f5997f
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:93f5997f,b:99780fcf,t:0,x:8b06bce0,y:93f5997f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9f47bf94,b:d3b7973b,t:0,x:72ff56cf,y:9f47bf94
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:856302b,b:8b06bce0,t:0,x:935ced0b,y:856302b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:72ff56cf,b:935ced0b,t:0,x:65c43da,y:72ff56cf
+[SREG]:93f5997f,3b68ba73,aff4ffc1,f10a5c62,a8b3996,72af830a,9409e33e,24641522,9f47bf94,f0a64f5a,3e246a79,27333ba3,c4763f2,840abf27,7a290d5d,65c43da,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:7a290d5d,b:7a290d5d,t:0,x:a7051251,y:7a290d5d
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7a290d5d,b:a7051251,t:0,x:a71b9812,y:7a290d5d
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:3b68ba73,b:3b68ba73,t:0,x:c8ea1fae,y:3b68ba73
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3b68ba73,b:c8ea1fae,t:0,x:cf8708e0,y:3b68ba73
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0a64f5a,b:93f5997f,t:0,x:849be8d9,y:f0a64f5a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a71b9812,b:cf8708e0,t:0,x:76a2a0f2,y:a71b9812
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:849be8d9,b:76a2a0f2,t:0,x:fb3e89cb,y:849be8d9
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:65c43da,b:65c43da,t:0,x:a99643e5,y:65c43da
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:65c43da,b:a99643e5,t:0,x:a997d4f5,y:65c43da
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:aff4ffc1,b:aff4ffc1,t:0,x:bcaf8202,y:aff4ffc1
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:aff4ffc1,b:bcaf8202,t:0,x:a9511dfa,y:aff4ffc1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e246a79,b:3b68ba73,t:0,x:798d24ec,y:3e246a79
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a997d4f5,b:a9511dfa,t:0,x:52e8f2ef,y:a997d4f5
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:798d24ec,b:52e8f2ef,t:0,x:cc7617db,y:798d24ec
+[SREG]:aff4ffc1,f10a5c62,a8b3996,72af830a,9409e33e,24641522,9f47bf94,f0a64f5a,3e246a79,27333ba3,c4763f2,840abf27,7a290d5d,65c43da,fb3e89cb,cc7617db,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:fb3e89cb,b:fb3e89cb,t:0,x:95dc82f8,y:fb3e89cb
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fb3e89cb,b:95dc82f8,t:0,x:95e24d5a,y:fb3e89cb
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:f10a5c62,b:f10a5c62,t:0,x:52faa8fa,y:f10a5c62
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f10a5c62,b:52faa8fa,t:0,x:4cdbe376,y:f10a5c62
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:27333ba3,b:aff4ffc1,t:0,x:d7283b64,y:27333ba3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:95e24d5a,b:4cdbe376,t:0,x:e2be30d0,y:95e24d5a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d7283b64,b:e2be30d0,t:0,x:b9e66c34,y:d7283b64
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:cc7617db,b:cc7617db,t:0,x:c9169fb5,y:cc7617db
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cc7617db,b:c9169fb5,t:0,x:c9258230,y:cc7617db
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:a8b3996,b:a8b3996,t:0,x:e27094d1,y:a8b3996
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a8b3996,b:e27094d1,t:0,x:e321f3e3,y:a8b3996
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c4763f2,b:f10a5c62,t:0,x:fd51c054,y:c4763f2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c9258230,b:e321f3e3,t:0,x:ac477613,y:c9258230
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fd51c054,b:ac477613,t:0,x:a9993667,y:fd51c054
+[SREG]:a8b3996,72af830a,9409e33e,24641522,9f47bf94,f0a64f5a,3e246a79,27333ba3,c4763f2,840abf27,7a290d5d,65c43da,fb3e89cb,cc7617db,b9e66c34,a9993667,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:b9e66c34,b:b9e66c34,t:0,x:fb9ccbcf,y:b9e66c34
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b9e66c34,b:fb9ccbcf,t:0,x:fbb2b254,y:b9e66c34
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:72af830a,b:72af830a,t:0,x:f427c3ad,y:72af830a
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:72af830a,b:f427c3ad,t:0,x:fa7233cc,y:72af830a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:840abf27,b:a8b3996,t:0,x:8e95f8bd,y:840abf27
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fbb2b254,b:fa7233cc,t:0,x:f624e620,y:fbb2b254
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8e95f8bd,b:f624e620,t:0,x:84badedd,y:8e95f8bd
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:a9993667,b:a9993667,t:0,x:bdff21ff,y:a9993667
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a9993667,b:bdff21ff,t:0,x:bdd547b2,y:a9993667
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:9409e33e,b:9409e33e,t:0,x:5e7b6c4,y:9409e33e
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9409e33e,b:5e7b6c4,t:0,x:17668aa3,y:9409e33e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7a290d5d,b:72af830a,t:0,x:ecd89067,y:7a290d5d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bdd547b2,b:17668aa3,t:0,x:d53bd255,y:bdd547b2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ecd89067,b:d53bd255,t:0,x:c21462bc,y:ecd89067
+[SREG]:9409e33e,24641522,9f47bf94,f0a64f5a,3e246a79,27333ba3,c4763f2,840abf27,7a290d5d,65c43da,fb3e89cb,cc7617db,b9e66c34,a9993667,84badedd,c21462bc,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:84badedd,b:84badedd,t:0,x:34b572ca,y:84badedd
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:84badedd,b:34b572ca,t:0,x:34945c7d,y:84badedd
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:24641522,b:24641522,t:0,x:41004133,y:24641522
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:24641522,b:41004133,t:0,x:458cc397,y:24641522
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:65c43da,b:9409e33e,t:0,x:9a662718,y:65c43da
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:34945c7d,b:458cc397,t:0,x:7a212014,y:34945c7d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9a662718,b:7a212014,t:0,x:1487472c,y:9a662718
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:c21462bc,b:c21462bc,t:0,x:bd09f948,y:c21462bc
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c21462bc,b:bd09f948,t:0,x:bd397c50,y:c21462bc
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:9f47bf94,b:9f47bf94,t:0,x:c6dba8ae,y:9f47bf94
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9f47bf94,b:c6dba8ae,t:0,x:d5335f5c,y:9f47bf94
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fb3e89cb,b:24641522,t:0,x:1fa29eed,y:fb3e89cb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bd397c50,b:d5335f5c,t:0,x:926cdbac,y:bd397c50
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1fa29eed,b:926cdbac,t:0,x:b20f7a99,y:1fa29eed
+[SREG]:9f47bf94,f0a64f5a,3e246a79,27333ba3,c4763f2,840abf27,7a290d5d,65c43da,fb3e89cb,cc7617db,b9e66c34,a9993667,84badedd,c21462bc,1487472c,b20f7a99,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:1487472c,b:1487472c,t:0,x:4b7388d3,y:1487472c
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1487472c,b:4b7388d3,t:0,x:4b76a902,y:1487472c
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:f0a64f5a,b:f0a64f5a,t:0,x:2637f0b7,y:f0a64f5a
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0a64f5a,b:2637f0b7,t:0,x:3823395c,y:f0a64f5a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cc7617db,b:9f47bf94,t:0,x:6bbdd76f,y:cc7617db
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4b76a902,b:3823395c,t:0,x:8399e25e,y:4b76a902
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6bbdd76f,b:8399e25e,t:0,x:ef57b9cd,y:6bbdd76f
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:b20f7a99,b:b20f7a99,t:0,x:521fef46,y:b20f7a99
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b20f7a99,b:521fef46,t:0,x:52336c98,y:b20f7a99
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:3e246a79,b:3e246a79,t:0,x:e8e2075d,y:3e246a79
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e246a79,b:e8e2075d,t:0,x:ef268a12,y:3e246a79
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b9e66c34,b:f0a64f5a,t:0,x:aa8cbb8e,y:b9e66c34
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:52336c98,b:ef268a12,t:0,x:4159f6aa,y:52336c98
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:aa8cbb8e,b:4159f6aa,t:0,x:ebe6b238,y:aa8cbb8e
+[SREG]:3e246a79,27333ba3,c4763f2,840abf27,7a290d5d,65c43da,fb3e89cb,cc7617db,b9e66c34,a9993667,84badedd,c21462bc,1487472c,b20f7a99,ef57b9cd,ebe6b238,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:ef57b9cd,b:ef57b9cd,t:0,x:2bdf4a41,y:ef57b9cd
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ef57b9cd,b:2bdf4a41,t:0,x:2be49faf,y:ef57b9cd
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:27333ba3,b:27333ba3,t:0,x:88a6afbb,y:27333ba3
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:27333ba3,b:88a6afbb,t:0,x:8c40c8cf,y:27333ba3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a9993667,b:3e246a79,t:0,x:e7bda0e0,y:a9993667
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2be49faf,b:8c40c8cf,t:0,x:b825687e,y:2be49faf
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e7bda0e0,b:b825687e,t:0,x:9fe3095e,y:e7bda0e0
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:ebe6b238,b:ebe6b238,t:0,x:8f5b688f,y:ebe6b238
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ebe6b238,b:8f5b688f,t:0,x:8f619123,y:ebe6b238
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:c4763f2,b:c4763f2,t:0,x:3ce40dd6,y:c4763f2
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c4763f2,b:3ce40dd6,t:0,x:3d6ce1a8,y:c4763f2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:84badedd,b:27333ba3,t:0,x:abee1a80,y:84badedd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8f619123,b:3d6ce1a8,t:0,x:ccce72cb,y:8f619123
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:abee1a80,b:ccce72cb,t:0,x:78bc8d4b,y:abee1a80
+[SREG]:c4763f2,840abf27,7a290d5d,65c43da,fb3e89cb,cc7617db,b9e66c34,a9993667,84badedd,c21462bc,1487472c,b20f7a99,ef57b9cd,ebe6b238,9fe3095e,78bc8d4b,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:9fe3095e,b:9fe3095e,t:0,x:e5849c0d,y:9fe3095e
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9fe3095e,b:e5849c0d,t:0,x:e5a364cf,y:9fe3095e
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:840abf27,b:840abf27,t:0,x:e0c1f47c,y:840abf27
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:840abf27,b:e0c1f47c,t:0,x:f040a398,y:840abf27
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c21462bc,b:c4763f2,t:0,x:ce5bc6ae,y:c21462bc
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5a364cf,b:f040a398,t:0,x:d5e40867,y:e5a364cf
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ce5bc6ae,b:d5e40867,t:0,x:a43fcf15,y:ce5bc6ae
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:78bc8d4b,b:78bc8d4b,t:0,x:d70cd349,y:78bc8d4b
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:78bc8d4b,b:d70cd349,t:0,x:d712fc6a,y:78bc8d4b
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:7a290d5d,b:7a290d5d,t:0,x:f9a30c90,y:7a290d5d
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7a290d5d,b:f9a30c90,t:0,x:f6e62d3b,y:7a290d5d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1487472c,b:840abf27,t:0,x:98920653,y:1487472c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d712fc6a,b:f6e62d3b,t:0,x:cdf929a5,y:d712fc6a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:98920653,b:cdf929a5,t:0,x:668b2ff8,y:98920653
+[SREG]:7a290d5d,65c43da,fb3e89cb,cc7617db,b9e66c34,a9993667,84badedd,c21462bc,1487472c,b20f7a99,ef57b9cd,ebe6b238,9fe3095e,78bc8d4b,a43fcf15,668b2ff8,)
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:a43fcf15,b:a43fcf15,t:0,x:1e686698,y:a43fcf15
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a43fcf15,b:1e686698,t:0,x:1e41696b,y:a43fcf15
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:65c43da,b:65c43da,t:0,x:a4fa3910,y:65c43da
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:65c43da,b:a4fa3910,t:0,x:a431b16b,y:65c43da
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b20f7a99,b:7a290d5d,t:0,x:2c3887f6,y:b20f7a99
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1e41696b,b:a431b16b,t:0,x:c2731ad6,y:1e41696b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2c3887f6,b:c2731ad6,t:0,x:eeaba2cc,y:2c3887f6
+[OPERATOR BFU] Mode is su,Exp is (A<<<15)^(B<<<13),Bypass is 0,Bypass EXP is ,Mode is 0,a:668b2ff8,b:668b2ff8,t:0,x:f2033f94,y:668b2ff8
+[OPERATOR BFU] Mode is su,Exp is (A>>10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:668b2ff8,b:f2033f94,t:0,x:f21a9d5f,y:668b2ff8
+[OPERATOR BFU] Mode is su,Exp is (A<<<25)^(B<<<14),Bypass is 0,Bypass EXP is ,Mode is 0,a:fb3e89cb,b:fb3e89cb,t:0,x:358483dc,y:fb3e89cb
+[OPERATOR BFU] Mode is su,Exp is (A>>3)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fb3e89cb,b:358483dc,t:0,x:2ae352e5,y:fb3e89cb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ef57b9cd,b:65c43da,t:0,x:f5b3fda7,y:ef57b9cd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f21a9d5f,b:2ae352e5,t:0,x:1cfdf044,y:f21a9d5f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f5b3fda7,b:1cfdf044,t:0,x:12b1edeb,y:f5b3fda7
+[SREG]:fb3e89cb,cc7617db,b9e66c34,a9993667,84badedd,c21462bc,1487472c,b20f7a99,ef57b9cd,ebe6b238,9fe3095e,78bc8d4b,a43fcf15,668b2ff8,eeaba2cc,12b1edeb,)
+[SREG] Data erased
+[SREG] Mode was set to 1
+[SREG]:0,0,0,0,0,0,0,0,0,0,0,0,a54ff53a,3c6ef372,bb67ae85,6a09e667,)
+[SREG]:0,0,0,0,0,0,0,0,a54ff53a,3c6ef372,bb67ae85,6a09e667,5be0cd19,1f83d9ab,9b05688c,510e527f,)
+[SREG] Mode was set to 3
+
+LOOP3,round:0 (6a09e667,bb67ae85,3c6ef372,a54ff53a,510e527f,9b05688c,1f83d9ab,5be0cd19)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:510e527f,b:510e527f,t:0,x:b2ae1883,y:510e527f
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:510e527f,b:b2ae1883,t:0,x:3587272b,y:510e527f
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:510e527f,b:9b05688c,t:1f83d9ab,x:1f85c98c,y:510e527f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3587272b,b:1f85c98c,t:0,x:550cf0b7,y:3587272b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5be0cd19,b:550cf0b7,t:0,x:b0edbdd0,y:5be0cd19
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:61626380,b:b0edbdd0,t:0,x:12502150,y:61626380
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:12502150,b:428a2f98,t:0,x:54da50e8,y:12502150
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:6a09e667,b:6a09e667,t:0,x:e9b929d6,y:6a09e667
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6a09e667,b:e9b929d6,t:0,x:ce20b47e,y:6a09e667
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:6a09e667,b:bb67ae85,t:3c6ef372,x:3a6fe667,y:6a09e667
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ce20b47e,b:3a6fe667,t:0,x:8909ae5,y:ce20b47e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:54da50e8,b:8909ae5,t:0,x:5d6aebcd,y:54da50e8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a54ff53a,b:54da50e8,t:0,x:fa2a4622,y:a54ff53a
+[SREG]:0,0,0,0,0,0,0,0,3c6ef372,bb67ae85,6a09e667,5d6aebcd,5be0cd19,1f83d9ab,9b05688c,510e527f,)
+[SREG]:0,0,0,0,0,0,0,0,3c6ef372,bb67ae85,6a09e667,5d6aebcd,1f83d9ab,9b05688c,510e527f,fa2a4622,)
+[IMD] (71374491,b5c0fbcf,e9b5dba5,3956c25b,)
+
+LOOP3,round:1 (5d6aebcd,6a09e667,bb67ae85,3c6ef372,fa2a4622,510e527f,9b05688c,1f83d9ab)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:fa2a4622,b:fa2a4622,t:0,x:4fb7ec50,y:fa2a4622
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fa2a4622,b:4fb7ec50,t:0,x:5a94fd2d,y:fa2a4622
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:fa2a4622,b:510e527f,t:9b05688c,x:510f6aae,y:fa2a4622
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5a94fd2d,b:510f6aae,t:0,x:aba467db,y:5a94fd2d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1f83d9ab,b:aba467db,t:0,x:cb284186,y:1f83d9ab
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:cb284186,t:0,x:cb284186,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cb284186,b:71374491,t:0,x:3c5f8617,y:cb284186
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:5d6aebcd,b:5d6aebcd,t:0,x:93051a4,y:5d6aebcd
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5d6aebcd,b:93051a4,t:0,x:a29f64d1,y:5d6aebcd
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:5d6aebcd,b:6a09e667,t:bb67ae85,x:7b6beec5,y:5d6aebcd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a29f64d1,b:7b6beec5,t:0,x:1e0b5396,y:a29f64d1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3c5f8617,b:1e0b5396,t:0,x:5a6ad9ad,y:3c5f8617
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3c6ef372,b:3c5f8617,t:0,x:78ce7989,y:3c6ef372
+[SREG]:0,0,0,0,0,0,0,0,bb67ae85,6a09e667,5d6aebcd,5a6ad9ad,1f83d9ab,9b05688c,510e527f,fa2a4622,)
+[SREG]:0,0,0,0,0,0,0,0,bb67ae85,6a09e667,5d6aebcd,5a6ad9ad,9b05688c,510e527f,fa2a4622,78ce7989,)
+[IMD] (b5c0fbcf,e9b5dba5,3956c25b,59f111f1,)
+
+LOOP3,round:2 (5a6ad9ad,5d6aebcd,6a09e667,bb67ae85,78ce7989,fa2a4622,510e527f,9b05688c)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:78ce7989,b:78ce7989,t:0,x:14cc2029,y:78ce7989
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:78ce7989,b:14cc2029,t:0,x:73f0e495,y:78ce7989
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:78ce7989,b:fa2a4622,t:510e527f,x:790a4276,y:78ce7989
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:73f0e495,b:790a4276,t:0,x:ecfb270b,y:73f0e495
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9b05688c,b:ecfb270b,t:0,x:88008f97,y:9b05688c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:88008f97,t:0,x:88008f97,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:88008f97,b:b5c0fbcf,t:0,x:3dc18b66,y:88008f97
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:5a6ad9ad,b:5a6ad9ad,t:0,x:9bf0653d,y:5a6ad9ad
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5a6ad9ad,b:9bf0653d,t:0,x:3096d054,y:5a6ad9ad
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:5a6ad9ad,b:5d6aebcd,t:6a09e667,x:5a6aebed,y:5a6ad9ad
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3096d054,b:5a6aebed,t:0,x:8b01bc41,y:3096d054
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3dc18b66,b:8b01bc41,t:0,x:c8c347a7,y:3dc18b66
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bb67ae85,b:3dc18b66,t:0,x:f92939eb,y:bb67ae85
+[SREG]:0,0,0,0,0,0,0,0,6a09e667,5d6aebcd,5a6ad9ad,c8c347a7,9b05688c,510e527f,fa2a4622,78ce7989,)
+[SREG]:0,0,0,0,0,0,0,0,6a09e667,5d6aebcd,5a6ad9ad,c8c347a7,510e527f,fa2a4622,78ce7989,f92939eb,)
+[IMD] (e9b5dba5,3956c25b,59f111f1,923f82a4,)
+
+LOOP3,round:3 (c8c347a7,5a6ad9ad,5d6aebcd,6a09e667,f92939eb,78ce7989,fa2a4622,510e527f)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:f92939eb,b:f92939eb,t:0,x:929b81c0,y:f92939eb
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f92939eb,b:929b81c0,t:0,x:607743c,y:f92939eb
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:f92939eb,b:78ce7989,t:fa2a4622,x:7a0a7f89,y:f92939eb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:607743c,b:7a0a7f89,t:0,x:8011f3c5,y:607743c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:510e527f,b:8011f3c5,t:0,x:d1204644,y:510e527f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:d1204644,t:0,x:d1204644,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d1204644,b:e9b5dba5,t:0,x:bad621e9,y:d1204644
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:c8c347a7,b:c8c347a7,t:0,x:cf0e97f3,y:c8c347a7
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c8c347a7,b:cf0e97f3,t:0,x:c21008d0,y:c8c347a7
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:c8c347a7,b:5a6ad9ad,t:5d6aebcd,x:586acbad,y:c8c347a7
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c21008d0,b:586acbad,t:0,x:1a7ad47d,y:c21008d0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bad621e9,b:1a7ad47d,t:0,x:d550f666,y:bad621e9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6a09e667,b:bad621e9,t:0,x:24e00850,y:6a09e667
+[SREG]:0,0,0,0,0,0,0,0,5d6aebcd,5a6ad9ad,c8c347a7,d550f666,510e527f,fa2a4622,78ce7989,f92939eb,)
+[SREG]:0,0,0,0,0,0,0,0,5d6aebcd,5a6ad9ad,c8c347a7,d550f666,fa2a4622,78ce7989,f92939eb,24e00850,)
+[IMD] (3956c25b,59f111f1,923f82a4,ab1c5ed5,)
+
+LOOP3,round:4 (d550f666,c8c347a7,5a6ad9ad,5d6aebcd,24e00850,f92939eb,78ce7989,fa2a4622)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:24e00850,b:24e00850,t:0,x:4a971c20,y:24e00850
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:24e00850,b:4a971c20,t:0,x:3a933432,y:24e00850
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:24e00850,b:f92939eb,t:78ce7989,x:782e79c9,y:24e00850
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3a933432,b:782e79c9,t:0,x:b2c1adfb,y:3a933432
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fa2a4622,b:b2c1adfb,t:0,x:acebf41d,y:fa2a4622
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:acebf41d,t:0,x:acebf41d,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:acebf41d,b:3956c25b,t:0,x:e642b678,y:acebf41d
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:d550f666,b:d550f666,t:0,x:662971e,y:d550f666
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d550f666,b:662971e,t:0,x:45bb0c4b,y:d550f666
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:d550f666,b:c8c347a7,t:5a6ad9ad,x:d842d7a7,y:d550f666
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:45bb0c4b,b:d842d7a7,t:0,x:1dfde3f2,y:45bb0c4b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e642b678,b:1dfde3f2,t:0,x:4409a6a,y:e642b678
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5d6aebcd,b:e642b678,t:0,x:43ada245,y:5d6aebcd
+[SREG]:0,0,0,0,0,0,0,0,5a6ad9ad,c8c347a7,d550f666,4409a6a,fa2a4622,78ce7989,f92939eb,24e00850,)
+[SREG]:0,0,0,0,0,0,0,0,5a6ad9ad,c8c347a7,d550f666,4409a6a,78ce7989,f92939eb,24e00850,43ada245,)
+[IMD] (59f111f1,923f82a4,ab1c5ed5,d807aa98,)
+
+LOOP3,round:5 (4409a6a,d550f666,c8c347a7,5a6ad9ad,43ada245,24e00850,f92939eb,78ce7989)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:43ada245,b:43ada245,t:0,x:5da6c33d,y:43ada245
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:43ada245,b:5da6c33d,t:0,x:8b77e19c,y:43ada245
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:43ada245,b:24e00850,t:f92939eb,x:b8a019ea,y:43ada245
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8b77e19c,b:b8a019ea,t:0,x:4417fb86,y:8b77e19c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:78ce7989,b:4417fb86,t:0,x:bce6750f,y:78ce7989
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:bce6750f,t:0,x:bce6750f,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bce6750f,b:59f111f1,t:0,x:16d78700,y:bce6750f
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:4409a6a,b:4409a6a,t:0,x:5240049e,y:4409a6a
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4409a6a,b:5240049e,t:0,x:5029ac8f,y:4409a6a
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:4409a6a,b:d550f666,t:c8c347a7,x:c440d666,y:4409a6a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5029ac8f,b:c440d666,t:0,x:146a82f5,y:5029ac8f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:16d78700,b:146a82f5,t:0,x:2b4209f5,y:16d78700
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5a6ad9ad,b:16d78700,t:0,x:714260ad,y:5a6ad9ad
+[SREG]:0,0,0,0,0,0,0,0,c8c347a7,d550f666,4409a6a,2b4209f5,78ce7989,f92939eb,24e00850,43ada245,)
+[SREG]:0,0,0,0,0,0,0,0,c8c347a7,d550f666,4409a6a,2b4209f5,f92939eb,24e00850,43ada245,714260ad,)
+[IMD] (923f82a4,ab1c5ed5,d807aa98,12835b01,)
+
+LOOP3,round:6 (2b4209f5,4409a6a,d550f666,c8c347a7,714260ad,43ada245,24e00850,f92939eb)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:714260ad,b:714260ad,t:0,x:a06b21ce,y:714260ad
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:714260ad,b:a06b21ce,t:0,x:15b7776,y:714260ad
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:714260ad,b:43ada245,t:24e00850,x:45a02855,y:714260ad
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:15b7776,b:45a02855,t:0,x:46fb9fcb,y:15b7776
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f92939eb,b:46fb9fcb,t:0,x:4024d9b6,y:f92939eb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:4024d9b6,t:0,x:4024d9b6,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4024d9b6,b:923f82a4,t:0,x:d2645c5a,y:4024d9b6
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:2b4209f5,b:2b4209f5,t:0,x:579d86d,y:2b4209f5
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2b4209f5,b:579d86d,t:0,x:d5e0cc0,y:2b4209f5
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:2b4209f5,b:4409a6a,t:d550f666,x:5409a66,y:2b4209f5
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d5e0cc0,b:5409a66,t:0,x:129ea726,y:d5e0cc0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d2645c5a,b:129ea726,t:0,x:e5030380,y:d2645c5a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c8c347a7,b:d2645c5a,t:0,x:9b27a401,y:c8c347a7
+[SREG]:0,0,0,0,0,0,0,0,d550f666,4409a6a,2b4209f5,e5030380,f92939eb,24e00850,43ada245,714260ad,)
+[SREG]:0,0,0,0,0,0,0,0,d550f666,4409a6a,2b4209f5,e5030380,24e00850,43ada245,714260ad,9b27a401,)
+[IMD] (ab1c5ed5,d807aa98,12835b01,243185be,)
+
+LOOP3,round:7 (e5030380,2b4209f5,4409a6a,d550f666,9b27a401,714260ad,43ada245,24e00850)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:9b27a401,b:9b27a401,t:0,x:865ffa64,y:9b27a401
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9b27a401,b:865ffa64,t:0,x:158dfaa9,y:9b27a401
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:9b27a401,b:714260ad,t:43ada245,x:518a2245,y:9b27a401
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:158dfaa9,b:518a2245,t:0,x:67181cee,y:158dfaa9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:24e00850,b:67181cee,t:0,x:8bf8253e,y:24e00850
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:8bf8253e,t:0,x:8bf8253e,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8bf8253e,b:ab1c5ed5,t:0,x:37148413,y:8bf8253e
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:e5030380,b:e5030380,t:0,x:2547e8f8,y:e5030380
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5030380,b:2547e8f8,t:0,x:2949eb6c,y:e5030380
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:e5030380,b:2b4209f5,t:4409a6a,x:25420be0,y:e5030380
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2949eb6c,b:25420be0,t:0,x:4e8bf74c,y:2949eb6c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:37148413,b:4e8bf74c,t:0,x:85a07b5f,y:37148413
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d550f666,b:37148413,t:0,x:c657a79,y:d550f666
+[SREG]:0,0,0,0,0,0,0,0,4409a6a,2b4209f5,e5030380,85a07b5f,24e00850,43ada245,714260ad,9b27a401,)
+[SREG]:0,0,0,0,0,0,0,0,4409a6a,2b4209f5,e5030380,85a07b5f,43ada245,714260ad,9b27a401,c657a79,)
+[IMD] (d807aa98,12835b01,243185be,550c7dc3,)
+
+LOOP3,round:8 (85a07b5f,e5030380,2b4209f5,4409a6a,c657a79,9b27a401,714260ad,43ada245)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:c657a79,b:c657a79,t:0,x:ab101946,y:c657a79
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c657a79,b:ab101946,t:0,x:99ad25c0,y:c657a79
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:c657a79,b:9b27a401,t:714260ad,x:79272085,y:c657a79
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:99ad25c0,b:79272085,t:0,x:12d44645,y:99ad25c0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:43ada245,b:12d44645,t:0,x:5681e88a,y:43ada245
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:5681e88a,t:0,x:5681e88a,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5681e88a,b:d807aa98,t:0,x:2e899322,y:5681e88a
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:85a07b5f,b:85a07b5f,t:0,x:3b9433d4,y:85a07b5f
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:85a07b5f,b:3b9433d4,t:0,x:ba794dc2,y:85a07b5f
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:85a07b5f,b:e5030380,t:2b4209f5,x:a5020bd5,y:85a07b5f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ba794dc2,b:a5020bd5,t:0,x:5f7b5997,y:ba794dc2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2e899322,b:5f7b5997,t:0,x:8e04ecb9,y:2e899322
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4409a6a,b:2e899322,t:0,x:32ca2d8c,y:4409a6a
+[SREG]:0,0,0,0,0,0,0,0,2b4209f5,e5030380,85a07b5f,8e04ecb9,43ada245,714260ad,9b27a401,c657a79,)
+[SREG]:0,0,0,0,0,0,0,0,2b4209f5,e5030380,85a07b5f,8e04ecb9,714260ad,9b27a401,c657a79,32ca2d8c,)
+[IMD] (12835b01,243185be,550c7dc3,72be5d74,)
+
+LOOP3,round:9 (8e04ecb9,85a07b5f,e5030380,2b4209f5,32ca2d8c,c657a79,9b27a401,714260ad)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:32ca2d8c,b:32ca2d8c,t:0,x:814d71f3,y:32ca2d8c
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:32ca2d8c,b:814d71f3,t:0,x:e45bb7ea,y:32ca2d8c
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:32ca2d8c,b:c657a79,t:9b27a401,x:8965a809,y:32ca2d8c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e45bb7ea,b:8965a809,t:0,x:6dc15ff3,y:e45bb7ea
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:714260ad,b:6dc15ff3,t:0,x:df03c0a0,y:714260ad
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:df03c0a0,t:0,x:df03c0a0,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:df03c0a0,b:12835b01,t:0,x:f1871ba1,y:df03c0a0
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:8e04ecb9,b:8e04ecb9,t:0,x:64d4b09,y:8e04ecb9
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8e04ecb9,b:64d4b09,t:0,x:15ffad31,y:8e04ecb9
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:8e04ecb9,b:85a07b5f,t:e5030380,x:85006b99,y:8e04ecb9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:15ffad31,b:85006b99,t:0,x:9b0018ca,y:15ffad31
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f1871ba1,b:9b0018ca,t:0,x:8c87346b,y:f1871ba1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2b4209f5,b:f1871ba1,t:0,x:1cc92596,y:2b4209f5
+[SREG]:0,0,0,0,0,0,0,0,e5030380,85a07b5f,8e04ecb9,8c87346b,714260ad,9b27a401,c657a79,32ca2d8c,)
+[SREG]:0,0,0,0,0,0,0,0,e5030380,85a07b5f,8e04ecb9,8c87346b,9b27a401,c657a79,32ca2d8c,1cc92596,)
+[IMD] (243185be,550c7dc3,72be5d74,80deb1fe,)
+
+LOOP3,round:10 (8c87346b,8e04ecb9,85a07b5f,e5030380,1cc92596,32ca2d8c,c657a79,9b27a401)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:1cc92596,b:1cc92596,t:0,x:eab0bdb2,y:1cc92596
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1cc92596,b:eab0bdb2,t:0,x:8e2276bc,y:1cc92596
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:1cc92596,b:32ca2d8c,t:c657a79,x:10ec7fed,y:1cc92596
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8e2276bc,b:10ec7fed,t:0,x:9f0ef6a9,y:8e2276bc
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9b27a401,b:9f0ef6a9,t:0,x:3a369aaa,y:9b27a401
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:3a369aaa,t:0,x:3a369aaa,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3a369aaa,b:243185be,t:0,x:5e682068,y:3a369aaa
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:8c87346b,b:8c87346b,t:0,x:407da923,y:8c87346b
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8c87346b,b:407da923,t:0,x:5cac0711,y:8c87346b
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:8c87346b,b:8e04ecb9,t:85a07b5f,x:8c847c7b,y:8c87346b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5cac0711,b:8c847c7b,t:0,x:e930838c,y:5cac0711
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5e682068,b:e930838c,t:0,x:4798a3f4,y:5e682068
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5030380,b:5e682068,t:0,x:436b23e8,y:e5030380
+[SREG]:0,0,0,0,0,0,0,0,85a07b5f,8e04ecb9,8c87346b,4798a3f4,9b27a401,c657a79,32ca2d8c,1cc92596,)
+[SREG]:0,0,0,0,0,0,0,0,85a07b5f,8e04ecb9,8c87346b,4798a3f4,c657a79,32ca2d8c,1cc92596,436b23e8,)
+[IMD] (550c7dc3,72be5d74,80deb1fe,9bdc06a7,)
+
+LOOP3,round:11 (4798a3f4,8c87346b,8e04ecb9,85a07b5f,436b23e8,1cc92596,32ca2d8c,c657a79)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:436b23e8,b:436b23e8,t:0,x:dc05c1eb,y:436b23e8
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:436b23e8,b:dc05c1eb,t:0,x:699435ca,y:436b23e8
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:436b23e8,b:1cc92596,t:32ca2d8c,x:30c92d84,y:436b23e8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:699435ca,b:30c92d84,t:0,x:9a5d634e,y:699435ca
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c657a79,b:9a5d634e,t:0,x:a6c2ddc7,y:c657a79
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:a6c2ddc7,t:0,x:a6c2ddc7,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a6c2ddc7,b:550c7dc3,t:0,x:fbcf5b8a,y:a6c2ddc7
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:4798a3f4,b:4798a3f4,t:0,x:e441438,y:4798a3f4
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4798a3f4,b:e441438,t:0,x:6ccbc526,y:4798a3f4
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:4798a3f4,b:8c87346b,t:8e04ecb9,x:8e84a4f9,y:4798a3f4
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6ccbc526,b:8e84a4f9,t:0,x:fb506a1f,y:6ccbc526
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fbcf5b8a,b:fb506a1f,t:0,x:f71fc5a9,y:fbcf5b8a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:85a07b5f,b:fbcf5b8a,t:0,x:816fd6e9,y:85a07b5f
+[SREG]:0,0,0,0,0,0,0,0,8e04ecb9,8c87346b,4798a3f4,f71fc5a9,c657a79,32ca2d8c,1cc92596,436b23e8,)
+[SREG]:0,0,0,0,0,0,0,0,8e04ecb9,8c87346b,4798a3f4,f71fc5a9,32ca2d8c,1cc92596,436b23e8,816fd6e9,)
+[IMD] (72be5d74,80deb1fe,9bdc06a7,c19bf174,)
+
+LOOP3,round:12 (f71fc5a9,4798a3f4,8c87346b,8e04ecb9,816fd6e9,436b23e8,1cc92596,32ca2d8c)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:816fd6e9,b:816fd6e9,t:0,x:7b3592a1,y:816fd6e9
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:816fd6e9,b:7b3592a1,t:0,x:ccdee661,y:816fd6e9
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:816fd6e9,b:436b23e8,t:1cc92596,x:1deb23fe,y:816fd6e9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ccdee661,b:1deb23fe,t:0,x:eaca0a5f,y:ccdee661
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:32ca2d8c,b:eaca0a5f,t:0,x:1d9437eb,y:32ca2d8c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:1d9437eb,t:0,x:1d9437eb,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1d9437eb,b:72be5d74,t:0,x:9052955f,y:1d9437eb
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:f71fc5a9,b:f71fc5a9,t:0,x:50884994,y:f71fc5a9
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f71fc5a9,b:50884994,t:0,x:2f9eee48,y:f71fc5a9
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:f71fc5a9,b:4798a3f4,t:8c87346b,x:c79fa5e9,y:f71fc5a9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2f9eee48,b:c79fa5e9,t:0,x:f73e9431,y:2f9eee48
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9052955f,b:f73e9431,t:0,x:87912990,y:9052955f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8e04ecb9,b:9052955f,t:0,x:1e578218,y:8e04ecb9
+[SREG]:0,0,0,0,0,0,0,0,8c87346b,4798a3f4,f71fc5a9,87912990,32ca2d8c,1cc92596,436b23e8,816fd6e9,)
+[SREG]:0,0,0,0,0,0,0,0,8c87346b,4798a3f4,f71fc5a9,87912990,1cc92596,436b23e8,816fd6e9,1e578218,)
+[IMD] (80deb1fe,9bdc06a7,c19bf174,e49b69c1,)
+
+LOOP3,round:13 (87912990,f71fc5a9,4798a3f4,8c87346b,1e578218,816fd6e9,436b23e8,1cc92596)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:1e578218,b:1e578218,t:0,x:237a94f8,y:1e578218
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1e578218,b:237a94f8,t:0,x:8bb98f7,y:1e578218
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:1e578218,b:816fd6e9,t:436b23e8,x:416fa3e8,y:1e578218
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8bb98f7,b:416fa3e8,t:0,x:4a2b3cdf,y:8bb98f7
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1cc92596,b:4a2b3cdf,t:0,x:66f46275,y:1cc92596
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:66f46275,t:0,x:66f46275,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:66f46275,b:80deb1fe,t:0,x:e7d31473,y:66f46275
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:87912990,b:87912990,t:0,x:6d6076ed,y:87912990
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:87912990,b:6d6076ed,t:0,x:29c634f3,y:87912990
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:87912990,b:f71fc5a9,t:4798a3f4,x:c799a1b0,y:87912990
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:29c634f3,b:c799a1b0,t:0,x:f15fd6a3,y:29c634f3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e7d31473,b:f15fd6a3,t:0,x:d932eb16,y:e7d31473
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8c87346b,b:e7d31473,t:0,x:745a48de,y:8c87346b
+[SREG]:0,0,0,0,0,0,0,0,4798a3f4,f71fc5a9,87912990,d932eb16,1cc92596,436b23e8,816fd6e9,1e578218,)
+[SREG]:0,0,0,0,0,0,0,0,4798a3f4,f71fc5a9,87912990,d932eb16,436b23e8,816fd6e9,1e578218,745a48de,)
+[IMD] (9bdc06a7,c19bf174,e49b69c1,efbe4786,)
+
+LOOP3,round:14 (d932eb16,87912990,f71fc5a9,4798a3f4,745a48de,1e578218,816fd6e9,436b23e8)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:745a48de,b:745a48de,t:0,x:621fe26a,y:745a48de
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:745a48de,b:621fe26a,t:0,x:4f3b8d50,y:745a48de
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:745a48de,b:1e578218,t:816fd6e9,x:95779639,y:745a48de
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4f3b8d50,b:95779639,t:0,x:e4b32389,y:4f3b8d50
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:436b23e8,b:e4b32389,t:0,x:281e4771,y:436b23e8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:0,b:281e4771,t:0,x:281e4771,y:0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:281e4771,b:9bdc06a7,t:0,x:c3fa4e18,y:281e4771
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:d932eb16,b:d932eb16,t:0,x:eefa7352,y:d932eb16
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d932eb16,b:eefa7352,t:0,x:25562836,y:d932eb16
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:d932eb16,b:87912990,t:f71fc5a9,x:d713e990,y:d932eb16
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:25562836,b:d713e990,t:0,x:fc6a11c6,y:25562836
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c3fa4e18,b:fc6a11c6,t:0,x:c0645fde,y:c3fa4e18
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4798a3f4,b:c3fa4e18,t:0,x:b92f20c,y:4798a3f4
+[SREG]:0,0,0,0,0,0,0,0,f71fc5a9,87912990,d932eb16,c0645fde,436b23e8,816fd6e9,1e578218,745a48de,)
+[SREG]:0,0,0,0,0,0,0,0,f71fc5a9,87912990,d932eb16,c0645fde,816fd6e9,1e578218,745a48de,b92f20c,)
+[IMD] (c19bf174,e49b69c1,efbe4786,fc19dc6,)
+
+LOOP3,round:15 (c0645fde,d932eb16,87912990,f71fc5a9,b92f20c,745a48de,1e578218,816fd6e9)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:b92f20c,b:b92f20c,t:0,x:71af3996,y:b92f20c
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b92f20c,b:71af3996,t:0,x:b8d63f93,y:b92f20c
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:b92f20c,b:745a48de,t:1e578218,x:1457401c,y:b92f20c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b8d63f93,b:1457401c,t:0,x:cd2d7faf,y:b8d63f93
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:816fd6e9,b:cd2d7faf,t:0,x:4e9d5698,y:816fd6e9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:18,b:4e9d5698,t:0,x:4e9d56b0,y:18
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4e9d56b0,b:c19bf174,t:0,x:10394824,y:4e9d56b0
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:c0645fde,b:c0645fde,t:0,x:4eef14d5,y:c0645fde
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c0645fde,b:4eef14d5,t:0,x:df906fd4,y:c0645fde
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:c0645fde,b:d932eb16,t:87912990,x:c1306b96,y:c0645fde
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:df906fd4,b:c1306b96,t:0,x:a0c0db6a,y:df906fd4
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:10394824,b:a0c0db6a,t:0,x:b0fa238e,y:10394824
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f71fc5a9,b:10394824,t:0,x:7590dcd,y:f71fc5a9
+[SREG]:0,0,0,0,0,0,0,0,87912990,d932eb16,c0645fde,b0fa238e,816fd6e9,1e578218,745a48de,b92f20c,)
+[SREG]:0,0,0,0,0,0,0,0,87912990,d932eb16,c0645fde,b0fa238e,1e578218,745a48de,b92f20c,7590dcd,)
+[IMD] (e49b69c1,efbe4786,fc19dc6,240ca1cc,)
+
+LOOP3,round:16 (b0fa238e,c0645fde,d932eb16,87912990,7590dcd,b92f20c,745a48de,1e578218)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:7590dcd,b:7590dcd,t:0,x:8dbd8f16,y:7590dcd
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7590dcd,b:8dbd8f16,t:0,x:213b6995,y:7590dcd
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:7590dcd,b:b92f20c,t:745a48de,x:7312401e,y:7590dcd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:213b6995,b:7312401e,t:0,x:944da9b3,y:213b6995
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1e578218,b:944da9b3,t:0,x:b2a52bcb,y:1e578218
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:61626380,b:b2a52bcb,t:0,x:14078f4b,y:61626380
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:14078f4b,b:e49b69c1,t:0,x:f8a2f90c,y:14078f4b
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:b0fa238e,b:b0fa238e,t:0,x:b04b0f32,y:b0fa238e
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b0fa238e,b:b04b0f32,t:0,x:58c535f1,y:b0fa238e
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:b0fa238e,b:c0645fde,t:d932eb16,x:d0726b9e,y:b0fa238e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:58c535f1,b:d0726b9e,t:0,x:2937a18f,y:58c535f1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f8a2f90c,b:2937a18f,t:0,x:21da9a9b,y:f8a2f90c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:87912990,b:f8a2f90c,t:0,x:8034229c,y:87912990
+[SREG]:0,0,0,0,0,0,0,0,d932eb16,c0645fde,b0fa238e,21da9a9b,1e578218,745a48de,b92f20c,7590dcd,)
+[SREG]:0,0,0,0,0,0,0,0,d932eb16,c0645fde,b0fa238e,21da9a9b,745a48de,b92f20c,7590dcd,8034229c,)
+[IMD] (efbe4786,fc19dc6,240ca1cc,2de92c6f,)
+
+LOOP3,round:17 (21da9a9b,b0fa238e,c0645fde,d932eb16,8034229c,7590dcd,b92f20c,745a48de)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:8034229c,b:8034229c,t:0,x:2190d60e,y:8034229c
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8034229c,b:2190d60e,t:0,x:3b81984e,y:8034229c
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:8034229c,b:7590dcd,t:b92f20c,x:b92d08c,y:8034229c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3b81984e,b:b92d08c,t:0,x:471468da,y:3b81984e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:745a48de,b:471468da,t:0,x:bb6eb1b8,y:745a48de
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0000,b:bb6eb1b8,t:0,x:bb7db1b8,y:f0000
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bb7db1b8,b:efbe4786,t:0,x:ab3bf93e,y:bb7db1b8
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:21da9a9b,b:21da9a9b,t:0,x:1cafa872,y:21da9a9b
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:21da9a9b,b:1cafa872,t:0,x:76c5c4f5,y:21da9a9b
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:21da9a9b,b:b0fa238e,t:c0645fde,x:a0fa1b9e,y:21da9a9b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:76c5c4f5,b:a0fa1b9e,t:0,x:17bfe093,y:76c5c4f5
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ab3bf93e,b:17bfe093,t:0,x:c2fbd9d1,y:ab3bf93e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d932eb16,b:ab3bf93e,t:0,x:846ee454,y:d932eb16
+[SREG]:0,0,0,0,0,0,0,0,c0645fde,b0fa238e,21da9a9b,c2fbd9d1,745a48de,b92f20c,7590dcd,8034229c,)
+[SREG]:0,0,0,0,0,0,0,0,c0645fde,b0fa238e,21da9a9b,c2fbd9d1,b92f20c,7590dcd,8034229c,846ee454,)
+[IMD] (fc19dc6,240ca1cc,2de92c6f,4a7484aa,)
+
+LOOP3,round:18 (c2fbd9d1,21da9a9b,b0fa238e,c0645fde,846ee454,8034229c,7590dcd,b92f20c)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:846ee454,b:846ee454,t:0,x:d881364d,y:846ee454
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:846ee454,b:d881364d,t:0,x:eff31c0f,y:846ee454
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:846ee454,b:8034229c,t:7590dcd,x:8335299d,y:846ee454
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:eff31c0f,b:8335299d,t:0,x:732845ac,y:eff31c0f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b92f20c,b:732845ac,t:0,x:7ebb37b8,y:b92f20c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7da86405,b:7ebb37b8,t:0,x:fc639bbd,y:7da86405
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fc639bbd,b:fc19dc6,t:0,x:c253983,y:fc639bbd
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:c2fbd9d1,b:c2fbd9d1,t:0,x:be30e1aa,y:c2fbd9d1
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c2fbd9d1,b:be30e1aa,t:0,x:5157a6a1,y:c2fbd9d1
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:c2fbd9d1,b:21da9a9b,t:b0fa238e,x:a0fa9b9b,y:c2fbd9d1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5157a6a1,b:a0fa9b9b,t:0,x:f252423c,y:5157a6a1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c253983,b:f252423c,t:0,x:fe777bbf,y:c253983
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c0645fde,b:c253983,t:0,x:cc899961,y:c0645fde
+[SREG]:0,0,0,0,0,0,0,0,b0fa238e,21da9a9b,c2fbd9d1,fe777bbf,b92f20c,7590dcd,8034229c,846ee454,)
+[SREG]:0,0,0,0,0,0,0,0,b0fa238e,21da9a9b,c2fbd9d1,fe777bbf,7590dcd,8034229c,846ee454,cc899961,)
+[IMD] (240ca1cc,2de92c6f,4a7484aa,5cb0a9dc,)
+
+LOOP3,round:19 (fe777bbf,c2fbd9d1,21da9a9b,b0fa238e,cc899961,846ee454,8034229c,7590dcd)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:cc899961,b:cc899961,t:0,x:ab0bb756,y:cc899961
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cc899961,b:ab0bb756,t:0,x:efc707b0,y:cc899961
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:cc899961,b:846ee454,t:8034229c,x:843ca2dc,y:cc899961
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:efc707b0,b:843ca2dc,t:0,x:7403aa8c,y:efc707b0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7590dcd,b:7403aa8c,t:0,x:7b5cb859,y:7590dcd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:600003c6,b:7b5cb859,t:0,x:db5cbc1f,y:600003c6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:db5cbc1f,b:240ca1cc,t:0,x:ff695deb,y:db5cbc1f
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:fe777bbf,b:fe777bbf,t:0,x:22622d54,y:fe777bbf
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fe777bbf,b:22622d54,t:0,x:ff8cd2ad,y:fe777bbf
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:fe777bbf,b:c2fbd9d1,t:21da9a9b,x:e2fbdb9b,y:fe777bbf
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ff8cd2ad,b:e2fbdb9b,t:0,x:e288ae48,y:ff8cd2ad
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ff695deb,b:e288ae48,t:0,x:e1f20c33,y:ff695deb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b0fa238e,b:ff695deb,t:0,x:b0638179,y:b0fa238e
+[SREG]:0,0,0,0,0,0,0,0,21da9a9b,c2fbd9d1,fe777bbf,e1f20c33,7590dcd,8034229c,846ee454,cc899961,)
+[SREG]:0,0,0,0,0,0,0,0,21da9a9b,c2fbd9d1,fe777bbf,e1f20c33,8034229c,846ee454,cc899961,b0638179,)
+[IMD] (2de92c6f,4a7484aa,5cb0a9dc,76f988da,)
+
+LOOP3,round:20 (e1f20c33,fe777bbf,c2fbd9d1,21da9a9b,b0638179,cc899961,846ee454,8034229c)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:b0638179,b:b0638179,t:0,x:c9f78275,y:b0638179
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b0638179,b:c9f78275,t:0,x:f8373ead,y:b0638179
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:b0638179,b:cc899961,t:846ee454,x:840de565,y:b0638179
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f8373ead,b:840de565,t:0,x:7c452412,y:f8373ead
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8034229c,b:7c452412,t:0,x:fc7946ae,y:8034229c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e9d7b78,b:fc7946ae,t:0,x:3b16c226,y:3e9d7b78
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3b16c226,b:2de92c6f,t:0,x:68ffee95,y:3b16c226
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:e1f20c33,b:e1f20c33,t:0,x:99e38c9c,y:e1f20c33
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e1f20c33,b:99e38c9c,t:0,x:51d3431b,y:e1f20c33
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:e1f20c33,b:fe777bbf,t:c2fbd9d1,x:e2f359b3,y:e1f20c33
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:51d3431b,b:e2f359b3,t:0,x:34c69cce,y:51d3431b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:68ffee95,b:34c69cce,t:0,x:9dc68b63,y:68ffee95
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:21da9a9b,b:68ffee95,t:0,x:8ada8930,y:21da9a9b
+[SREG]:0,0,0,0,0,0,0,0,c2fbd9d1,fe777bbf,e1f20c33,9dc68b63,8034229c,846ee454,cc899961,b0638179,)
+[SREG]:0,0,0,0,0,0,0,0,c2fbd9d1,fe777bbf,e1f20c33,9dc68b63,846ee454,cc899961,b0638179,8ada8930,)
+[IMD] (4a7484aa,5cb0a9dc,76f988da,983e5152,)
+
+LOOP3,round:21 (9dc68b63,e1f20c33,fe777bbf,c2fbd9d1,8ada8930,b0638179,cc899961,846ee454)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:8ada8930,b:8ada8930,t:0,x:e43a3175,y:8ada8930
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8ada8930,b:e43a3175,t:0,x:897ea930,y:8ada8930
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:8ada8930,b:b0638179,t:cc899961,x:c4439171,y:8ada8930
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:897ea930,b:c4439171,t:0,x:4dc23aa1,y:897ea930
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:846ee454,b:4dc23aa1,t:0,x:d2311ef5,y:846ee454
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:183fc00,b:d2311ef5,t:0,x:d3b51af5,y:183fc00
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d3b51af5,b:4a7484aa,t:0,x:1e299f9f,y:d3b51af5
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:9dc68b63,b:9dc68b63,t:0,x:bc6d4cec,y:9dc68b63
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9dc68b63,b:bc6d4cec,t:0,x:a640c29b,y:9dc68b63
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:9dc68b63,b:e1f20c33,t:fe777bbf,x:fdf60b33,y:9dc68b63
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a640c29b,b:fdf60b33,t:0,x:a436cdce,y:a640c29b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1e299f9f,b:a436cdce,t:0,x:c2606d6d,y:1e299f9f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c2fbd9d1,b:1e299f9f,t:0,x:e1257970,y:c2fbd9d1
+[SREG]:0,0,0,0,0,0,0,0,fe777bbf,e1f20c33,9dc68b63,c2606d6d,846ee454,cc899961,b0638179,8ada8930,)
+[SREG]:0,0,0,0,0,0,0,0,fe777bbf,e1f20c33,9dc68b63,c2606d6d,cc899961,b0638179,8ada8930,e1257970,)
+[IMD] (5cb0a9dc,76f988da,983e5152,a831c66d,)
+
+LOOP3,round:22 (c2606d6d,9dc68b63,e1f20c33,fe777bbf,e1257970,8ada8930,b0638179,cc899961)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:e1257970,b:e1257970,t:0,x:ed98b14a,y:e1257970
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e1257970,b:ed98b14a,t:0,x:7f24093a,y:e1257970
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:e1257970,b:8ada8930,t:b0638179,x:90428939,y:e1257970
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7f24093a,b:90428939,t:0,x:f669273,y:7f24093a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cc899961,b:f669273,t:0,x:dbf02bd4,y:cc899961
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:12dcbfdb,b:dbf02bd4,t:0,x:eeccebaf,y:12dcbfdb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:eeccebaf,b:5cb0a9dc,t:0,x:4b7d958b,y:eeccebaf
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:c2606d6d,b:c2606d6d,t:0,x:1bf60858,y:c2606d6d
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c2606d6d,b:1bf60858,t:0,x:9a43bf51,y:c2606d6d
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:c2606d6d,b:9dc68b63,t:e1f20c33,x:c1e20d63,y:c2606d6d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9a43bf51,b:c1e20d63,t:0,x:5c25ccb4,y:9a43bf51
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4b7d958b,b:5c25ccb4,t:0,x:a7a3623f,y:4b7d958b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fe777bbf,b:4b7d958b,t:0,x:49f5114a,y:fe777bbf
+[SREG]:0,0,0,0,0,0,0,0,e1f20c33,9dc68b63,c2606d6d,a7a3623f,cc899961,b0638179,8ada8930,e1257970,)
+[SREG]:0,0,0,0,0,0,0,0,e1f20c33,9dc68b63,c2606d6d,a7a3623f,b0638179,8ada8930,e1257970,49f5114a,)
+[IMD] (76f988da,983e5152,a831c66d,b00327c8,)
+
+LOOP3,round:23 (a7a3623f,c2606d6d,9dc68b63,e1f20c33,49f5114a,e1257970,8ada8930,b0638179)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:49f5114a,b:49f5114a,t:0,x:6eeae7,y:49f5114a
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:49f5114a,b:6eeae7,t:0,x:fae64fc3,y:49f5114a
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:49f5114a,b:e1257970,t:8ada8930,x:c32f9970,y:49f5114a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fae64fc3,b:c32f9970,t:0,x:be15e933,y:fae64fc3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b0638179,b:be15e933,t:0,x:6e796aac,y:b0638179
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e2e2c38e,b:6e796aac,t:0,x:515c2e3a,y:e2e2c38e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:515c2e3a,b:76f988da,t:0,x:c855b714,y:515c2e3a
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:a7a3623f,b:a7a3623f,t:0,x:f815e594,y:a7a3623f
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a7a3623f,b:f815e594,t:0,x:759d1b0a,y:a7a3623f
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:a7a3623f,b:c2606d6d,t:9dc68b63,x:87e26b6f,y:a7a3623f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:759d1b0a,b:87e26b6f,t:0,x:fd7f8679,y:759d1b0a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c855b714,b:fd7f8679,t:0,x:c5d53d8d,y:c855b714
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e1f20c33,b:c855b714,t:0,x:aa47c347,y:e1f20c33
+[SREG]:0,0,0,0,0,0,0,0,9dc68b63,c2606d6d,a7a3623f,c5d53d8d,b0638179,8ada8930,e1257970,49f5114a,)
+[SREG]:0,0,0,0,0,0,0,0,9dc68b63,c2606d6d,a7a3623f,c5d53d8d,8ada8930,e1257970,49f5114a,aa47c347,)
+[IMD] (983e5152,a831c66d,b00327c8,bf597fc7,)
+
+LOOP3,round:24 (c5d53d8d,a7a3623f,c2606d6d,9dc68b63,aa47c347,49f5114a,e1257970,8ada8930)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:aa47c347,b:aa47c347,t:0,x:765c57f5,y:aa47c347
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:aa47c347,b:765c57f5,t:0,x:55bdf420,y:aa47c347
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:aa47c347,b:49f5114a,t:e1257970,x:49653972,y:aa47c347
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:55bdf420,b:49653972,t:0,x:9f232d92,y:55bdf420
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8ada8930,b:9f232d92,t:0,x:29fdb6c2,y:8ada8930
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c8215c1a,b:29fdb6c2,t:0,x:f21f12dc,y:c8215c1a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f21f12dc,b:983e5152,t:0,x:8a5d642e,y:f21f12dc
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:c5d53d8d,b:c5d53d8d,t:0,x:9d1b61ca,y:c5d53d8d
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c5d53d8d,b:9d1b61ca,t:0,x:c9ed56dd,y:c5d53d8d
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:c5d53d8d,b:a7a3623f,t:c2606d6d,x:c7e16d2d,y:c5d53d8d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c9ed56dd,b:c7e16d2d,t:0,x:91cec40a,y:c9ed56dd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8a5d642e,b:91cec40a,t:0,x:1c2c2838,y:8a5d642e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9dc68b63,b:8a5d642e,t:0,x:2823ef91,y:9dc68b63
+[SREG]:0,0,0,0,0,0,0,0,c2606d6d,a7a3623f,c5d53d8d,1c2c2838,8ada8930,e1257970,49f5114a,aa47c347,)
+[SREG]:0,0,0,0,0,0,0,0,c2606d6d,a7a3623f,c5d53d8d,1c2c2838,e1257970,49f5114a,aa47c347,2823ef91,)
+[IMD] (a831c66d,b00327c8,bf597fc7,c6e00bf3,)
+
+LOOP3,round:25 (1c2c2838,c5d53d8d,a7a3623f,c2606d6d,2823ef91,aa47c347,49f5114a,e1257970)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:2823ef91,b:2823ef91,t:0,x:b6858bc3,y:2823ef91
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2823ef91,b:b6858bc3,t:0,x:a7724357,y:2823ef91
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:2823ef91,b:aa47c347,t:49f5114a,x:69d7d34b,y:2823ef91
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a7724357,b:69d7d34b,t:0,x:114a16a2,y:a7724357
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e1257970,b:114a16a2,t:0,x:f26f9012,y:e1257970
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b73679a2,b:f26f9012,t:0,x:a9a609b4,y:b73679a2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a9a609b4,b:a831c66d,t:0,x:51d7d021,y:a9a609b4
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:1c2c2838,b:1c2c2838,t:0,x:46cbeb6f,y:1c2c2838
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1c2c2838,b:46cbeb6f,t:0,x:f66b0b1f,y:1c2c2838
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:1c2c2838,b:c5d53d8d,t:a7a3623f,x:85a5283d,y:1c2c2838
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f66b0b1f,b:85a5283d,t:0,x:7c10335c,y:f66b0b1f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:51d7d021,b:7c10335c,t:0,x:cde8037d,y:51d7d021
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c2606d6d,b:51d7d021,t:0,x:14383d8e,y:c2606d6d
+[SREG]:0,0,0,0,0,0,0,0,a7a3623f,c5d53d8d,1c2c2838,cde8037d,e1257970,49f5114a,aa47c347,2823ef91,)
+[SREG]:0,0,0,0,0,0,0,0,a7a3623f,c5d53d8d,1c2c2838,cde8037d,49f5114a,aa47c347,2823ef91,14383d8e,)
+[IMD] (b00327c8,bf597fc7,c6e00bf3,d5a79147,)
+
+LOOP3,round:26 (cde8037d,1c2c2838,c5d53d8d,a7a3623f,14383d8e,2823ef91,aa47c347,49f5114a)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:14383d8e,b:14383d8e,t:0,x:899267f1,y:14383d8e
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:14383d8e,b:899267f1,t:0,x:958ca0fb,y:14383d8e
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:14383d8e,b:2823ef91,t:aa47c347,x:aa67efc1,y:14383d8e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:958ca0fb,b:aa67efc1,t:0,x:3ff490bc,y:958ca0fb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:49f5114a,b:3ff490bc,t:0,x:89e9a206,y:49f5114a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5bc3909,b:89e9a206,t:0,x:6fa5db0f,y:e5bc3909
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6fa5db0f,b:b00327c8,t:0,x:1fa902d7,y:6fa5db0f
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:cde8037d,b:cde8037d,t:0,x:68946f9f,y:cde8037d
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cde8037d,b:68946f9f,t:0,x:c89998a8,y:cde8037d
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:cde8037d,b:1c2c2838,t:c5d53d8d,x:cdec293d,y:cde8037d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c89998a8,b:cdec293d,t:0,x:9685c1e5,y:c89998a8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1fa902d7,b:9685c1e5,t:0,x:b62ec4bc,y:1fa902d7
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a7a3623f,b:1fa902d7,t:0,x:c74c6516,y:a7a3623f
+[SREG]:0,0,0,0,0,0,0,0,c5d53d8d,1c2c2838,cde8037d,b62ec4bc,49f5114a,aa47c347,2823ef91,14383d8e,)
+[SREG]:0,0,0,0,0,0,0,0,c5d53d8d,1c2c2838,cde8037d,b62ec4bc,aa47c347,2823ef91,14383d8e,c74c6516,)
+[IMD] (bf597fc7,c6e00bf3,d5a79147,6ca6351,)
+
+LOOP3,round:27 (b62ec4bc,cde8037d,1c2c2838,c5d53d8d,c74c6516,14383d8e,2823ef91,aa47c347)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:c74c6516,b:c74c6516,t:0,x:f9c5d818,y:c74c6516
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c74c6516,b:f9c5d818,t:0,x:5ff7537b,y:c74c6516
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:c74c6516,b:14383d8e,t:2823ef91,x:2c2baf87,y:c74c6516
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5ff7537b,b:2c2baf87,t:0,x:8c230302,y:5ff7537b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:aa47c347,b:8c230302,t:0,x:366ac649,y:aa47c347
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:32663c5b,b:366ac649,t:0,x:68d102a4,y:32663c5b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:68d102a4,b:bf597fc7,t:0,x:282a826b,y:68d102a4
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:b62ec4bc,b:b62ec4bc,t:0,x:86e0059,y:b62ec4bc
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b62ec4bc,b:86e0059,t:0,x:b37cf281,y:b62ec4bc
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:b62ec4bc,b:cde8037d,t:1c2c2838,x:9c2c003c,y:b62ec4bc
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b37cf281,b:9c2c003c,t:0,x:4fa8f2bd,y:b37cf281
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:282a826b,b:4fa8f2bd,t:0,x:77d37528,y:282a826b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c5d53d8d,b:282a826b,t:0,x:edffbff8,y:c5d53d8d
+[SREG]:0,0,0,0,0,0,0,0,1c2c2838,cde8037d,b62ec4bc,77d37528,aa47c347,2823ef91,14383d8e,c74c6516,)
+[SREG]:0,0,0,0,0,0,0,0,1c2c2838,cde8037d,b62ec4bc,77d37528,2823ef91,14383d8e,c74c6516,edffbff8,)
+[IMD] (c6e00bf3,d5a79147,6ca6351,14292967,)
+
+LOOP3,round:28 (77d37528,b62ec4bc,cde8037d,1c2c2838,edffbff8,c74c6516,14383d8e,2823ef91)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:edffbff8,b:edffbff8,t:0,x:1caa4108,y:edffbff8
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:edffbff8,b:1caa4108,t:0,x:e375bd7e,y:edffbff8
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:edffbff8,b:c74c6516,t:14383d8e,x:d54c2516,y:edffbff8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e375bd7e,b:d54c2516,t:0,x:b8c1e294,y:e375bd7e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2823ef91,b:b8c1e294,t:0,x:e0e5d225,y:2823ef91
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9d209d67,b:e0e5d225,t:0,x:7e066f8c,y:9d209d67
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7e066f8c,b:c6e00bf3,t:0,x:44e67b7f,y:7e066f8c
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:77d37528,b:77d37528,t:0,x:b4b763d1,y:77d37528
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:77d37528,b:b4b763d1,t:0,x:f963c20e,y:77d37528
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:77d37528,b:b62ec4bc,t:cde8037d,x:f7ea453c,y:77d37528
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f963c20e,b:f7ea453c,t:0,x:f14e074a,y:f963c20e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:44e67b7f,b:f14e074a,t:0,x:363482c9,y:44e67b7f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1c2c2838,b:44e67b7f,t:0,x:6112a3b7,y:1c2c2838
+[SREG]:0,0,0,0,0,0,0,0,cde8037d,b62ec4bc,77d37528,363482c9,2823ef91,14383d8e,c74c6516,edffbff8,)
+[SREG]:0,0,0,0,0,0,0,0,cde8037d,b62ec4bc,77d37528,363482c9,14383d8e,c74c6516,edffbff8,6112a3b7,)
+[IMD] (d5a79147,6ca6351,14292967,27b70a85,)
+
+LOOP3,round:29 (363482c9,77d37528,b62ec4bc,cde8037d,6112a3b7,edffbff8,c74c6516,14383d8e)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:6112a3b7,b:6112a3b7,t:0,x:ab6868da,y:6112a3b7
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6112a3b7,b:ab6868da,t:0,x:2239b36a,y:6112a3b7
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:6112a3b7,b:edffbff8,t:c74c6516,x:e75ee7b0,y:6112a3b7
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2239b36a,b:e75ee7b0,t:0,x:9989b1a,y:2239b36a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:14383d8e,b:9989b1a,t:0,x:1dd0d8a8,y:14383d8e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ec8726cb,b:1dd0d8a8,t:0,x:a57ff73,y:ec8726cb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a57ff73,b:d5a79147,t:0,x:dfff90ba,y:a57ff73
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:363482c9,b:363482c9,t:0,x:5bc49116,y:363482c9
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:363482c9,b:5bc49116,t:0,x:89cfb5ce,y:363482c9
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:363482c9,b:77d37528,t:b62ec4bc,x:3636c4a8,y:363482c9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:89cfb5ce,b:3636c4a8,t:0,x:c0067a76,y:89cfb5ce
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:dfff90ba,b:c0067a76,t:0,x:a0060b30,y:dfff90ba
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cde8037d,b:dfff90ba,t:0,x:ade79437,y:cde8037d
+[SREG]:0,0,0,0,0,0,0,0,b62ec4bc,77d37528,363482c9,a0060b30,14383d8e,c74c6516,edffbff8,6112a3b7,)
+[SREG]:0,0,0,0,0,0,0,0,b62ec4bc,77d37528,363482c9,a0060b30,c74c6516,edffbff8,6112a3b7,ade79437,)
+[IMD] (6ca6351,14292967,27b70a85,2e1b2138,)
+
+LOOP3,round:30 (a0060b30,363482c9,77d37528,b62ec4bc,ade79437,6112a3b7,edffbff8,c74c6516)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:ade79437,b:ade79437,t:0,x:584222a2,y:ade79437
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ade79437,b:584222a2,t:0,x:ab883974,y:ade79437
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:ade79437,b:6112a3b7,t:edffbff8,x:611aabff,y:ade79437
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ab883974,b:611aabff,t:0,x:ca2e573,y:ab883974
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c74c6516,b:ca2e573,t:0,x:d3ef4a89,y:c74c6516
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:702138a4,b:d3ef4a89,t:0,x:4410832d,y:702138a4
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4410832d,b:6ca6351,t:0,x:4adae67e,y:4410832d
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:a0060b30,b:a0060b30,t:0,x:718482fc,y:a0060b30
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a0060b30,b:718482fc,t:0,x:69a8407c,y:a0060b30
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:a0060b30,b:363482c9,t:77d37528,x:36160328,y:a0060b30
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:69a8407c,b:36160328,t:0,x:9fbe43a4,y:69a8407c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4adae67e,b:9fbe43a4,t:0,x:ea992a22,y:4adae67e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b62ec4bc,b:4adae67e,t:0,x:109ab3a,y:b62ec4bc
+[SREG]:0,0,0,0,0,0,0,0,77d37528,363482c9,a0060b30,ea992a22,c74c6516,edffbff8,6112a3b7,ade79437,)
+[SREG]:0,0,0,0,0,0,0,0,77d37528,363482c9,a0060b30,ea992a22,edffbff8,6112a3b7,ade79437,109ab3a,)
+[IMD] (14292967,27b70a85,2e1b2138,4d2c6dfc,)
+
+LOOP3,round:31 (ea992a22,a0060b30,363482c9,77d37528,109ab3a,ade79437,6112a3b7,edffbff8)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:109ab3a,b:109ab3a,t:0,x:8f440799,y:109ab3a
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:109ab3a,b:8f440799,t:0,x:b919a99,y:109ab3a
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:109ab3a,b:ade79437,t:6112a3b7,x:611380b7,y:109ab3a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b919a99,b:611380b7,t:0,x:6ca51b50,y:b919a99
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:edffbff8,b:6ca51b50,t:0,x:5aa4db48,y:edffbff8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d3b7973b,b:5aa4db48,t:0,x:2e5c7283,y:d3b7973b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2e5c7283,b:14292967,t:0,x:42859bea,y:2e5c7283
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:ea992a22,b:ea992a22,t:0,x:ebb11e41,y:ea992a22
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ea992a22,b:ebb11e41,t:0,x:8f1995eb,y:ea992a22
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:ea992a22,b:a0060b30,t:363482c9,x:a2140a20,y:ea992a22
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8f1995eb,b:a2140a20,t:0,x:312da00b,y:8f1995eb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:42859bea,b:312da00b,t:0,x:73b33bf5,y:42859bea
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:77d37528,b:42859bea,t:0,x:ba591112,y:77d37528
+[SREG]:0,0,0,0,0,0,0,0,363482c9,a0060b30,ea992a22,73b33bf5,edffbff8,6112a3b7,ade79437,109ab3a,)
+[SREG]:0,0,0,0,0,0,0,0,363482c9,a0060b30,ea992a22,73b33bf5,6112a3b7,ade79437,109ab3a,ba591112,)
+[IMD] (27b70a85,2e1b2138,4d2c6dfc,53380d13,)
+
+LOOP3,round:32 (73b33bf5,ea992a22,a0060b30,363482c9,ba591112,109ab3a,ade79437,6112a3b7)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:ba591112,b:ba591112,t:0,x:68be2f66,y:ba591112
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ba591112,b:68be2f66,t:0,x:4436a63b,y:ba591112
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:ba591112,b:109ab3a,t:ade79437,x:5af8537,y:ba591112
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4436a63b,b:5af8537,t:0,x:49e62b72,y:4436a63b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6112a3b7,b:49e62b72,t:0,x:aaf8cf29,y:6112a3b7
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:93f5997f,b:aaf8cf29,t:0,x:3eee68a8,y:93f5997f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3eee68a8,b:27b70a85,t:0,x:66a5732d,y:3eee68a8
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:73b33bf5,b:73b33bf5,t:0,x:83475364,y:73b33bf5
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:73b33bf5,b:83475364,t:0,x:4fa886aa,y:73b33bf5
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:73b33bf5,b:ea992a22,t:a0060b30,x:e2932b30,y:73b33bf5
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4fa886aa,b:e2932b30,t:0,x:323bb1da,y:4fa886aa
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:66a5732d,b:323bb1da,t:0,x:98e12507,y:66a5732d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:363482c9,b:66a5732d,t:0,x:9cd9f5f6,y:363482c9
+[SREG]:0,0,0,0,0,0,0,0,a0060b30,ea992a22,73b33bf5,98e12507,6112a3b7,ade79437,109ab3a,ba591112,)
+[SREG]:0,0,0,0,0,0,0,0,a0060b30,ea992a22,73b33bf5,98e12507,ade79437,109ab3a,ba591112,9cd9f5f6,)
+[IMD] (2e1b2138,4d2c6dfc,53380d13,650a7354,)
+
+LOOP3,round:33 (98e12507,73b33bf5,ea992a22,a0060b30,9cd9f5f6,ba591112,109ab3a,ade79437)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:9cd9f5f6,b:9cd9f5f6,t:0,x:64a0fce9,y:9cd9f5f6
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9cd9f5f6,b:64a0fce9,t:0,x:85a07a7,y:9cd9f5f6
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:9cd9f5f6,b:ba591112,t:109ab3a,x:99591b1a,y:9cd9f5f6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:85a07a7,b:99591b1a,t:0,x:a1b322c1,y:85a07a7
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ade79437,b:a1b322c1,t:0,x:4f9ab6f8,y:ade79437
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3b68ba73,b:4f9ab6f8,t:0,x:8b03716b,y:3b68ba73
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8b03716b,b:2e1b2138,t:0,x:b91e92a3,y:8b03716b
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:98e12507,b:98e12507,t:0,x:ce048e48,y:98e12507
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:98e12507,b:ce048e48,t:0,x:4a90902b,y:98e12507
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:98e12507,b:73b33bf5,t:ea992a22,x:fab12b27,y:98e12507
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4a90902b,b:fab12b27,t:0,x:4541bb52,y:4a90902b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b91e92a3,b:4541bb52,t:0,x:fe604df5,y:b91e92a3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a0060b30,b:b91e92a3,t:0,x:59249dd3,y:a0060b30
+[SREG]:0,0,0,0,0,0,0,0,ea992a22,73b33bf5,98e12507,fe604df5,ade79437,109ab3a,ba591112,9cd9f5f6,)
+[SREG]:0,0,0,0,0,0,0,0,ea992a22,73b33bf5,98e12507,fe604df5,109ab3a,ba591112,9cd9f5f6,59249dd3,)
+[IMD] (4d2c6dfc,53380d13,650a7354,766a0abb,)
+
+LOOP3,round:34 (fe604df5,98e12507,73b33bf5,ea992a22,59249dd3,9cd9f5f6,ba591112,109ab3a)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:59249dd3,b:59249dd3,t:0,x:f70fb6e4,y:59249dd3
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:59249dd3,b:f70fb6e4,t:0,x:65415f48,y:59249dd3
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:59249dd3,b:9cd9f5f6,t:ba591112,x:ba5995d2,y:59249dd3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:65415f48,b:ba5995d2,t:0,x:1f9af51a,y:65415f48
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:109ab3a,b:1f9af51a,t:0,x:20a4a054,y:109ab3a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:aff4ffc1,b:20a4a054,t:0,x:d099a015,y:aff4ffc1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d099a015,b:4d2c6dfc,t:0,x:1dc60e11,y:d099a015
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:fe604df5,b:fe604df5,t:0,x:1037e07f,y:fe604df5
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fe604df5,b:1037e07f,t:0,x:91003786,y:fe604df5
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:fe604df5,b:98e12507,t:73b33bf5,x:fae12df5,y:fe604df5
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:91003786,b:fae12df5,t:0,x:8be1657b,y:91003786
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1dc60e11,b:8be1657b,t:0,x:a9a7738c,y:1dc60e11
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ea992a22,b:1dc60e11,t:0,x:85f3833,y:ea992a22
+[SREG]:0,0,0,0,0,0,0,0,73b33bf5,98e12507,fe604df5,a9a7738c,109ab3a,ba591112,9cd9f5f6,59249dd3,)
+[SREG]:0,0,0,0,0,0,0,0,73b33bf5,98e12507,fe604df5,a9a7738c,ba591112,9cd9f5f6,59249dd3,85f3833,)
+[IMD] (53380d13,650a7354,766a0abb,81c2c92e,)
+
+LOOP3,round:35 (a9a7738c,fe604df5,98e12507,73b33bf5,85f3833,59249dd3,9cd9f5f6,ba591112)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:85f3833,b:85f3833,t:0,x:ca407707,y:85f3833
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:85f3833,b:ca407707,t:0,x:e5dc6e83,y:85f3833
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:85f3833,b:59249dd3,t:9cd9f5f6,x:9c84ddd7,y:85f3833
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5dc6e83,b:9c84ddd7,t:0,x:82614c5a,y:e5dc6e83
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ba591112,b:82614c5a,t:0,x:3cba5d6c,y:ba591112
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f10a5c62,b:3cba5d6c,t:0,x:2dc4b9ce,y:f10a5c62
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2dc4b9ce,b:53380d13,t:0,x:80fcc6e1,y:2dc4b9ce
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:a9a7738c,b:a9a7738c,t:0,x:b60c91d8,y:a9a7738c
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a9a7738c,b:b60c91d8,t:0,x:2bc2a37e,y:a9a7738c
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:a9a7738c,b:fe604df5,t:98e12507,x:b8e16585,y:a9a7738c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2bc2a37e,b:b8e16585,t:0,x:e4a40903,y:2bc2a37e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:80fcc6e1,b:e4a40903,t:0,x:65a0cfe4,y:80fcc6e1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:73b33bf5,b:80fcc6e1,t:0,x:f4b002d6,y:73b33bf5
+[SREG]:0,0,0,0,0,0,0,0,98e12507,fe604df5,a9a7738c,65a0cfe4,ba591112,9cd9f5f6,59249dd3,85f3833,)
+[SREG]:0,0,0,0,0,0,0,0,98e12507,fe604df5,a9a7738c,65a0cfe4,9cd9f5f6,59249dd3,85f3833,f4b002d6,)
+[IMD] (650a7354,766a0abb,81c2c92e,92722c85,)
+
+LOOP3,round:36 (65a0cfe4,a9a7738c,fe604df5,98e12507,f4b002d6,85f3833,59249dd3,9cd9f5f6)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:f4b002d6,b:f4b002d6,t:0,x:10c560b,y:f4b002d6
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f4b002d6,b:10c560b,t:0,x:590d3d71,y:f4b002d6
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:f4b002d6,b:85f3833,t:59249dd3,x:9149d13,y:f4b002d6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:590d3d71,b:9149d13,t:0,x:6221da84,y:590d3d71
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9cd9f5f6,b:6221da84,t:0,x:fefbd07a,y:9cd9f5f6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a8b3996,b:fefbd07a,t:0,x:9870a10,y:a8b3996
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9870a10,b:650a7354,t:0,x:6e917d64,y:9870a10
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:65a0cfe4,b:65a0cfe4,t:0,x:664b1eff,y:65a0cfe4
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:65a0cfe4,b:664b1eff,t:0,x:e5748f69,y:65a0cfe4
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:65a0cfe4,b:a9a7738c,t:fe604df5,x:eda04fe4,y:65a0cfe4
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e5748f69,b:eda04fe4,t:0,x:d314df4d,y:e5748f69
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6e917d64,b:d314df4d,t:0,x:41a65cb1,y:6e917d64
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:98e12507,b:6e917d64,t:0,x:772a26b,y:98e12507
+[SREG]:0,0,0,0,0,0,0,0,fe604df5,a9a7738c,65a0cfe4,41a65cb1,9cd9f5f6,59249dd3,85f3833,f4b002d6,)
+[SREG]:0,0,0,0,0,0,0,0,fe604df5,a9a7738c,65a0cfe4,41a65cb1,59249dd3,85f3833,f4b002d6,772a26b,)
+[IMD] (766a0abb,81c2c92e,92722c85,a2bfe8a1,)
+
+LOOP3,round:37 (41a65cb1,65a0cfe4,a9a7738c,fe604df5,772a26b,f4b002d6,85f3833,59249dd3)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:772a26b,b:772a26b,t:0,x:e17d24dd,y:772a26b
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:772a26b,b:e17d24dd,t:0,x:582c115e,y:772a26b
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:772a26b,b:f4b002d6,t:85f3833,x:c3d1a52,y:772a26b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:582c115e,b:c3d1a52,t:0,x:64692bb0,y:582c115e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:59249dd3,b:64692bb0,t:0,x:bd8dc983,y:59249dd3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:72af830a,b:bd8dc983,t:0,x:303d4c8d,y:72af830a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:303d4c8d,b:766a0abb,t:0,x:a6a75748,y:303d4c8d
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:41a65cb1,b:41a65cb1,t:0,x:b5e39a1e,y:41a65cb1
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:41a65cb1,b:b5e39a1e,t:0,x:2c915f18,y:41a65cb1
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:41a65cb1,b:65a0cfe4,t:a9a7738c,x:61a65fa4,y:41a65cb1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2c915f18,b:61a65fa4,t:0,x:8e37bebc,y:2c915f18
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a6a75748,b:8e37bebc,t:0,x:34df1604,y:a6a75748
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fe604df5,b:a6a75748,t:0,x:a507a53d,y:fe604df5
+[SREG]:0,0,0,0,0,0,0,0,a9a7738c,65a0cfe4,41a65cb1,34df1604,59249dd3,85f3833,f4b002d6,772a26b,)
+[SREG]:0,0,0,0,0,0,0,0,a9a7738c,65a0cfe4,41a65cb1,34df1604,85f3833,f4b002d6,772a26b,a507a53d,)
+[IMD] (81c2c92e,92722c85,a2bfe8a1,a81a664b,)
+
+LOOP3,round:38 (34df1604,41a65cb1,65a0cfe4,a9a7738c,a507a53d,772a26b,f4b002d6,85f3833)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:a507a53d,b:a507a53d,t:0,x:5120be60,y:a507a53d
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a507a53d,b:5120be60,t:0,x:d2f220b2,y:a507a53d
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:a507a53d,b:772a26b,t:f4b002d6,x:55b2a2eb,y:a507a53d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d2f220b2,b:55b2a2eb,t:0,x:28a4c39d,y:d2f220b2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:85f3833,b:28a4c39d,t:0,x:3103fbd0,y:85f3833
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9409e33e,b:3103fbd0,t:0,x:c50ddf0e,y:9409e33e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c50ddf0e,b:81c2c92e,t:0,x:46d0a83c,y:c50ddf0e
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:34df1604,b:34df1604,t:0,x:bd166379,y:34df1604
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:34df1604,b:bd166379,t:0,x:c14e73aa,y:34df1604
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:34df1604,b:41a65cb1,t:65a0cfe4,x:65a65ea4,y:34df1604
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c14e73aa,b:65a65ea4,t:0,x:26f4d24e,y:c14e73aa
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:46d0a83c,b:26f4d24e,t:0,x:6dc57a8a,y:46d0a83c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a9a7738c,b:46d0a83c,t:0,x:f0781bc8,y:a9a7738c
+[SREG]:0,0,0,0,0,0,0,0,65a0cfe4,41a65cb1,34df1604,6dc57a8a,85f3833,f4b002d6,772a26b,a507a53d,)
+[SREG]:0,0,0,0,0,0,0,0,65a0cfe4,41a65cb1,34df1604,6dc57a8a,f4b002d6,772a26b,a507a53d,f0781bc8,)
+[IMD] (92722c85,a2bfe8a1,a81a664b,c24b8b70,)
+
+LOOP3,round:39 (6dc57a8a,34df1604,41a65cb1,65a0cfe4,f0781bc8,a507a53d,772a26b,f4b002d6)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:f0781bc8,b:f0781bc8,t:0,x:5adfef6c,y:f0781bc8
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0781bc8,b:5adfef6c,t:0,x:66d20b14,y:f0781bc8
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:f0781bc8,b:a507a53d,t:772a26b,x:a702a12b,y:f0781bc8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:66d20b14,b:a702a12b,t:0,x:dd4ac3f,y:66d20b14
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f4b002d6,b:dd4ac3f,t:0,x:284af15,y:f4b002d6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:24641522,b:284af15,t:0,x:26e8c437,y:24641522
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:26e8c437,b:92722c85,t:0,x:b95af0bc,y:26e8c437
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:6dc57a8a,b:6dc57a8a,t:0,x:4f223089,y:6dc57a8a
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6dc57a8a,b:4f223089,t:0,x:5ac8193e,y:6dc57a8a
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:6dc57a8a,b:34df1604,t:41a65cb1,x:65c75e80,y:6dc57a8a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5ac8193e,b:65c75e80,t:0,x:c08f77be,y:5ac8193e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b95af0bc,b:c08f77be,t:0,x:79ea687a,y:b95af0bc
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:65a0cfe4,b:b95af0bc,t:0,x:1efbc0a0,y:65a0cfe4
+[SREG]:0,0,0,0,0,0,0,0,41a65cb1,34df1604,6dc57a8a,79ea687a,f4b002d6,772a26b,a507a53d,f0781bc8,)
+[SREG]:0,0,0,0,0,0,0,0,41a65cb1,34df1604,6dc57a8a,79ea687a,772a26b,a507a53d,f0781bc8,1efbc0a0,)
+[IMD] (a2bfe8a1,a81a664b,c24b8b70,c76c51a3,)
+
+LOOP3,round:40 (79ea687a,6dc57a8a,34df1604,41a65cb1,1efbc0a0,f0781bc8,a507a53d,772a26b)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:1efbc0a0,b:1efbc0a0,t:0,x:9478307a,y:1efbc0a0
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1efbc0a0,b:9478307a,t:0,x:e9986075,y:1efbc0a0
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:1efbc0a0,b:f0781bc8,t:a507a53d,x:b17c259d,y:1efbc0a0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e9986075,b:b17c259d,t:0,x:9b148612,y:e9986075
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:772a26b,b:9b148612,t:0,x:a287287d,y:772a26b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9f47bf94,b:a287287d,t:0,x:41cee811,y:9f47bf94
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:41cee811,b:a2bfe8a1,t:0,x:e48ed0b2,y:41cee811
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:79ea687a,b:79ea687a,t:0,x:dda9554d,y:79ea687a
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:79ea687a,b:dda9554d,t:0,x:7408bcaa,y:79ea687a
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:79ea687a,b:6dc57a8a,t:34df1604,x:7dcf7a0a,y:79ea687a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7408bcaa,b:7dcf7a0a,t:0,x:f1d836b4,y:7408bcaa
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e48ed0b2,b:f1d836b4,t:0,x:d6670766,y:e48ed0b2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:41a65cb1,b:e48ed0b2,t:0,x:26352d63,y:41a65cb1
+[SREG]:0,0,0,0,0,0,0,0,34df1604,6dc57a8a,79ea687a,d6670766,772a26b,a507a53d,f0781bc8,1efbc0a0,)
+[SREG]:0,0,0,0,0,0,0,0,34df1604,6dc57a8a,79ea687a,d6670766,a507a53d,f0781bc8,1efbc0a0,26352d63,)
+[IMD] (a81a664b,c24b8b70,c76c51a3,d192e819,)
+
+LOOP3,round:41 (d6670766,79ea687a,6dc57a8a,34df1604,26352d63,1efbc0a0,f0781bc8,a507a53d)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:26352d63,b:26352d63,t:0,x:20fc1210,y:26352d63
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:26352d63,b:20fc1210,t:0,x:3a6aa383,y:26352d63
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:26352d63,b:1efbc0a0,t:f0781bc8,x:d67912a8,y:26352d63
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3a6aa383,b:d67912a8,t:0,x:10e3b62b,y:3a6aa383
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a507a53d,b:10e3b62b,t:0,x:b5eb5b68,y:a507a53d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0a64f5a,b:b5eb5b68,t:0,x:a691aac2,y:f0a64f5a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a691aac2,b:a81a664b,t:0,x:4eac110d,y:a691aac2
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:d6670766,b:d6670766,t:0,x:8eaf72e1,y:d6670766
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d6670766,b:8eaf72e1,t:0,x:12b2e9b8,y:d6670766
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:d6670766,b:79ea687a,t:6dc57a8a,x:7de76a6a,y:d6670766
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:12b2e9b8,b:7de76a6a,t:0,x:909a5422,y:12b2e9b8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4eac110d,b:909a5422,t:0,x:df46652f,y:4eac110d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:34df1604,b:4eac110d,t:0,x:838b2711,y:34df1604
+[SREG]:0,0,0,0,0,0,0,0,6dc57a8a,79ea687a,d6670766,df46652f,a507a53d,f0781bc8,1efbc0a0,26352d63,)
+[SREG]:0,0,0,0,0,0,0,0,6dc57a8a,79ea687a,d6670766,df46652f,f0781bc8,1efbc0a0,26352d63,838b2711,)
+[IMD] (c24b8b70,c76c51a3,d192e819,d6990624,)
+
+LOOP3,round:42 (df46652f,d6670766,79ea687a,6dc57a8a,838b2711,26352d63,1efbc0a0,f0781bc8)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:838b2711,b:838b2711,t:0,x:a43e5df8,y:838b2711
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:838b2711,b:a43e5df8,t:0,x:61add539,y:838b2711
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:838b2711,b:26352d63,t:1efbc0a0,x:1e71e5a1,y:838b2711
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:61add539,b:1e71e5a1,t:0,x:801fbada,y:61add539
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f0781bc8,b:801fbada,t:0,x:7097d6a2,y:f0781bc8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e246a79,b:7097d6a2,t:0,x:aebc411b,y:3e246a79
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:aebc411b,b:c24b8b70,t:0,x:7107cc8b,y:aebc411b
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:df46652f,b:df46652f,t:0,x:deaf6378,y:df46652f
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:df46652f,b:deaf6378,t:0,x:c73bdc05,y:df46652f
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:df46652f,b:d6670766,t:79ea687a,x:df66656e,y:df46652f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c73bdc05,b:df66656e,t:0,x:a6a24173,y:c73bdc05
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7107cc8b,b:a6a24173,t:0,x:17aa0dfe,y:7107cc8b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6dc57a8a,b:7107cc8b,t:0,x:decd4715,y:6dc57a8a
+[SREG]:0,0,0,0,0,0,0,0,79ea687a,d6670766,df46652f,17aa0dfe,f0781bc8,1efbc0a0,26352d63,838b2711,)
+[SREG]:0,0,0,0,0,0,0,0,79ea687a,d6670766,df46652f,17aa0dfe,1efbc0a0,26352d63,838b2711,decd4715,)
+[IMD] (c76c51a3,d192e819,d6990624,f40e3585,)
+
+LOOP3,round:43 (17aa0dfe,df46652f,d6670766,79ea687a,decd4715,838b2711,26352d63,1efbc0a0)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:decd4715,b:decd4715,t:0,x:b5c0ecb4,y:decd4715
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:decd4715,b:b5c0ecb4,t:0,x:d363665b,y:decd4715
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:decd4715,b:838b2711,t:26352d63,x:a2b92f73,y:decd4715
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d363665b,b:a2b92f73,t:0,x:761c95ce,y:d363665b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1efbc0a0,b:761c95ce,t:0,x:9518566e,y:1efbc0a0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:27333ba3,b:9518566e,t:0,x:bc4b9211,y:27333ba3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bc4b9211,b:c76c51a3,t:0,x:83b7e3b4,y:bc4b9211
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:17aa0dfe,b:17aa0dfe,t:0,x:ea1a3e2f,y:17aa0dfe
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:17aa0dfe,b:ea1a3e2f,t:0,x:422dc671,y:17aa0dfe
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:17aa0dfe,b:df46652f,t:d6670766,x:d766056e,y:17aa0dfe
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:422dc671,b:d766056e,t:0,x:1993cbdf,y:422dc671
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:83b7e3b4,b:1993cbdf,t:0,x:9d4baf93,y:83b7e3b4
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:79ea687a,b:83b7e3b4,t:0,x:fda24c2e,y:79ea687a
+[SREG]:0,0,0,0,0,0,0,0,d6670766,df46652f,17aa0dfe,9d4baf93,1efbc0a0,26352d63,838b2711,decd4715,)
+[SREG]:0,0,0,0,0,0,0,0,d6670766,df46652f,17aa0dfe,9d4baf93,26352d63,838b2711,decd4715,fda24c2e,)
+[IMD] (d192e819,d6990624,f40e3585,106aa070,)
+
+LOOP3,round:44 (9d4baf93,17aa0dfe,df46652f,d6670766,fda24c2e,decd4715,838b2711,26352d63)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:fda24c2e,b:fda24c2e,t:0,x:3e293d79,y:fda24c2e
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fda24c2e,b:3e293d79,t:0,x:ef0f2a07,y:fda24c2e
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:fda24c2e,b:decd4715,t:838b2711,x:de896715,y:fda24c2e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ef0f2a07,b:de896715,t:0,x:cd98911c,y:ef0f2a07
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:26352d63,b:cd98911c,t:0,x:f3cdbe7f,y:26352d63
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c4763f2,b:f3cdbe7f,t:0,x:152271,y:c4763f2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:152271,b:d192e819,t:0,x:d1a80a8a,y:152271
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:9d4baf93,b:9d4baf93,t:0,x:9bce01b9,y:9d4baf93
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9d4baf93,b:9bce01b9,t:0,x:b5704fcc,y:9d4baf93
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:9d4baf93,b:17aa0dfe,t:df46652f,x:9f4a2dbf,y:9d4baf93
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b5704fcc,b:9f4a2dbf,t:0,x:54ba7d8b,y:b5704fcc
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d1a80a8a,b:54ba7d8b,t:0,x:26628815,y:d1a80a8a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d6670766,b:d1a80a8a,t:0,x:a80f11f0,y:d6670766
+[SREG]:0,0,0,0,0,0,0,0,df46652f,17aa0dfe,9d4baf93,26628815,26352d63,838b2711,decd4715,fda24c2e,)
+[SREG]:0,0,0,0,0,0,0,0,df46652f,17aa0dfe,9d4baf93,26628815,838b2711,decd4715,fda24c2e,a80f11f0,)
+[IMD] (d6990624,f40e3585,106aa070,19a4c116,)
+
+LOOP3,round:45 (26628815,9d4baf93,17aa0dfe,df46652f,a80f11f0,fda24c2e,decd4715,838b2711)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:a80f11f0,b:a80f11f0,t:0,x:fcb53da5,y:a80f11f0
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a80f11f0,b:fcb53da5,t:0,x:fb3dc5f1,y:a80f11f0
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:a80f11f0,b:fda24c2e,t:decd4715,x:fec24625,y:a80f11f0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fb3dc5f1,b:fec24625,t:0,x:fa000c16,y:fb3dc5f1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:838b2711,b:fa000c16,t:0,x:7d8b3327,y:838b2711
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:840abf27,b:7d8b3327,t:0,x:195f24e,y:840abf27
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:195f24e,b:d6990624,t:0,x:d82ef872,y:195f24e
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:26628815,b:26628815,t:0,x:9319111,y:26628815
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:26628815,b:9319111,t:0,x:8311c588,y:26628815
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:26628815,b:9d4baf93,t:17aa0dfe,x:176a8d97,y:26628815
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8311c588,b:176a8d97,t:0,x:9a7c531f,y:8311c588
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d82ef872,b:9a7c531f,t:0,x:72ab4b91,y:d82ef872
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:df46652f,b:d82ef872,t:0,x:b7755da1,y:df46652f
+[SREG]:0,0,0,0,0,0,0,0,17aa0dfe,9d4baf93,26628815,72ab4b91,838b2711,decd4715,fda24c2e,a80f11f0,)
+[SREG]:0,0,0,0,0,0,0,0,17aa0dfe,9d4baf93,26628815,72ab4b91,decd4715,fda24c2e,a80f11f0,b7755da1,)
+[IMD] (f40e3585,106aa070,19a4c116,1e376c08,)
+
+LOOP3,round:46 (72ab4b91,26628815,9d4baf93,17aa0dfe,b7755da1,a80f11f0,fda24c2e,decd4715)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:b7755da1,b:b7755da1,t:0,x:32eb3bdd,y:b7755da1
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b7755da1,b:32eb3bdd,t:0,x:8845eb06,y:b7755da1
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:b7755da1,b:a80f11f0,t:fda24c2e,x:e88711ae,y:b7755da1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8845eb06,b:e88711ae,t:0,x:70ccfcb4,y:8845eb06
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:decd4715,b:70ccfcb4,t:0,x:4f9a43c9,y:decd4715
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7a290d5d,b:4f9a43c9,t:0,x:c9c35126,y:7a290d5d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c9c35126,b:f40e3585,t:0,x:bdd186ab,y:c9c35126
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:72ab4b91,b:72ab4b91,t:0,x:2147be,y:72ab4b91
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:72ab4b91,b:2147be,t:0,x:ad0f0274,y:72ab4b91
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:72ab4b91,b:26628815,t:9d4baf93,x:366b8b91,y:72ab4b91
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ad0f0274,b:366b8b91,t:0,x:e37a8e05,y:ad0f0274
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bdd186ab,b:e37a8e05,t:0,x:a14c14b0,y:bdd186ab
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:17aa0dfe,b:bdd186ab,t:0,x:d57b94a9,y:17aa0dfe
+[SREG]:0,0,0,0,0,0,0,0,9d4baf93,26628815,72ab4b91,a14c14b0,decd4715,fda24c2e,a80f11f0,b7755da1,)
+[SREG]:0,0,0,0,0,0,0,0,9d4baf93,26628815,72ab4b91,a14c14b0,fda24c2e,a80f11f0,b7755da1,d57b94a9,)
+[IMD] (106aa070,19a4c116,1e376c08,2748774c,)
+
+LOOP3,round:47 (a14c14b0,72ab4b91,26628815,9d4baf93,d57b94a9,b7755da1,a80f11f0,fda24c2e)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:d57b94a9,b:d57b94a9,t:0,x:326f4120,y:d57b94a9
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d57b94a9,b:326f4120,t:0,x:8fa515ca,y:d57b94a9
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:d57b94a9,b:b7755da1,t:a80f11f0,x:bd7515f1,y:d57b94a9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8fa515ca,b:bd7515f1,t:0,x:4d1a2bbb,y:8fa515ca
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fda24c2e,b:4d1a2bbb,t:0,x:4abc77e9,y:fda24c2e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:65c43da,b:4abc77e9,t:0,x:5118bbc3,y:65c43da
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5118bbc3,b:106aa070,t:0,x:61835c33,y:5118bbc3
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:a14c14b0,b:a14c14b0,t:0,x:8dd60f4c,y:a14c14b0
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a14c14b0,b:8dd60f4c,t:0,x:bd84cdc9,y:a14c14b0
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:a14c14b0,b:72ab4b91,t:26628815,x:226a0891,y:a14c14b0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bd84cdc9,b:226a0891,t:0,x:dfeed65a,y:bd84cdc9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:61835c33,b:dfeed65a,t:0,x:4172328d,y:61835c33
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9d4baf93,b:61835c33,t:0,x:fecf0bc6,y:9d4baf93
+[SREG]:0,0,0,0,0,0,0,0,26628815,72ab4b91,a14c14b0,4172328d,fda24c2e,a80f11f0,b7755da1,d57b94a9,)
+[SREG]:0,0,0,0,0,0,0,0,26628815,72ab4b91,a14c14b0,4172328d,a80f11f0,b7755da1,d57b94a9,fecf0bc6,)
+[IMD] (19a4c116,1e376c08,2748774c,34b0bcb5,)
+
+LOOP3,round:48 (4172328d,a14c14b0,72ab4b91,26628815,fecf0bc6,d57b94a9,b7755da1,a80f11f0)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:fecf0bc6,b:fecf0bc6,t:0,x:6324e5ce,y:fecf0bc6
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fecf0bc6,b:6324e5ce,t:0,x:4a106b1,y:fecf0bc6
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:fecf0bc6,b:d57b94a9,t:b7755da1,x:d57b54a1,y:fecf0bc6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4a106b1,b:d57b54a1,t:0,x:da1c5b52,y:4a106b1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a80f11f0,b:da1c5b52,t:0,x:822b6d42,y:a80f11f0
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fb3e89cb,b:822b6d42,t:0,x:7d69f70d,y:fb3e89cb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7d69f70d,b:19a4c116,t:0,x:970eb823,y:7d69f70d
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:4172328d,b:4172328d,t:0,x:c4368732,y:4172328d
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4172328d,b:c4368732,t:0,x:cfcb237,y:4172328d
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:4172328d,b:a14c14b0,t:72ab4b91,x:616a1291,y:4172328d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cfcb237,b:616a1291,t:0,x:6e66c4c8,y:cfcb237
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:970eb823,b:6e66c4c8,t:0,x:5757ceb,y:970eb823
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:26628815,b:970eb823,t:0,x:bd714038,y:26628815
+[SREG]:0,0,0,0,0,0,0,0,72ab4b91,a14c14b0,4172328d,5757ceb,a80f11f0,b7755da1,d57b94a9,fecf0bc6,)
+[SREG]:0,0,0,0,0,0,0,0,72ab4b91,a14c14b0,4172328d,5757ceb,b7755da1,d57b94a9,fecf0bc6,bd714038,)
+[IMD] (1e376c08,2748774c,34b0bcb5,391c0cb3,)
+
+LOOP3,round:49 (5757ceb,4172328d,a14c14b0,72ab4b91,bd714038,fecf0bc6,d57b94a9,b7755da1)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:bd714038,b:bd714038,t:0,x:e5e26b28,y:bd714038
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bd714038,b:e5e26b28,t:0,x:5d427776,y:bd714038
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:bd714038,b:fecf0bc6,t:d57b94a9,x:fc4b9481,y:bd714038
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5d427776,b:fc4b9481,t:0,x:598e0bf7,y:5d427776
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b7755da1,b:598e0bf7,t:0,x:11036998,y:b7755da1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cc7617db,b:11036998,t:0,x:dd798173,y:cc7617db
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:dd798173,b:1e376c08,t:0,x:fbb0ed7b,y:dd798173
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:5757ceb,b:5757ceb,t:0,x:26057491,y:5757ceb
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5757ceb,b:26057491,t:0,x:f3f6d884,y:5757ceb
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:5757ceb,b:4172328d,t:a14c14b0,x:17434a9,y:5757ceb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f3f6d884,b:17434a9,t:0,x:f56b0d2d,y:f3f6d884
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fbb0ed7b,b:f56b0d2d,t:0,x:f11bfaa8,y:fbb0ed7b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:72ab4b91,b:fbb0ed7b,t:0,x:6e5c390c,y:72ab4b91
+[SREG]:0,0,0,0,0,0,0,0,a14c14b0,4172328d,5757ceb,f11bfaa8,b7755da1,d57b94a9,fecf0bc6,bd714038,)
+[SREG]:0,0,0,0,0,0,0,0,a14c14b0,4172328d,5757ceb,f11bfaa8,d57b94a9,fecf0bc6,bd714038,6e5c390c,)
+[IMD] (2748774c,34b0bcb5,391c0cb3,4ed8aa4a,)
+
+LOOP3,round:50 (f11bfaa8,5757ceb,4172328d,a14c14b0,6e5c390c,bd714038,fecf0bc6,d57b94a9)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:6e5c390c,b:6e5c390c,t:0,x:1034bb63,y:6e5c390c
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6e5c390c,b:1034bb63,t:0,x:3e283d54,y:6e5c390c
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:6e5c390c,b:bd714038,t:fecf0bc6,x:bcd302ca,y:6e5c390c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3e283d54,b:bcd302ca,t:0,x:fafb401e,y:3e283d54
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d57b94a9,b:fafb401e,t:0,x:d076d4c7,y:d57b94a9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b9e66c34,b:d076d4c7,t:0,x:8a5d40fb,y:b9e66c34
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8a5d40fb,b:2748774c,t:0,x:b1a5b847,y:8a5d40fb
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:f11bfaa8,b:f11bfaa8,t:0,x:e9017675,y:f11bfaa8
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f11bfaa8,b:e9017675,t:0,x:86ebd5b1,y:f11bfaa8
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:f11bfaa8,b:5757ceb,t:4172328d,x:41737aa9,y:f11bfaa8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:86ebd5b1,b:41737aa9,t:0,x:c85f505a,y:86ebd5b1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b1a5b847,b:c85f505a,t:0,x:7a0508a1,y:b1a5b847
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a14c14b0,b:b1a5b847,t:0,x:52f1ccf7,y:a14c14b0
+[SREG]:0,0,0,0,0,0,0,0,4172328d,5757ceb,f11bfaa8,7a0508a1,d57b94a9,fecf0bc6,bd714038,6e5c390c,)
+[SREG]:0,0,0,0,0,0,0,0,4172328d,5757ceb,f11bfaa8,7a0508a1,fecf0bc6,bd714038,6e5c390c,52f1ccf7,)
+[IMD] (34b0bcb5,391c0cb3,4ed8aa4a,5b9cca4f,)
+
+LOOP3,round:51 (7a0508a1,f11bfaa8,5757ceb,4172328d,52f1ccf7,6e5c390c,bd714038,fecf0bc6)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:52f1ccf7,b:52f1ccf7,t:0,x:43a1990a,y:52f1ccf7
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:52f1ccf7,b:43a1990a,t:0,x:3b47e2a3,y:52f1ccf7
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:52f1ccf7,b:6e5c390c,t:bd714038,x:ef50080c,y:52f1ccf7
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3b47e2a3,b:ef50080c,t:0,x:2a97eaaf,y:3b47e2a3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fecf0bc6,b:2a97eaaf,t:0,x:2966f675,y:fecf0bc6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a9993667,b:2966f675,t:0,x:d3002cdc,y:a9993667
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d3002cdc,b:34b0bcb5,t:0,x:7b0e991,y:d3002cdc
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:7a0508a1,b:7a0508a1,t:0,x:1b8a9200,y:7a0508a1
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7a0508a1,b:1b8a9200,t:0,x:fa817e8,y:7a0508a1
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:7a0508a1,b:f11bfaa8,t:5757ceb,x:711578a9,y:7a0508a1
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fa817e8,b:711578a9,t:0,x:80bd9091,y:fa817e8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7b0e991,b:80bd9091,t:0,x:886e7a22,y:7b0e991
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4172328d,b:7b0e991,t:0,x:49231c1e,y:4172328d
+[SREG]:0,0,0,0,0,0,0,0,5757ceb,f11bfaa8,7a0508a1,886e7a22,fecf0bc6,bd714038,6e5c390c,52f1ccf7,)
+[SREG]:0,0,0,0,0,0,0,0,5757ceb,f11bfaa8,7a0508a1,886e7a22,bd714038,6e5c390c,52f1ccf7,49231c1e,)
+[IMD] (391c0cb3,4ed8aa4a,5b9cca4f,682e6ff3,)
+
+LOOP3,round:52 (886e7a22,7a0508a1,f11bfaa8,5757ceb,49231c1e,52f1ccf7,6e5c390c,bd714038)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:49231c1e,b:49231c1e,t:0,x:faeda813,y:49231c1e
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:49231c1e,b:faeda813,t:0,x:6b63a737,y:49231c1e
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:49231c1e,b:52f1ccf7,t:6e5c390c,x:667d2d16,y:49231c1e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6b63a737,b:667d2d16,t:0,x:d1e0d44d,y:6b63a737
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:bd714038,b:d1e0d44d,t:0,x:8f521485,y:bd714038
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:84badedd,b:8f521485,t:0,x:140cf362,y:84badedd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:140cf362,b:391c0cb3,t:0,x:4d290015,y:140cf362
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:886e7a22,b:886e7a22,t:0,x:730fddfb,y:886e7a22
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:886e7a22,b:730fddfb,t:0,x:cae757da,y:886e7a22
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:886e7a22,b:7a0508a1,t:f11bfaa8,x:f80f7aa0,y:886e7a22
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cae757da,b:f80f7aa0,t:0,x:c2f6d27a,y:cae757da
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4d290015,b:c2f6d27a,t:0,x:101fd28f,y:4d290015
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5757ceb,b:4d290015,t:0,x:529e7d00,y:5757ceb
+[SREG]:0,0,0,0,0,0,0,0,f11bfaa8,7a0508a1,886e7a22,101fd28f,bd714038,6e5c390c,52f1ccf7,49231c1e,)
+[SREG]:0,0,0,0,0,0,0,0,f11bfaa8,7a0508a1,886e7a22,101fd28f,6e5c390c,52f1ccf7,49231c1e,529e7d00,)
+[IMD] (4ed8aa4a,5b9cca4f,682e6ff3,748f82ee,)
+
+LOOP3,round:53 (101fd28f,886e7a22,7a0508a1,f11bfaa8,529e7d00,49231c1e,52f1ccf7,6e5c390c)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:529e7d00,b:529e7d00,t:0,x:a1402a3b,y:529e7d00
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:529e7d00,b:a1402a3b,t:0,x:ee7eaa12,y:529e7d00
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:529e7d00,b:49231c1e,t:52f1ccf7,x:40639cf7,y:529e7d00
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ee7eaa12,b:40639cf7,t:0,x:2ee24709,y:ee7eaa12
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6e5c390c,b:2ee24709,t:0,x:9d3e8015,y:6e5c390c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c21462bc,b:9d3e8015,t:0,x:5f52e2d1,y:c21462bc
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5f52e2d1,b:4ed8aa4a,t:0,x:ae2b8d1b,y:5f52e2d1
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:101fd28f,b:101fd28f,t:0,x:507f745d,y:101fd28f
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:101fd28f,b:507f745d,t:0,x:2f35481d,y:101fd28f
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:101fd28f,b:886e7a22,t:7a0508a1,x:180f5aa3,y:101fd28f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2f35481d,b:180f5aa3,t:0,x:4744a2c0,y:2f35481d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ae2b8d1b,b:4744a2c0,t:0,x:f5702fdb,y:ae2b8d1b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f11bfaa8,b:ae2b8d1b,t:0,x:9f4787c3,y:f11bfaa8
+[SREG]:0,0,0,0,0,0,0,0,7a0508a1,886e7a22,101fd28f,f5702fdb,6e5c390c,52f1ccf7,49231c1e,529e7d00,)
+[SREG]:0,0,0,0,0,0,0,0,7a0508a1,886e7a22,101fd28f,f5702fdb,52f1ccf7,49231c1e,529e7d00,9f4787c3,)
+[IMD] (5b9cca4f,682e6ff3,748f82ee,78a5636f,)
+
+LOOP3,round:54 (f5702fdb,101fd28f,886e7a22,7a0508a1,9f4787c3,529e7d00,49231c1e,52f1ccf7)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:9f4787c3,b:9f4787c3,t:0,x:f60ef6ef,y:9f4787c3
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9f4787c3,b:f60ef6ef,t:0,x:55cd1720,y:9f4787c3
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:9f4787c3,b:529e7d00,t:49231c1e,x:52261d1c,y:9f4787c3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:55cd1720,b:52261d1c,t:0,x:a7f3343c,y:55cd1720
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:52f1ccf7,b:a7f3343c,t:0,x:fae50133,y:52f1ccf7
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:1487472c,b:fae50133,t:0,x:f6c485f,y:1487472c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f6c485f,b:5b9cca4f,t:0,x:6b0912ae,y:f6c485f
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:f5702fdb,b:f5702fdb,t:0,x:8383a077,y:f5702fdb
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f5702fdb,b:8383a077,t:0,x:433ccfa2,y:f5702fdb
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:f5702fdb,b:101fd28f,t:886e7a22,x:907e7a8b,y:f5702fdb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:433ccfa2,b:907e7a8b,t:0,x:d3bb4a2d,y:433ccfa2
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6b0912ae,b:d3bb4a2d,t:0,x:3ec45cdb,y:6b0912ae
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7a0508a1,b:6b0912ae,t:0,x:e50e1b4f,y:7a0508a1
+[SREG]:0,0,0,0,0,0,0,0,886e7a22,101fd28f,f5702fdb,3ec45cdb,52f1ccf7,49231c1e,529e7d00,9f4787c3,)
+[SREG]:0,0,0,0,0,0,0,0,886e7a22,101fd28f,f5702fdb,3ec45cdb,49231c1e,529e7d00,9f4787c3,e50e1b4f,)
+[IMD] (682e6ff3,748f82ee,78a5636f,84c87814,)
+
+LOOP3,round:55 (3ec45cdb,f5702fdb,101fd28f,886e7a22,e50e1b4f,9f4787c3,529e7d00,49231c1e)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:e50e1b4f,b:e50e1b4f,t:0,x:566899ae,y:e50e1b4f
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e50e1b4f,b:566899ae,t:0,x:d1653e5c,y:e50e1b4f
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:e50e1b4f,b:9f4787c3,t:529e7d00,x:97966743,y:e50e1b4f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d1653e5c,b:97966743,t:0,x:68fba59f,y:d1653e5c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:49231c1e,b:68fba59f,t:0,x:b21ec1bd,y:49231c1e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b20f7a99,b:b21ec1bd,t:0,x:642e3c56,y:b20f7a99
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:642e3c56,b:682e6ff3,t:0,x:cc5cac49,y:642e3c56
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:3ec45cdb,b:3ec45cdb,t:0,x:2968e114,y:3ec45cdb
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3ec45cdb,b:2968e114,t:0,x:381b8def,y:3ec45cdb
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:3ec45cdb,b:f5702fdb,t:101fd28f,x:34545edb,y:3ec45cdb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:381b8def,b:34545edb,t:0,x:6c6fecca,y:381b8def
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:cc5cac49,b:6c6fecca,t:0,x:38cc9913,y:cc5cac49
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:886e7a22,b:cc5cac49,t:0,x:54cb266b,y:886e7a22
+[SREG]:0,0,0,0,0,0,0,0,101fd28f,f5702fdb,3ec45cdb,38cc9913,49231c1e,529e7d00,9f4787c3,e50e1b4f,)
+[SREG]:0,0,0,0,0,0,0,0,101fd28f,f5702fdb,3ec45cdb,38cc9913,529e7d00,9f4787c3,e50e1b4f,54cb266b,)
+[IMD] (748f82ee,78a5636f,84c87814,8cc70208,)
+
+LOOP3,round:56 (38cc9913,3ec45cdb,f5702fdb,101fd28f,54cb266b,e50e1b4f,9f4787c3,529e7d00)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:54cb266b,b:54cb266b,t:0,x:6039b5fd,y:54cb266b
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:54cb266b,b:6039b5fd,t:0,x:5aa8057,y:54cb266b
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:54cb266b,b:e50e1b4f,t:9f4787c3,x:cf0e83cb,y:54cb266b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5aa8057,b:cf0e83cb,t:0,x:d4b90422,y:5aa8057
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:529e7d00,b:d4b90422,t:0,x:27578122,y:529e7d00
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ef57b9cd,b:27578122,t:0,x:16af3aef,y:ef57b9cd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:16af3aef,b:748f82ee,t:0,x:8b3ebddd,y:16af3aef
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:38cc9913,b:38cc9913,t:0,x:6aae020,y:38cc9913
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:38cc9913,b:6aae020,t:0,x:34ceacc3,y:38cc9913
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:38cc9913,b:3ec45cdb,t:f5702fdb,x:3cc41ddb,y:38cc9913
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:34ceacc3,b:3cc41ddb,t:0,x:7192ca9e,y:34ceacc3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:8b3ebddd,b:7192ca9e,t:0,x:fcd1887b,y:8b3ebddd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:101fd28f,b:8b3ebddd,t:0,x:9b5e906c,y:101fd28f
+[SREG]:0,0,0,0,0,0,0,0,f5702fdb,3ec45cdb,38cc9913,fcd1887b,529e7d00,9f4787c3,e50e1b4f,54cb266b,)
+[SREG]:0,0,0,0,0,0,0,0,f5702fdb,3ec45cdb,38cc9913,fcd1887b,9f4787c3,e50e1b4f,54cb266b,9b5e906c,)
+[IMD] (78a5636f,84c87814,8cc70208,90befffa,)
+
+LOOP3,round:57 (fcd1887b,38cc9913,3ec45cdb,f5702fdb,9b5e906c,54cb266b,e50e1b4f,9f4787c3)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:9b5e906c,b:9b5e906c,t:0,x:bffe1193,y:9b5e906c
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9b5e906c,b:bffe1193,t:0,x:10b627de,y:9b5e906c
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:9b5e906c,b:54cb266b,t:e50e1b4f,x:744a0b6b,y:9b5e906c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:10b627de,b:744a0b6b,t:0,x:85003349,y:10b627de
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9f4787c3,b:85003349,t:0,x:2447bb0c,y:9f4787c3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ebe6b238,b:2447bb0c,t:0,x:102e6d44,y:ebe6b238
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:102e6d44,b:78a5636f,t:0,x:88d3d0b3,y:102e6d44
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:fcd1887b,b:fcd1887b,t:0,x:bceb8492,y:fcd1887b
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fcd1887b,b:bceb8492,t:0,x:faca6b61,y:fcd1887b
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:fcd1887b,b:38cc9913,t:3ec45cdb,x:3cc4985b,y:fcd1887b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:faca6b61,b:3cc4985b,t:0,x:378f03bc,y:faca6b61
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:88d3d0b3,b:378f03bc,t:0,x:c062d46f,y:88d3d0b3
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:f5702fdb,b:88d3d0b3,t:0,x:7e44008e,y:f5702fdb
+[SREG]:0,0,0,0,0,0,0,0,3ec45cdb,38cc9913,fcd1887b,c062d46f,9f4787c3,e50e1b4f,54cb266b,9b5e906c,)
+[SREG]:0,0,0,0,0,0,0,0,3ec45cdb,38cc9913,fcd1887b,c062d46f,e50e1b4f,54cb266b,9b5e906c,7e44008e,)
+[IMD] (84c87814,8cc70208,90befffa,a4506ceb,)
+
+LOOP3,round:58 (c062d46f,fcd1887b,38cc9913,3ec45cdb,7e44008e,9b5e906c,54cb266b,e50e1b4f)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:7e44008e,b:7e44008e,t:0,x:2836d882,y:7e44008e
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7e44008e,b:2836d882,t:0,x:a369fbd,y:7e44008e
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:7e44008e,b:9b5e906c,t:54cb266b,x:1acf266d,y:7e44008e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a369fbd,b:1acf266d,t:0,x:2505c62a,y:a369fbd
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e50e1b4f,b:2505c62a,t:0,x:a13e179,y:e50e1b4f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9fe3095e,b:a13e179,t:0,x:a9f6ead7,y:9fe3095e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a9f6ead7,b:84c87814,t:0,x:2ebf62eb,y:a9f6ead7
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:c062d46f,b:c062d46f,t:0,x:5366b60d,y:c062d46f
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c062d46f,b:5366b60d,t:0,x:d837090c,y:c062d46f
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:c062d46f,b:fcd1887b,t:38cc9913,x:f8c0987b,y:c062d46f
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d837090c,b:f8c0987b,t:0,x:d0f7a187,y:d837090c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2ebf62eb,b:d0f7a187,t:0,x:ffb70472,y:2ebf62eb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3ec45cdb,b:2ebf62eb,t:0,x:6d83bfc6,y:3ec45cdb
+[SREG]:0,0,0,0,0,0,0,0,38cc9913,fcd1887b,c062d46f,ffb70472,e50e1b4f,54cb266b,9b5e906c,7e44008e,)
+[SREG]:0,0,0,0,0,0,0,0,38cc9913,fcd1887b,c062d46f,ffb70472,54cb266b,9b5e906c,7e44008e,6d83bfc6,)
+[IMD] (8cc70208,90befffa,a4506ceb,bef9a3f7,)
+
+LOOP3,round:59 (ffb70472,c062d46f,fcd1887b,38cc9913,6d83bfc6,7e44008e,9b5e906c,54cb266b)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:6d83bfc6,b:6d83bfc6,t:0,x:e17bbe88,y:6d83bfc6
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6d83bfc6,b:e17bbe88,t:0,x:20a45dbe,y:6d83bfc6
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:6d83bfc6,b:7e44008e,t:9b5e906c,x:fe5c00ae,y:6d83bfc6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:20a45dbe,b:fe5c00ae,t:0,x:1f005e6c,y:20a45dbe
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:54cb266b,b:1f005e6c,t:0,x:73cb84d7,y:54cb266b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:78bc8d4b,b:73cb84d7,t:0,x:ec881222,y:78bc8d4b
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ec881222,b:8cc70208,t:0,x:794f142a,y:ec881222
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:ffb70472,b:ffb70472,t:0,x:9c7a3ca4,y:ffb70472
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ffb70472,b:9c7a3ca4,t:0,x:406bf75a,y:ffb70472
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:ffb70472,b:c062d46f,t:fcd1887b,x:fcf3847b,y:ffb70472
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:406bf75a,b:fcf3847b,t:0,x:3d5f7bd5,y:406bf75a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:794f142a,b:3d5f7bd5,t:0,x:b6ae8fff,y:794f142a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:38cc9913,b:794f142a,t:0,x:b21bad3d,y:38cc9913
+[SREG]:0,0,0,0,0,0,0,0,fcd1887b,c062d46f,ffb70472,b6ae8fff,54cb266b,9b5e906c,7e44008e,6d83bfc6,)
+[SREG]:0,0,0,0,0,0,0,0,fcd1887b,c062d46f,ffb70472,b6ae8fff,9b5e906c,7e44008e,6d83bfc6,b21bad3d,)
+[IMD] (90befffa,a4506ceb,bef9a3f7,c67178f2,)
+
+LOOP3,round:60 (b6ae8fff,ffb70472,c062d46f,fcd1887b,b21bad3d,6d83bfc6,7e44008e,9b5e906c)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:b21bad3d,b:b21bad3d,t:0,x:517e2dc1,y:b21bad3d
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b21bad3d,b:517e2dc1,t:0,x:5ca8b318,y:b21bad3d
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:b21bad3d,b:6d83bfc6,t:7e44008e,x:6c47ad86,y:b21bad3d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5ca8b318,b:6c47ad86,t:0,x:c8f0609e,y:5ca8b318
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:9b5e906c,b:c8f0609e,t:0,x:644ef10a,y:9b5e906c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a43fcf15,b:644ef10a,t:0,x:88ec01f,y:a43fcf15
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:88ec01f,b:90befffa,t:0,x:994dc019,y:88ec01f
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:b6ae8fff,b:b6ae8fff,t:0,x:9256168b,y:b6ae8fff
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b6ae8fff,b:9256168b,t:0,x:2869e851,y:b6ae8fff
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:b6ae8fff,b:ffb70472,t:c062d46f,x:f6a6847f,y:b6ae8fff
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2869e851,b:f6a6847f,t:0,x:1f106cd0,y:2869e851
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:994dc019,b:1f106cd0,t:0,x:b85e2ce9,y:994dc019
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fcd1887b,b:994dc019,t:0,x:961f4894,y:fcd1887b
+[SREG]:0,0,0,0,0,0,0,0,c062d46f,ffb70472,b6ae8fff,b85e2ce9,9b5e906c,7e44008e,6d83bfc6,b21bad3d,)
+[SREG]:0,0,0,0,0,0,0,0,c062d46f,ffb70472,b6ae8fff,b85e2ce9,7e44008e,6d83bfc6,b21bad3d,961f4894,)
+[IMD] (a4506ceb,bef9a3f7,c67178f2,178f2,)
+
+LOOP3,round:61 (b85e2ce9,b6ae8fff,ffb70472,c062d46f,961f4894,b21bad3d,6d83bfc6,7e44008e)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:961f4894,b:961f4894,t:0,x:40cabecb,y:961f4894
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:961f4894,b:40cabecb,t:0,x:4f6ef480,y:961f4894
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:961f4894,b:b21bad3d,t:6d83bfc6,x:fb9bbf56,y:961f4894
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4f6ef480,b:fb9bbf56,t:0,x:4b0ab3d6,y:4f6ef480
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:7e44008e,b:4b0ab3d6,t:0,x:c94eb464,y:7e44008e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:668b2ff8,b:c94eb464,t:0,x:2fd9e45c,y:668b2ff8
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2fd9e45c,b:a4506ceb,t:0,x:d42a5147,y:2fd9e45c
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:b85e2ce9,b:b85e2ce9,t:0,x:95a49cb,y:b85e2ce9
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b85e2ce9,b:95a49cb,t:0,x:71e9ef2a,y:b85e2ce9
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:b85e2ce9,b:b6ae8fff,t:ffb70472,x:bebe0cfb,y:b85e2ce9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:71e9ef2a,b:bebe0cfb,t:0,x:30a7fc25,y:71e9ef2a
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d42a5147,b:30a7fc25,t:0,x:4d24d6c,y:d42a5147
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:c062d46f,b:d42a5147,t:0,x:948d25b6,y:c062d46f
+[SREG]:0,0,0,0,0,0,0,0,ffb70472,b6ae8fff,b85e2ce9,4d24d6c,7e44008e,6d83bfc6,b21bad3d,961f4894,)
+[SREG]:0,0,0,0,0,0,0,0,ffb70472,b6ae8fff,b85e2ce9,4d24d6c,6d83bfc6,b21bad3d,961f4894,948d25b6,)
+[IMD] (bef9a3f7,c67178f2,178f2,78f2,)
+
+LOOP3,round:62 (4d24d6c,b85e2ce9,b6ae8fff,ffb70472,948d25b6,961f4894,b21bad3d,6d83bfc6)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:948d25b6,b:948d25b6,t:0,x:6c80a532,y:948d25b6
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:948d25b6,b:6c80a532,t:0,x:2a127e78,y:948d25b6
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:948d25b6,b:961f4894,t:b21bad3d,x:b61f889d,y:948d25b6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:2a127e78,b:b61f889d,t:0,x:e0320715,y:2a127e78
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:6d83bfc6,b:e0320715,t:0,x:4db5c6db,y:6d83bfc6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:eeaba2cc,b:4db5c6db,t:0,x:3c6169a7,y:eeaba2cc
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:3c6169a7,b:bef9a3f7,t:0,x:fb5b0d9e,y:3c6169a7
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:4d24d6c,b:4d24d6c,t:0,x:6a54b5c9,y:4d24d6c
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4d24d6c,b:6a54b5c9,t:0,x:236105da,y:4d24d6c
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:4d24d6c,b:b85e2ce9,t:b6ae8fff,x:b4de0ded,y:4d24d6c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:236105da,b:b4de0ded,t:0,x:d83f13c7,y:236105da
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fb5b0d9e,b:d83f13c7,t:0,x:d39a2165,y:fb5b0d9e
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:ffb70472,b:fb5b0d9e,t:0,x:fb121210,y:ffb70472
+[SREG]:0,0,0,0,0,0,0,0,b6ae8fff,b85e2ce9,4d24d6c,d39a2165,6d83bfc6,b21bad3d,961f4894,948d25b6,)
+[SREG]:0,0,0,0,0,0,0,0,b6ae8fff,b85e2ce9,4d24d6c,d39a2165,b21bad3d,961f4894,948d25b6,fb121210,)
+[IMD] (c67178f2,178f2,78f2,8f2,)
+
+LOOP3,round:63 (d39a2165,4d24d6c,b85e2ce9,b6ae8fff,fb121210,948d25b6,961f4894,b21bad3d)
+[OPERATOR BFU] Mode is su,Exp is (A<<<26)^(B<<<21),Bypass is 0,Bypass EXP is ,Mode is 0,a:fb121210,b:fb121210,t:0,x:1f32a0a,y:fb121210
+[OPERATOR BFU] Mode is su,Exp is (A<<<7)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fb121210,b:1f32a0a,t:0,x:88fa2277,y:fb121210
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(~A&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:fb121210,b:948d25b6,t:961f4894,x:940d4894,y:fb121210
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:88fa2277,b:940d4894,t:0,x:1d076b0b,y:88fa2277
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b21bad3d,b:1d076b0b,t:0,x:cf231848,y:b21bad3d
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:12b1edeb,b:cf231848,t:0,x:e1d50633,y:12b1edeb
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:e1d50633,b:c67178f2,t:0,x:a8467f25,y:e1d50633
+[OPERATOR BFU] Mode is su,Exp is (A<<<30)^(B<<<19),Bypass is 0,Bypass EXP is ,Mode is 0,a:d39a2165,b:d39a2165,t:0,x:7fc81488,y:d39a2165
+[OPERATOR BFU] Mode is su,Exp is (A<<<10)^B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d39a2165,b:7fc81488,t:0,x:174d83c6,y:d39a2165
+[OPERATOR BFU] Mode is lu,Exp is (A&B)^(A&T)^(B&T),Bypass is 0,Bypass EXP is ,Mode is 0,a:d39a2165,b:4d24d6c,t:b85e2ce9,x:90da2d6d,y:d39a2165
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:174d83c6,b:90da2d6d,t:0,x:a827b133,y:174d83c6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:a8467f25,b:a827b133,t:0,x:506e3058,y:a8467f25
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b6ae8fff,b:a8467f25,t:0,x:5ef50f24,y:b6ae8fff
+[SREG]:0,0,0,0,0,0,0,0,b85e2ce9,4d24d6c,d39a2165,506e3058,b21bad3d,961f4894,948d25b6,fb121210,)
+[SREG]:0,0,0,0,0,0,0,0,b85e2ce9,4d24d6c,d39a2165,506e3058,961f4894,948d25b6,fb121210,5ef50f24,)
+[IMD] (178f2,78f2,8f2,f2,)
+
+LOOP4,round:0 (506e3058,d39a2165,4d24d6c,b85e2ce9,5ef50f24,fb121210,948d25b6,961f4894)
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:506e3058,b:6a09e667,t:0,x:ba7816bf,y:506e3058
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:d39a2165,b:bb67ae85,t:0,x:8f01cfea,y:d39a2165
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:4d24d6c,b:3c6ef372,t:0,x:414140de,y:4d24d6c
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:b85e2ce9,b:a54ff53a,t:0,x:5dae2223,y:b85e2ce9
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:5ef50f24,b:510e527f,t:0,x:b00361a3,y:5ef50f24
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:fb121210,b:9b05688c,t:0,x:96177a9c,y:fb121210
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:948d25b6,b:1f83d9ab,t:0,x:b410ff61,y:948d25b6
+[OPERATOR BFU] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0,a:961f4894,b:5be0cd19,t:0,x:f20015ad,y:961f4894
+Chipertext is :(ba7816bf,8f01cfea,414140de,5dae2223,b00361a3,96177a9c,b410ff61,f20015ad)
+10:11:13: E:\IDE\saber\build-rpu_fin-Desktop_Qt_5_12_9_MinGW_64_bit-Debug\debug\rpu_fin.exe exited with code 0

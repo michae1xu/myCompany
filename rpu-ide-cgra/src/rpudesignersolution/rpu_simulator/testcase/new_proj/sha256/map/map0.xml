@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<RCA id="0">
+    <BCU id="0">
+        <RCU id="0">
+            <BFU X="98" func="lu" Bypass="1" id="0" Y="85" exp="A">
+                <INPUTA Type="9"/>
+                <INPUTB Type="9" Index="1"/>
+                <INPUTT/>
+            </BFU>
+            <MEM_INPUT id="0"/>
+            <MEM_INPUT Type="1" id="1"/>
+            <MEM_INPUT id="2"/>
+            <MEM_INPUT Type="2" id="3"/>
+            <MEM_WRITE mode="2" addr="0" threashold="1" offset="2"/>
+            <MEM_READ/>
+        </RCU>
+        <RCU id="1">
+            <BFU X="289" func="lu" Bypass="1" id="0" Y="85" exp="A">
+                <INPUTA Type="9" Index="2"/>
+                <INPUTB Type="9" Index="3"/>
+                <INPUTT/>
+            </BFU>
+            <MEM_INPUT id="0"/>
+            <MEM_INPUT Type="1" id="1"/>
+            <MEM_INPUT id="2"/>
+            <MEM_INPUT Type="2" id="3"/>
+            <MEM_WRITE mode="2" addr="1" threashold="1" offset="2"/>
+            <MEM_READ/>
+        </RCU>
+        <RCU id="2"/>
+        <RCU id="3">
+            <MEM_INPUT id="0"/>
+            <MEM_INPUT id="1"/>
+            <MEM_INPUT id="2"/>
+            <MEM_INPUT id="3"/>
+            <MEM_WRITE/>
+            <MEM_READ/>
+        </RCU>
+        <OUT_FIFO id="0"/>
+        <OUT_FIFO id="1"/>
+        <OUT_FIFO id="2"/>
+        <OUT_FIFO id="3"/>
+    </BCU>
+    <BCU id="1">
+        <RCU id="0"/>
+        <RCU id="1"/>
+        <RCU id="2"/>
+        <RCU id="3"/>
+    </BCU>
+    <BCU id="2">
+        <RCU id="0"/>
+        <RCU id="1"/>
+        <RCU id="2"/>
+        <RCU id="3"/>
+    </BCU>
+    <BCU id="3">
+        <RCU id="0"/>
+        <RCU id="1"/>
+        <RCU id="2"/>
+        <RCU id="3"/>
+    </BCU>
+    <RCA id="0">
+        <BCU id="0">
+            <RCU id="0">
+                <BFU X="123" func="lu" Bypass="1" id="0" Y="843" exp="A">
+                    <INPUTA Type="9"/>
+                    <INPUTB Type="9" Index="1"/>
+                    <INPUTT/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT Type="1" id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT Type="2" id="3"/>
+                <MEM_WRITE mode="3" threashold="14" offset="4"/>
+                <MEM_READ/>
+            </RCU>
+            <RCU id="1">
+                <BFU X="120" func="lu" Bypass="1" id="0" Y="988" exp="A">
+                    <INPUTA Type="9" Index="2"/>
+                    <INPUTB Type="9" Index="3"/>
+                    <INPUTT/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT Type="1" id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT Type="2" id="3"/>
+                <MEM_WRITE mode="3" addr="1" threashold="15" offset="4"/>
+                <MEM_READ/>
+            </RCU>
+            <RCU id="2"/>
+            <RCU id="3"/>
+            <OUT_FIFO id="0"/>
+            <OUT_FIFO id="1"/>
+            <OUT_FIFO id="2"/>
+            <OUT_FIFO id="3"/>
+        </BCU>
+        <BCU id="1">
+            <RCU id="0"/>
+            <RCU id="1"/>
+            <RCU id="2"/>
+            <RCU id="3"/>
+        </BCU>
+        <BCU id="2">
+            <RCU id="0"/>
+            <RCU id="1"/>
+            <RCU id="2"/>
+            <RCU id="3"/>
+        </BCU>
+        <BCU id="3">
+            <RCU id="0"/>
+            <RCU id="1"/>
+            <RCU id="2"/>
+            <RCU id="3"/>
+        </BCU>
+    </RCA>
+    <RSM id="0"/>
+    <PARA name="" value="F:/TDDOWNLOAD/sha256/map0.xml">
+        <CYCLE value="0"/>
+        <INTERVAL value="0"/>
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </PARA>
+</RCA>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	 <tb top_clock="500"  simu_time= "10000" print_period="50000">
+	 </tb>
+	 <!--mac_mod 0:2口40G, 1:2口10G，2：4口10G，3：8口10G-->
+	 <tsrn10 top_clock="500" mac_mod = "3" input_chanel="128" rsa_group_num ="10" rsa_num_in_group="10" 
+	      ecc_group_num ="2" sm2_group_num ="1" blk_group_num ="10"   print_period="50000">
+	 	   <cmd_ctrl  ctrl_sch_mod = "0"/>
+	 	   <cmd_mst   />
+	 	   <ring_mst  />
+	 	   <ring_ctrl addr_cnt="128"/>
+	 	   <data_mst>
+	 	   </data_mst>
+	 	   <cmd_dis_pre  sch_mod = "1" m_ram_bp_thd ="56"/>
+	 	   <distributor  fifo_depth = "64"/>
+	 	   <parser       parser_trans_num = "3"/>
+	 	   <latency ring_mst="10" cmd_mst="10" parser_pre="10" parser_pro="1000"/>
+	 	   <parser_latency_map>
+	 	   	 <RSA_1024_SG 				latency = "389900"/>
+	 	   	 <RSA_2048_SG 				latency = "2271500"/>
+	 	   	 <RSA_1024_SG_DISABLE latency = "1093900"/>
+	 	   	 <RSA_1024_CK_DISABLE latency = "33200"/>
+	 	   	 <RSA_2048_SG_DISABLE latency = "788400"/>
+	 	   	 <RSA_2048_CK_DISABLE latency = "122400"/>
+	 	   	 <ECC_256R1_SG 				latency = "5888"/>
+	 	   	 <ECC_256R1_CK 				latency = "18260"/>
+	 	   	 <ECC_256R1_EX 				latency = "15848"/>
+	 	   	 <ECC_25519_SG 				latency = "5888"/>
+	 	   	 <ECC_25519_CK 				latency = "18260"/>
+	 	   	 <ECC_25519_EX 				latency = "15172"/>
+	 	   	 <SM2_SG 							latency = "5888"/>
+	 	   	 <SM2_CK 							latency = "18260"/>
+	 	   	 <SM2_EX 							latency = "15848"/>
+	 	   	 <SM2_EX2 						latency = "15848"/>
+	 	   	 <BLK_SHA256 					latency = "2594"/>
+	 	   	 <BLK_SHA384 					latency = "1784"/>
+	 	   	 <BLK_SHA512 					latency = "1794"/>
+	 	   	 <BLK_SHA1 						latency = "3187"/>
+	 	   	 <BLK_SM3 						latency = "1582"/> 	   	 
+	 	   </parser_latency_map>
+	 	   <dmac         tx_buf_bp_thd="8188" dmac_tx_fifo_bp_thd="2044"  rx_buf_bp_thd ="7392" dmac_rx_fifo_bp_thd="2044"/>
+	 	   <flow_engin   tx_fifo_bp_thd="404" rx_fifo_bp_thd="1428"/>	  	   
+	 </tsrn10>
+</all>

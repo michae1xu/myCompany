@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG cipherType="0" value="F:/project/new_proj/new_proj/sha256/sha256.rpupro" slnname="new_proj" name="sha256">
+    <SRC value="C:/Users/Administrator/Desktop/sha256/benes_init.txt"/>
+    <SRC value="C:/Users/Administrator/Desktop/sha256/vector_1_init.txt"/>
+    <SRC value="C:/Users/Administrator/Desktop/sha256/vector_3_init.txt"/>
+    <SRC value="vector_0_init.txt"/>
+    <SRC value="vector_new_init.txt"/>
+    <SRC value="plaintext_in.txt"/>
+    <SRC value="vector_4_init - 副本.txt"/>
+    <XML sort="0" value="sha256_0.xml" name="" select="1" project="F:/project/all_proj/sha256/sha256.rpupro">
+        <FIFO>
+            <INPUT id="0" value=":/plaintext_in.txt"/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=":/vector_0_init.txt"/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=":/vector_4_init.txt"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="1"/>
+            <SOURCE value="InFIFO0"/>
+            <DEST value="MemoryPort1"/>
+            <BURSTNUM value="1"/>
+            <LOOPNUM value="3"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <XML sort="1" value="sha256_1.xml" name="" select="1" project="F:/project/all_proj/sha256/sha256.rpupro">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="8"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort3"/>
+            <BURSTNUM value="1"/>
+            <LOOPNUM value="11"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <XML sort="2" value="sha256_2.xml" name="" select="1" project="F:/project/all_proj/sha256/sha256.rpupro">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="13"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort3"/>
+            <BURSTNUM value="1"/>
+            <LOOPNUM value="31"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <XML sort="3" value="sha256_3.xml" name="" select="1" project="F:/project/all_proj/sha256/sha256.rpupro">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="2"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort3"/>
+            <BURSTNUM value="1"/>
+            <LOOPNUM value="1"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="vector_4_init.txt"/>
+    <XML sort="4" value="sha256_4.xml" name="" select="1" project="F:/project/all_proj/sha256/sha256.rpupro">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort3"/>
+            <DEST value="OutFIFO0"/>
+            <BURSTNUM value="1"/>
+            <LOOPNUM value="1"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="benes_i_init.txt"/>
+    <SRC value="benes-re.txt"/>
+    <SRC value="benes.txt"/>
+    <XML sort="-1" value="sha256_mc.xml" name="" select="1" project="F:/project/new_proj/new_proj/sha256/sha256.rpupro">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+</ALG>

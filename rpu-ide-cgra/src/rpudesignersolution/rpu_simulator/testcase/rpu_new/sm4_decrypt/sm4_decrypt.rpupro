@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG cipherType="0" value="C:/Users/Lenovo/Desktop/rpu_new/sm4_decrypt/sm4_decrypt.rpupro" slnname="rpu_new" name="sm4_decrypt">
+    <SRC value="fifo.fifo"/>
+    <XML project="C:/Users/Lenovo/Desktop/rpu_new/sm4_decrypt/sm4_decrypt.rpupro" value="1.xml" sort="-1" select="1" name="">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="12.memory"/>
+    <SRC value="benes.benes"/>
+    <SRC value="sbox_0_init.sbox"/>
+    <SRC value="vector_4_init.imd"/>
+</ALG>

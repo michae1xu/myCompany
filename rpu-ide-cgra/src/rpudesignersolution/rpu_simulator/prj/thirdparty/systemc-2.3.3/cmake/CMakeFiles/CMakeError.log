@@ -1,0 +1,268 @@
+Determining if the __LP64__ exist failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_4826d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4826d.dir\Debug\\" /Fd"cmTC_4826d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c(7): error C2065: “__LP64__”: 未声明的标识符 [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_4826d.vcxproj]
+
+
+File C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __LP64__
+  return ((int*)(&__LP64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __sparc exist failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_2b6c0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b6c0.dir\Debug\\" /Fd"cmTC_2b6c0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c(7): error C2065: “__sparc”: 未声明的标识符 [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_2b6c0.vcxproj]
+
+
+File C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __sparc
+  return ((int*)(&__sparc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __sparc__ exist failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_13abd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13abd.dir\Debug\\" /Fd"cmTC_13abd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c(7): error C2065: “__sparc__”: 未声明的标识符 [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_13abd.vcxproj]
+
+
+File C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __sparc__
+  return ((int*)(&__sparc__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __hppa exist failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_1ebca.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ebca.dir\Debug\\" /Fd"cmTC_1ebca.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c(7): error C2065: “__hppa”: 未声明的标识符 [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_1ebca.vcxproj]
+
+
+File C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __hppa
+  return ((int*)(&__hppa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __x86_64__ exist failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f43b4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f43b4.dir\Debug\\" /Fd"cmTC_f43b4.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c(7): error C2065: “__x86_64__”: 未声明的标识符 [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_f43b4.vcxproj]
+
+
+File C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __x86_64__
+  return ((int*)(&__x86_64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __i386 exist failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ac21c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac21c.dir\Debug\\" /Fd"cmTC_ac21c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c(7): error C2065: “__i386”: 未声明的标识符 [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_ac21c.vcxproj]
+
+
+File C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i386
+  return ((int*)(&__i386))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __aarch64__ exist failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_8390a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8390a.dir\Debug\\" /Fd"cmTC_8390a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c(7): error C2065: “__aarch64__”: 未声明的标识符 [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_8390a.vcxproj]
+
+
+File C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __aarch64__
+  return ((int*)(&__aarch64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __ppc__ exist failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_5c378.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c378.dir\Debug\\" /Fd"cmTC_5c378.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c(7): error C2065: “__ppc__”: 未声明的标识符 [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_5c378.vcxproj]
+
+
+File C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __ppc__
+  return ((int*)(&__ppc__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __powerpc exist failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_e41ff.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e41ff.dir\Debug\\" /Fd"cmTC_e41ff.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckSymbolExists.c(7): error C2065: “__powerpc”: 未声明的标识符 [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_e41ff.vcxproj]
+
+
+File C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __powerpc
+  return ((int*)(&__powerpc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/jun/Downloads/systemc-2.3.3/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_79e53.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79e53.dir\Debug\\" /Fd"cmTC_79e53.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\Users\jun\Downloads\systemc-2.3.3\cmake\CMakeFiles\CMakeTmp\cmTC_79e53.vcxproj]
+
+
+

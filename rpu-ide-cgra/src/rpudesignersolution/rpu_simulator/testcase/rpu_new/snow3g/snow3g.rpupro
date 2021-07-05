@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG value="C:/esl/rpu_simulator/testcase/rpu_new/snow3g/snow3g.rpupro" cipherType="0" lfsrMode="0" slnname="rpu_new" name="snow3g" lfsrWidthDeep="0">
+    <XML value="1.xml" project="C:/esl/rpu_simulator/testcase/rpu_new/snow3g/snow3g.rpupro" select="1" name="" sort="0">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <XML value="2.xml" project="C:/esl/rpu_simulator/testcase/rpu_new/snow3g/snow3g.rpupro" select="1" name="" sort="1">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="sbox_0_init.sbox"/>
+    <SRC value="sbox_1_init.sbox"/>
+    <SRC value="sbox_2_init.sbox"/>
+    <SRC value="sbox_3_init.sbox"/>
+    <SRC value="sbox_4_init.sbox"/>
+    <SRC value="sbox_5_init.sbox"/>
+    <SRC value="sbox_6_init.sbox"/>
+    <SRC value="sbox_7_init.sbox"/>
+    <SRC value="sbox_8_init.sbox"/>
+    <SRC value="sbox_9_init.sbox"/>
+    <SRC value="vector_4_init.fifo"/>
+    <SRC value="benes.benes"/>
+    <SRC value="imd.imd"/>
+    <SRC value="memory.memory"/>
+</ALG>

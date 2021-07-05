@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|X64">
+      <Configuration>Debug</Configuration>
+      <Platform>X64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_od|Win32">
+      <Configuration>Release_od</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_od|X64">
+      <Configuration>Release_od</Configuration>
+      <Platform>X64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|X64">
+      <Configuration>Release</Configuration>
+      <Platform>X64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7EA92DB8-3C65-409A-A860-6C2165EA4C59}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <RootNamespace>zorov3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|X64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release_od|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release_od|X64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|X64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|X64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;..\..\thirdparty\systemc-2.3.3\src;..\..\thirdparty\systemc-2.3.3\src\sysc\utils;C:\Qt\Qt5.12.9\5.12.9\mingw73_32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalOptions>/vmg %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SystemC.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\thirdparty\systemc-2.3.3\msvc10\SystemC\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <QtMoc>
+      <IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;..\..\thirdparty\systemc-2.3.3\src;..\..\thirdparty\systemc-2.3.3\src\sysc\utils;C:\Qt\Qt5.12.9\5.12.9\mingw73_32\include;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;..\..\thirdparty\systemc-2.3.3\src;..\..\thirdparty\systemc-2.3.3\src\sysc\utils;C:\Qt\Qt5.12.9\5.12.9\mingw73_32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/vmg %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\thirdparty\systemc-2.3.3\msvc10\SystemC\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SystemC.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;..\..\thirdparty\systemc-2.3.3\src;..\..\thirdparty\systemc-2.3.3\src\sysc\utils;C:\Qt\Qt5.12.9\5.12.9\mingw73_32\include;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;..\..\thirdparty\systemc-2.3.3\src;..\..\thirdparty\systemc-2.3.3\src\sysc\utils;C:\Qt\Qt5.12.10\5.12.10\mingw73_32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalOptions>/vmg %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>rpu-2.3.3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\thirdparty\systemc-2.3.3\lib\win</AdditionalLibraryDirectories>
+    </Link>
+    <QtMoc>
+      <IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;..\..\thirdparty\systemc-2.3.3\src;..\..\thirdparty\systemc-2.3.3\src\sysc\utils;C:\Qt\Qt5.12.10\5.12.10\mingw73_32\include;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>WIN32;NDEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|X64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/vmg %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;C:\esl\systemc-2.3.0a\systemc-2.3.0a\src;C:\esl\systemc-2.3.0a\systemc-2.3.0a\src\sysc\utils;C:\esl\zore3\xml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>505;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <QtMoc>
+      <IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;C:\esl\systemc-2.3.0a\systemc-2.3.0a\src;C:\esl\systemc-2.3.0a\systemc-2.3.0a\src\sysc\utils;C:\esl\zore3\xml;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>WIN32;NDEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_od|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;C:\esl\systemc-2.3.0a\systemc-2.3.0a\src;C:\esl\systemc-2.3.0a\systemc-2.3.0a\src\sysc\utils;C:\esl\zore3\xml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/vmg %(AdditionalOptions)</AdditionalOptions>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <QtMoc>
+      <IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;C:\esl\systemc-2.3.0a\systemc-2.3.0a\src;C:\esl\systemc-2.3.0a\systemc-2.3.0a\src\sysc\utils;C:\esl\zore3\xml;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_od|X64'">
+    <QtMoc>
+      <IncludePath />
+      <Define />
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\bcu\bcu.h" />
+    <ClInclude Include="..\..\..\src\benes\benes_mod.h" />
+    <ClInclude Include="..\..\..\src\bfu\bfu.h" />
+    <ClInclude Include="..\..\..\src\csimulatorcontrol.h" />
+    <ClInclude Include="..\..\..\src\export_typedef.h" />
+    <ClInclude Include="..\..\..\src\generator.h" />
+    <ClInclude Include="..\..\..\src\lfsr\lfsr.h" />
+    <ClInclude Include="..\..\..\src\lib\benes.h" />
+    <ClInclude Include="..\..\..\src\lib\bfuau.h" />
+    <ClInclude Include="..\..\..\src\lib\bfulu.h" />
+    <ClInclude Include="..\..\..\src\lib\bfusu.h" />
+    <ClInclude Include="..\..\..\src\lib\binresolver.h" />
+    <ClInclude Include="..\..\..\src\lib\sreg.h" />
+    <ClInclude Include="..\..\..\src\lib\type.h" />
+    <ClInclude Include="..\..\..\src\mem\mem_mod.h" />
+    <ClInclude Include="..\..\..\src\rca\rca.h" />
+    <ClInclude Include="..\..\..\src\rcu\rcu.h" />
+    <ClInclude Include="..\..\..\src\rpu_global.h" />
+    <ClInclude Include="..\..\..\src\rpu_wrapper.h" />
+    <ClInclude Include="..\..\..\src\sbox\hex2dec.h" />
+    <ClInclude Include="..\..\..\src\sbox\sbox.h" />
+    <ClInclude Include="..\..\..\src\sreg\sreg_mod.h" />
+    <ClInclude Include="..\..\..\src\struct_def.h" />
+    <ClInclude Include="..\..\..\src\testbench.h" />
+    <ClInclude Include="..\..\..\src\rpu.h" />
+    <ClInclude Include="..\..\..\xml\strhandler.h" />
+    <ClInclude Include="..\..\..\xml\tinyxml2.h" />
+    <ClInclude Include="..\..\..\xml\typedef.h" />
+    <ClInclude Include="..\..\..\xml\xmlresolver.h" />
+    <ClInclude Include="..\..\..\xml\xmltype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\bcu\bcu.cpp" />
+    <ClCompile Include="..\..\..\src\benes\benes_mod.cpp" />
+    <ClCompile Include="..\..\..\src\bfu\bfu.cpp" />
+    <ClCompile Include="..\..\..\src\csimulatorcontrol.cpp" />
+    <ClCompile Include="..\..\..\src\export_typedef.cpp" />
+    <ClCompile Include="..\..\..\src\generator.cpp" />
+    <ClCompile Include="..\..\..\src\lfsr\lfsr.cpp" />
+    <ClCompile Include="..\..\..\src\lib\benes.cpp" />
+    <ClCompile Include="..\..\..\src\lib\bfuau.cpp" />
+    <ClCompile Include="..\..\..\src\lib\bfulu.cpp" />
+    <ClCompile Include="..\..\..\src\lib\bfusu.cpp" />
+    <ClCompile Include="..\..\..\src\lib\binresolver.cpp" />
+    <ClCompile Include="..\..\..\src\lib\sreg.cpp" />
+    <ClCompile Include="..\..\..\src\mem\mem_mod.cpp" />
+    <ClCompile Include="..\..\..\src\rca\rca.cpp" />
+    <ClCompile Include="..\..\..\src\rcu\rcu.cpp" />
+    <ClCompile Include="..\..\..\src\sbox\hex2dec.cpp" />
+    <ClCompile Include="..\..\..\src\sbox\sbox.cpp" />
+    <ClCompile Include="..\..\..\src\sreg\sreg_mod.cpp" />
+    <ClCompile Include="..\..\..\src\struct_def.cpp" />
+    <ClCompile Include="..\..\..\src\testbench.cpp" />
+    <ClCompile Include="..\..\..\src\rpu.cpp" />
+    <ClCompile Include="..\..\..\xml\strhandler.cpp" />
+    <ClCompile Include="..\..\..\xml\tinyxml2.cpp" />
+    <ClCompile Include="..\..\..\xml\xmlresolver.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_Win32="msvc2017" Qt5Version_x0020_x64="msvc2017_64" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

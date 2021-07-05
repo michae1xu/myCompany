@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/CMakeLists.txt
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/README
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/README_TYPESCRIPT
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/abc.asm
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/assembler.pl
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/bios.img
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/dcache.img
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/icache.img
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/printout.img
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/program.img
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/register.img
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/test.asm
+C:/Users/jun/Downloads/systemc-2.3.3/examples/sysc/risc_cpu/test1.asm

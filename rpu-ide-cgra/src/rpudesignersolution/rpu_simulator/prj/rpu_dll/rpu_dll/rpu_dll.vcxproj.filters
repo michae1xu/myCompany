@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\bcu">
+      <UniqueIdentifier>{a23fd498-1fc0-4060-8705-c1be9b0289d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\benes">
+      <UniqueIdentifier>{3c97f7d6-50c4-4be7-b168-1a9f3adaa8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bfu">
+      <UniqueIdentifier>{df1a841f-088d-4584-b8a2-1200e9af8078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\rca">
+      <UniqueIdentifier>{415339e2-c1e8-49f5-a281-95e259a31f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rcu">
+      <UniqueIdentifier>{4d459b25-c6a3-438b-8078-0402de6cdfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sbox">
+      <UniqueIdentifier>{5f32b6be-c9ac-4e9e-a6a4-1d0c2a6efe3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\xml">
+      <UniqueIdentifier>{525a4996-3f88-4498-90c6-f52b9b12d440}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALGRITHM name="" MD5="3890a72280780b960323fa5629eb18a1" value="F:/project/new_proj/new_proj/sha256/sha256_4.xml" md5="">
+    <RCA id="0">
+        <BCU XAtParent="100" id="0" YAtParent="100" Height="890" Width="600" Left="0" Top="0" router="0">
+            <OUT_FIFO id="0" Index="3" Type="4">
+                <PORT_INFLECTION_POS inflection_pos="306.4,-50;7,-50"/>
+                <PORT_PRESSED_POS pressed_pos=""/>
+            </OUT_FIFO>
+            <OUT_FIFO id="1" Index="2" Type="4">
+                <PORT_INFLECTION_POS inflection_pos="172.8,-54;7,-54"/>
+                <PORT_PRESSED_POS pressed_pos=""/>
+            </OUT_FIFO>
+            <OUT_FIFO id="2" Index="1" Type="4">
+                <PORT_INFLECTION_POS inflection_pos="39.2,-58;7,-58"/>
+                <PORT_PRESSED_POS pressed_pos=""/>
+            </OUT_FIFO>
+            <OUT_FIFO id="3" Index="0" Type="4">
+                <PORT_INFLECTION_POS inflection_pos="-94.4,-62;7,-62"/>
+                <PORT_PRESSED_POS pressed_pos=""/>
+            </OUT_FIFO>
+            <RCU XAtParent="60" id="0" YAtParent="50" Height="170" Width="500" Left="-10" Top="0">
+                <MEM_WRITE addr="0" mode="0" mask="0" offset="0" threashold="0"/>
+                <MEM_READ addr4="0" mode="0" addr3="0" addr1="0" mode128_32="0" addr2="0" offset="0" threashold="0"/>
+            </RCU>
+            <RCU XAtParent="60" id="1" YAtParent="250" Height="170" Width="500" Left="-10" Top="0">
+                <MEM_WRITE addr="0" mode="0" mask="0" offset="0" threashold="0"/>
+                <MEM_READ addr4="0" mode="0" addr3="0" addr1="0" mode128_32="0" addr2="0" offset="0" threashold="0"/>
+            </RCU>
+            <RCU XAtParent="60" id="2" YAtParent="470" Height="170" Width="500" Left="-10" Top="0">
+                <MEM_WRITE addr="0" mode="0" mask="0" offset="0" threashold="0"/>
+                <MEM_READ addr4="0" mode="0" addr3="0" addr1="0" mode128_32="0" addr2="0" offset="0" threashold="0"/>
+            </RCU>
+            <RCU XAtParent="60" id="3" YAtParent="670" Height="170" Width="500" Left="-10" Top="0">
+                <MEM_WRITE addr="0" mode="0" mask="0" offset="0" threashold="0"/>
+                <MEM_READ addr4="267" mode="2" addr3="266" addr1="264" mode128_32="0" addr2="265" offset="1" threashold="1"/>
+                <BFU XAtParent="49" func="lu" id="0" exp="A" YAtParent="55" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="1">
+                    <INPUTA Index="3" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="2" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="159" func="lu" id="1" exp="A" YAtParent="55" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="1">
+                    <INPUTA Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="0" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BENES XAtParent="269" id="0" YAtParent="56" src="benes.txt" Height="60" Width="120" Left="0" Top="0">
+                    <INPUT id="0" Index="0" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-207.8,47;7,47"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUT>
+                    <INPUT id="1" Index="0" Type="2">
+                        <PORT_INFLECTION_POS inflection_pos="-202.6,43;7,43"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUT>
+                    <INPUT id="2" Index="1" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-143.4,39;7,39"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUT>
+                    <INPUT id="3" Index="1" Type="2">
+                        <PORT_INFLECTION_POS inflection_pos="-138.2,35;7,35"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUT>
+                </BENES>
+            </RCU>
+        </BCU>
+    </RCA>
+    <RSM id="0"/>
+    <UIVER ver="3.0.0"/>
+</ALGRITHM>

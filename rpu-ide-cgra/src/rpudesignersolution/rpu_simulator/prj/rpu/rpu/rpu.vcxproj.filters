@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\generator.cpp" />
+    <ClCompile Include="..\..\..\src\testbench.cpp" />
+    <ClCompile Include="..\..\..\src\rpu.cpp" />
+    <ClCompile Include="..\..\..\src\rca\rca.cpp">
+      <Filter>rca</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\rcu\rcu.cpp">
+      <Filter>rcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\bfu\bfu.cpp">
+      <Filter>bfu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sbox\sbox.cpp">
+      <Filter>sbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\bcu\bcu.cpp">
+      <Filter>bcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\benes\benes_mod.cpp">
+      <Filter>benes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xml\xmlresolver.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xml\strhandler.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xml\tinyxml2.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\bfuau.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\bfulu.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\benes.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\bfusu.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\binresolver.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sreg\sreg_mod.cpp">
+      <Filter>sreg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lib\sreg.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\mem\mem_mod.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\csimulatorcontrol.cpp">
+      <Filter>ide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\struct_def.cpp">
+      <Filter>ide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lfsr\lfsr.cpp">
+      <Filter>lfsr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\export_typedef.cpp">
+      <Filter>ide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sbox\hex2dec.cpp">
+      <Filter>ide</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\generator.h" />
+    <ClInclude Include="..\..\..\src\struct_def.h" />
+    <ClInclude Include="..\..\..\src\testbench.h" />
+    <ClInclude Include="..\..\..\src\rpu.h" />
+    <ClInclude Include="..\..\..\src\rca\rca.h">
+      <Filter>rca</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\rcu\rcu.h">
+      <Filter>rcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\bfu\bfu.h">
+      <Filter>bfu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sbox\sbox.h">
+      <Filter>sbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\bcu\bcu.h">
+      <Filter>bcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\type.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\benes\benes_mod.h">
+      <Filter>benes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xml\xmlresolver.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xml\xmltype.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xml\strhandler.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xml\typedef.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xml\tinyxml2.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\benes.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\bfuau.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\bfulu.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\bfusu.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\binresolver.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\rpu_wrapper.h" />
+    <ClInclude Include="..\..\..\src\rpu_global.h" />
+    <ClInclude Include="..\..\..\src\sreg\sreg_mod.h">
+      <Filter>sreg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lib\sreg.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\mem\mem_mod.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\csimulatorcontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\export_typedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lfsr\lfsr.h">
+      <Filter>lfsr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sbox\hex2dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="rca">
+      <UniqueIdentifier>{af539863-07a6-4325-86b0-dab02b304816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rcu">
+      <UniqueIdentifier>{36c815a8-278a-4c6e-98dc-e0c4fbd6fd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bfu">
+      <UniqueIdentifier>{38a01cf1-ffba-4e38-925e-42bfb7199212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sbox">
+      <UniqueIdentifier>{d3c6fbc6-5c04-4dd3-81bb-7b151cd8c7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="benes">
+      <UniqueIdentifier>{8a9394c9-6609-4391-bb0a-c72566a6a888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bcu">
+      <UniqueIdentifier>{6d7a2d6b-02f9-45ce-bbe9-f9f99b5047b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{8bfd0a2d-02af-4d2b-9cf5-c4773dcc25cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{d0a71060-a8a2-4436-ae0c-886bc525d130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="sreg">
+      <UniqueIdentifier>{8b16a738-a14d-4707-bda4-376f2ce97d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{a17be14e-365d-461a-ac92-12de9db1c3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ide">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="lfsr">
+      <UniqueIdentifier>{88965843-69c2-4dc2-8150-0ab577af9409}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

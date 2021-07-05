@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	  <!--PKT_TYPE MOD 0：固定type  1：随机type-->  		<!--PKT_LEN MOD 0：固定包长  1：随机包长-->
+		<pkttype  mode ="1"   type ="16"/>
+		<updown   down_enable = "1"   up_enable = "1" print_period="5000"/>
+		<pktlen   mode ="0"   pkt_len ="129" start_len ="64" end_len = "9600"/>
+		<host_ring_gen port_num ="8">
+			 <tx_ring id="0" enable="1" speed="40"/>
+			 <tx_ring id="1" enable="0" speed="10"/>
+			 <tx_ring id="2" enable="0" speed="10"/>
+			 <tx_ring id="3" enable="0" speed="10"/>
+			 <tx_ring id="4" enable="1" speed="40"/>
+			 <tx_ring id="5" enable="0" speed="10"/>
+			 <tx_ring id="6" enable="0" speed="10"/>
+			 <tx_ring id="7" enable="0" speed="10"/>
+		</host_ring_gen>
+		<tx_mac_port port_num ="8">
+			 <tx_port id="0" speed="25"/>
+			 <tx_port id="1" speed="10"/>
+			 <tx_port id="2" speed="10"/>
+			 <tx_port id="3" speed="10"/>
+			 <tx_port id="4" speed="25"/>
+			 <tx_port id="5" speed="10"/>
+			 <tx_port id="6" speed="10"/>
+			 <tx_port id="7" speed="10"/>
+		</tx_mac_port>
+		<!-- ����-->
+		<rx_mac_port_gen port_num ="8">
+			 <rx_port id="0" enable="1" speed="25"/>
+			 <rx_port id="1" enable="0" speed="10"/>
+			 <rx_port id="2" enable="0" speed="10"/>
+			 <rx_port id="3" enable="0" speed="10"/>
+			 <rx_port id="4" enable="1" speed="25"/>
+			 <rx_port id="5" enable="0" speed="10"/>
+			 <rx_port id="6" enable="0" speed="10"/>
+			 <rx_port id="7" enable="0" speed="10"/>
+	  </rx_mac_port_gen>
+</all>

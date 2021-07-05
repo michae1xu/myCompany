@@ -1,0 +1,6 @@
+seed/seed.rpupro
+sm4/sm4.rpupro
+sm4_cbc/sm4_cbc.rpupro
+sm4_cbc_decrypt/sm4_cbc_decrypt.rpupro
+sm4_twoloop/sm4_twoloop.rpupro
+snow3g/snow3g.rpupro

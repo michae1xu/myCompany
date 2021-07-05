@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG slnname="TEST" name="TEST" value="E:/IDE/rpu_test/TEST/TEST/TEST.rpupro" cipherType="0">
+    <XML name="" value="TEST.xml" project="E:/IDE/rpu_test/TEST/TEST/TEST.rpupro" sort="-1" select="1">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="TEST.memory"/>
+    <SRC value="fifo.fifo"/>
+    <SRC value="imf.imd"/>
+</ALG>

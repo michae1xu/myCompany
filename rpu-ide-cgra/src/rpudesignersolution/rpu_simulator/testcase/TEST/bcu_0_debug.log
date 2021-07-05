@@ -1,0 +1,11 @@
+[OPERATOR RCU 0 BFU 0] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0, ,a:1,b:10,t:0,x:1,y:10
+[OPERATOR RCU 0 BFU 1] Mode is au,Exp is A,Bypass is 0,Bypass EXP is ,Mode is 0, ,a:1,b:0,t:0,x:1,y:1
+[OPERATOR RCU 0 BFU 2] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0, ,a:1,b:10,t:0,x:11,y:1
+[OPERATOR RCU 1 BFU 0] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0, ,a:1,b:10,t:0,x:1,y:10
+[OPERATOR RCU 1 BFU 1] Mode is au,Exp is A,Bypass is 0,Bypass EXP is ,Mode is 0, ,a:1,b:0,t:0,x:1,y:1
+[OPERATOR RCU 1 BFU 2] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0, ,a:1,b:10,t:0,x:11,y:1
+[OPERATOR RCU 2 BFU 0] Mode is lu,Exp is A,Bypass is 1,Bypass EXP is ,Mode is 0, ,a:11,b:10,t:0,x:11,y:10
+[OPERATOR RCU 2 BFU 1] Mode is au,Exp is A,Bypass is 0,Bypass EXP is ,Mode is 0, ,a:11,b:0,t:0,x:11,y:11
+[OPERATOR RCU 2 BFU 2] Mode is au,Exp is A+B,Bypass is 0,Bypass EXP is ,Mode is 0, ,a:11,b:10,t:0,x:21,y:11
+[OPERATOR RCU 3 BFU 0] Mode is au,Exp is ,Bypass is 0,Bypass EXP is ,Mode is 0, ,a:0,b:0,t:0,x:0,y:0
+[OPERATOR OFIFO OUT :0

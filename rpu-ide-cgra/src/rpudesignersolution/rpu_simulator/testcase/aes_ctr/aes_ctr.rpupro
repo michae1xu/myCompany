@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG name="aes_ctr" value="C:/esl/rpu_simulator/testcase/aes_ctr/aes_ctr.rpupro" slnname="zuc" cipherType="0">
+    <XML name="" project="C:/esl/rpu_simulator/testcase/aes_ctr/aes_ctr.rpupro" value="aes_ctr.xml" select="1" sort="0">
+        <FIFO>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+        </FIFO>
+        <MEM>
+            <INPUT value="" id="0"/>
+            <INPUT value="" id="1"/>
+            <INPUT value="" id="2"/>
+            <INPUT value="" id="3"/>
+            <INPUT value="" id="4"/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="benes_1_init.benes"/>
+    <SRC value="imd.imd"/>
+    <SRC value="infifo.fifo"/>
+    <SRC value="mem.memory"/>
+    <SRC value="benes_1.benes"/>
+    <SRC value="sbox_0_init.txt"/>
+    <SRC value="sbox_1_init.txt"/>
+</ALG>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	 <tb top_clock="500"  simu_time= "100" print_period="50000" bcu_num="2"  rcu_num= "256">
+	 </tb>
+	 <zorov3 top_clock="500" input_chanel="32" parser_num ="50" print_period="50000">
+	 	   <cmd_ctrl  />
+	 	   <cmd_mst   />
+	 	   <ring_mst  />
+	 	   <ring_ctrl addr_cnt="32"/>
+	 	   <data_mst>
+	 	   	   <cmd   />
+	 	   </data_mst>
+	 	   <distributor  fifo_depth = "64"/>
+	 	   <parser    />
+	 	   <latency ring_mst="10" cmd_mst="10" parser_pre="10" parser_pro="1000"/>
+	 </zorov3>
+</all>

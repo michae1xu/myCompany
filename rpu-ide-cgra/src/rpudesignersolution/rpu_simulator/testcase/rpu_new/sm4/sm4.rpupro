@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG slnname="rpu_new" cipherType="0" value="C:/esl/rpu_simulator/testcase/rpu_new/sm4/sm4.rpupro" name="sm4">
+    <XML sort="-1" project="C:/Users/Lenovo/Desktop/rpu_new/sm4/sm4.rpupro" select="1" value="1.xml" name="">
+        <FIFO>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="0"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="benes.benes"/>
+    <SRC value="sbox_0_init.sbox"/>
+    <SRC value="12.memory"/>
+    <SRC value="plaintext_in.fifo"/>
+    <SRC value="vector_4_init.imd"/>
+</ALG>

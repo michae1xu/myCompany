@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALG name="des" value="F:/project/new_proj/new_proj/des/des.rpupro" cipherType="0" slnname="new_proj">
+    <SRC value="../DES_mc_cmd/data-source/benes_0_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/benes_1_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/benes_2_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/benes_3_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/benes_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/benes-re.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/plaintext_in.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/sbox_0_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/sbox_1_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/vector_0_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/vector_1_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/vector_2_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/vector_3_init.txt"/>
+    <SRC value="../DES_mc_cmd/data-source/vector_4_init.txt"/>
+    <SRC value="benes_1_init.benes"/>
+    <SRC value="benes_2_init.benes"/>
+    <SRC value="benes_init.benes"/>
+    <SRC value="plaintext_in.fifo"/>
+    <SRC value="sbox_0_init.sbox"/>
+    <SRC value="sbox_1_init.sbox"/>
+    <XML select="1" name="" project="F:/project/new_proj/new_proj/des/des.rpupro" sort="0" value="des_mc.xml">
+        <FIFO>
+            <INPUT id="0" value=":/plaintext_in.fifo"/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+        </FIFO>
+        <MEM>
+            <INPUT id="0" value=""/>
+            <INPUT id="1" value=""/>
+            <INPUT id="2" value=""/>
+            <INPUT id="3" value=""/>
+            <INPUT id="4" value=""/>
+        </MEM>
+        <CODE>
+            <ONLYSIM value="0"/>
+            <RMODE0 value="0"/>
+            <RMODE1 value="0"/>
+            <GAP value="0"/>
+            <SOURCE value="MemoryPort0"/>
+            <DEST value="MemoryPort0"/>
+            <BURSTNUM value="1"/>
+            <LOOPNUM value="0"/>
+            <REPEATNUM value="0"/>
+        </CODE>
+    </XML>
+    <SRC value="des.imd"/>
+    <SRC value="benes_0_init.benes"/>
+    <SRC value="memory.memory"/>
+</ALG>

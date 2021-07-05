@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_master_blocking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_master_non_blocking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_master_direct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_arbiter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_master_blocking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_master_non_blocking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_master_direct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_slow_mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_blocking_if.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_direct_if.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_non_blocking_if.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_slave_if.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_fast_mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_arbiter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\simple_bus_arbiter_if.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\simple_bus\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{272F3430-7E70-38B6-B239-77D163EB782D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5546E751-EABE-379C-B011-FA20A58B49F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1331 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALGRITHM value="C:/Users/7/Desktop/AllËã·¨/aes_allmode/aes_ctr/aes_0_cfg_ctr.xml" name="" MD5="58ba9d272e7c32c6aff280488b076d68"/>
+    <RCA id="0">
+        <BCU router="0" XAtParent="100" Height="654" Left="0" Width="1725" Top="0" id="0" YAtParent="98">
+            <RCU XAtParent="50" Height="101" Left="0" Width="1485" Top="0" id="1" YAtParent="201">
+                <BFU exp="A^B" XAtParent="44" Height="60" Y="272" BypassExp="" mod="0" X="67" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="5" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="10" Height="48" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="1" addr4="3" addr3="2" mode="0" addr1="0" threashold="0"/>
+                <BFU exp="A^B" XAtParent="154" Height="60" Y="272" BypassExp="" mod="0" X="237" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="5" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="10" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B" XAtParent="264" Height="60" Y="280" BypassExp="" mod="0" X="416" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="5" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="10" Height="81" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="" XAtParent="484" Height="60" Y="278" BypassExp="" mod="0" X="763" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="3" Index="15" MiddlePosY="0"/>
+                    <INPUTB Type="0" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="" XAtParent="594" Height="60" Y="270" BypassExp="" mod="0" X="924" func="au" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="3" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="0" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="" XAtParent="704" Height="60" Y="261" BypassExp="" mod="0" X="1081" func="au" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="3" Index="7" MiddlePosY="0"/>
+                    <INPUTB Type="0" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="" XAtParent="814" Height="60" Y="257" BypassExp="" mod="0" X="1239" func="au" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="3" Index="11" MiddlePosY="0"/>
+                    <INPUTB Type="0" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_0_init.txt" Height="60" Y="216" X="1424" mode="4" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Height="19" Index="0" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_0_init.txt" Height="60" Y="218" X="1629" mode="4" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Height="29" Index="1" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1204" src="sbox_0_init.txt" Height="60" Y="210" X="1831" mode="4" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="2" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_0_init.txt" Height="60" Y="217" X="2048" mode="4" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="3" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BFU exp="A^B" XAtParent="374" Height="60" Y="280" BypassExp="" mod="0" X="604" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="5" Height="71" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="10" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+            </RCU>
+            <RCU XAtParent="50" Height="101" Left="0" Width="1625" Top="0" id="2" YAtParent="352">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="414" BypassExp="" mod="0" X="67" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="66" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="7" Height="57" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="10" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="5" addr4="7" addr3="6" mode="0" addr1="4" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="413" BypassExp="" mod="0" X="247" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="4" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="9" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="14" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="413" BypassExp="" mod="0" X="424" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="33" Index="8" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="13" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="411" BypassExp="" mod="0" X="596" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="12" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="6" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="484" Height="60" Y="422" BypassExp="" mod="0" X="764" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="6" Index="4" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="594" Height="60" Y="420" BypassExp="" mod="0" X="933" func="lu" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="6" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="704" Height="60" Y="421" BypassExp="" mod="0" X="1096" func="lu" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="6" Index="6" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="814" Height="60" Y="420" BypassExp="" mod="0" X="1260" func="lu" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="6" Index="7" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="3" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_0_init.txt" Height="60" Y="380" X="1432" mode="4" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Index="4" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_0_init.txt" Height="60" Y="381" X="1640" mode="4" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Index="5" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1204" src="sbox_0_init.txt" Height="60" Y="388" X="1839" mode="4" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="6" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_0_init.txt" Height="60" Y="394" X="2064" mode="4" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="7" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES XAtParent="1484" src="benes_0_init.txt" Height="60" Y="357" X="2336" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="3" id="0" Index="15" MiddlePosY="0"/>
+                    <INPUT Type="3" id="1" Index="3" MiddlePosY="0"/>
+                    <INPUT Type="3" id="2" Index="7" MiddlePosY="0"/>
+                    <INPUT Type="3" id="3" Index="11" MiddlePosY="0"/>
+                </BENES>
+            </RCU>
+            <RCU XAtParent="50" Height="101" Left="0" Width="1625" Top="0" id="3" YAtParent="503">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="583" BypassExp="" mod="0" X="61" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="10" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="9" addr4="11" addr3="10" mode="0" addr1="8" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="581" BypassExp="" mod="0" X="242" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="4" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="9" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="14" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="584" BypassExp="" mod="0" X="419" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="8" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="13" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="590" BypassExp="" mod="0" X="603" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="93" Index="12" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="6" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_0_init.txt" Height="60" Y="545" X="1431" mode="4" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Index="4" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_0_init.txt" Height="60" Y="544" X="1630" mode="4" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Index="5" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BFU exp="A^B^T" XAtParent="484" Height="60" Y="578" BypassExp="" mod="0" X="766" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="594" Height="60" Y="581" BypassExp="" mod="0" X="930" func="lu" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="704" Height="60" Y="576" BypassExp="" mod="0" X="1094" func="lu" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="814" Height="60" Y="574" BypassExp="" mod="0" X="1270" func="lu" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="3" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="1204" src="sbox_0_init.txt" Height="60" Y="547" X="1847" mode="4" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="6" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_0_init.txt" Height="60" Y="543" X="2064" mode="4" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="7" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES XAtParent="1484" src="benes_0_init.txt" Height="60" Y="549" X="2339" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="3" Height="30" id="0" Index="15" MiddlePosY="0"/>
+                    <INPUT Type="3" id="1" Index="3" MiddlePosY="0"/>
+                    <INPUT Type="3" Height="42" id="2" Index="7" MiddlePosY="0"/>
+                    <INPUT Type="3" Height="34" id="3" Index="11" MiddlePosY="0"/>
+                </BENES>
+            </RCU>
+            <BFU exp="A^B^T" Y="760" X="54" func="lu" id="0">
+                <INPUTA Type="7" Height="64" Index="0"/>
+                <INPUTB Type="7" Index="5"/>
+                <INPUTT Type="7" Index="10"/>
+            </BFU>
+            <MEM_INPUT id="0"/>
+            <MEM_INPUT id="1"/>
+            <MEM_INPUT id="2"/>
+            <MEM_INPUT id="3"/>
+            <MEM_WRITE/>
+            <MEM_READ offset="0" addr2="13" addr4="15" addr3="14" addr1="12"/>
+            <BFU exp="A^B^T" Y="760" X="230" func="lu" id="1">
+                <INPUTA Type="7" Index="4"/>
+                <INPUTB Type="7" Index="9"/>
+                <INPUTT Type="7" Index="14"/>
+            </BFU>
+            <BFU exp="A^B^T" Y="762" X="406" func="lu" id="2">
+                <INPUTA Type="7" Index="8"/>
+                <INPUTB Type="7" Index="13"/>
+                <INPUTT Type="7" Index="2"/>
+            </BFU>
+            <BFU exp="A^B^T" Y="764" X="582" func="lu" id="3">
+                <INPUTA Type="7" Index="12"/>
+                <INPUTB Type="7" Index="1"/>
+                <INPUTT Type="7" Index="6"/>
+            </BFU>
+            <BFU exp="A^B^T" Y="770" X="765" func="lu" id="4">
+                <INPUTA Type="1" Index="0"/>
+                <INPUTB Type="8" Height="85" Index="0"/>
+                <INPUTT Type="10" Index="0"/>
+            </BFU>
+            <BFU exp="A^B^T" Y="769" X="930" func="lu" id="5">
+                <INPUTA Type="1" Index="1"/>
+                <INPUTB Type="8" Height="73" Index="1"/>
+                <INPUTT Type="10" Index="1"/>
+            </BFU>
+            <BFU exp="A^B^T" Y="770" X="1099" func="lu" id="6">
+                <INPUTA Type="1" Index="2"/>
+                <INPUTB Type="8" Index="2"/>
+                <INPUTT Type="10" Index="2"/>
+            </BFU>
+            <BFU exp="A^B^T" Y="775" X="1259" func="lu" id="7">
+                <INPUTA Type="1" Index="3"/>
+                <INPUTB Type="8" Height="58" Index="3"/>
+                <INPUTT Type="10" Index="3"/>
+            </BFU>
+            <SBOX src="sbox_0_init.txt" Y="773" X="1434" mode="4" id="0">
+                <INPUT Type="1" Index="4"/>
+                <CNT id="0"/>
+                <CNT value="1" id="1"/>
+                <CNT value="2" id="2"/>
+                <CNT value="3" id="3"/>
+            </SBOX>
+            <SBOX src="sbox_0_init.txt" Y="770" X="1631" mode="4" id="1">
+                <INPUT Type="1" Index="5"/>
+                <CNT id="0"/>
+                <CNT value="1" id="1"/>
+                <CNT value="2" id="2"/>
+                <CNT value="3" id="3"/>
+            </SBOX>
+            <SBOX src="sbox_0_init.txt" Y="770" X="1847" mode="4" id="2">
+                <INPUT Type="1" Index="6"/>
+                <CNT id="0"/>
+                <CNT value="1" id="1"/>
+                <CNT value="2" id="2"/>
+                <CNT value="3" id="3"/>
+            </SBOX>
+            <SBOX src="sbox_0_init.txt" Y="773" X="2066" mode="4" id="3">
+                <INPUT Type="1" Index="7"/>
+                <CNT value="0" id="0"/>
+                <CNT value="1" id="1"/>
+                <CNT value="2" id="2"/>
+                <CNT value="3" id="3"/>
+            </SBOX>
+            <BENES src="benes_0_init.txt" Y="776" X="2340" id="0">
+                <INPUT Type="3" id="0" Index="15"/>
+                <INPUT Type="3" id="1" Index="3"/>
+                <INPUT Type="3" id="2" Index="7"/>
+                <INPUT Type="3" id="3" Index="11"/>
+            </BENES>
+            <RCU XAtParent="50" Height="101" Left="0" Width="485" Top="0" id="0" YAtParent="50">
+                <BFU exp="A" XAtParent="46" Height="60" Y="102" BypassExp="" mod="0" X="68" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="10" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="0" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="1" mode128_32="0" addr2="257" addr4="259" addr3="258" mode="3" addr1="256" threashold="95"/>
+                <BFU exp="A" XAtParent="154" Height="60" Y="103" BypassExp="" mod="0" X="236" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="10" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="0" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A" XAtParent="264" Height="60" Y="105" BypassExp="" mod="0" X="412" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="10" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="0" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A" XAtParent="374" Height="60" Y="109" BypassExp="" mod="0" X="593" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="10" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="0" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="0" Index="0" MiddlePosY="0"/>
+                </BFU>
+            </RCU>
+            <OUT_FIFO Type="0" id="0" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="0" id="1" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="0" id="2" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="0" id="3" Index="0" MiddlePosY="0"/>
+        </BCU>
+        <BCU router="0" XAtParent="100" Height="654" Left="0" Width="1725" Top="0" id="1" YAtParent="854">
+            <RCU XAtParent="50" Height="101" Left="0" Width="1625" Top="0" id="0" YAtParent="50">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="757" BypassExp="" mod="0" X="55" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="64" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="10" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="1" addr4="3" addr3="2" mode="0" addr1="0" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="763" BypassExp="" mod="0" X="231" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="4" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="9" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="14" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="761" BypassExp="" mod="0" X="408" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="8" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="13" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="764" BypassExp="" mod="0" X="582" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="12" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="6" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="484" Height="60" Y="769" BypassExp="" mod="0" X="765" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="8" Height="85" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="594" Height="60" Y="769" BypassExp="" mod="0" X="930" func="lu" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="8" Height="73" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="704" Height="60" Y="770" BypassExp="" mod="0" X="1099" func="lu" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="814" Height="60" Y="775" BypassExp="" mod="0" X="1259" func="lu" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="8" Height="58" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="3" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_0_init.txt" Height="60" Y="773" X="1434" mode="4" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Index="4" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_0_init.txt" Height="60" Y="770" X="1631" mode="4" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Index="5" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1204" src="sbox_0_init.txt" Height="60" Y="770" X="1847" mode="4" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="6" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_0_init.txt" Height="60" Y="773" X="2066" mode="4" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="7" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES XAtParent="1484" src="benes_0_init.txt" Height="60" Y="775" X="2340" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="3" id="0" Index="15" MiddlePosY="0"/>
+                    <INPUT Type="3" id="1" Index="3" MiddlePosY="0"/>
+                    <INPUT Type="3" id="2" Index="7" MiddlePosY="0"/>
+                    <INPUT Type="3" id="3" Index="11" MiddlePosY="0"/>
+                </BENES>
+            </RCU>
+            <RCU XAtParent="50" Height="101" Left="0" Width="1625" Top="0" id="1" YAtParent="201">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="967" BypassExp="" mod="0" X="67" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="10" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="5" addr4="7" addr3="6" mode="0" addr1="4" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="971" BypassExp="" mod="0" X="234" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="4" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="9" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="14" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="972" BypassExp="" mod="0" X="402" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="8" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="13" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="972" BypassExp="" mod="0" X="586" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="12" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="6" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="484" Height="60" Y="978" BypassExp="" mod="0" X="766" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="594" Height="60" Y="976" BypassExp="" mod="0" X="931" func="lu" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="704" Height="60" Y="977" BypassExp="" mod="0" X="1103" func="lu" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="814" Height="60" Y="980" BypassExp="" mod="0" X="1264" func="lu" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="3" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_0_init.txt" Height="60" Y="985" X="1435" mode="4" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Index="4" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_0_init.txt" Height="60" Y="985" X="1640" mode="4" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Index="5" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1204" src="sbox_0_init.txt" Height="60" Y="985" X="1849" mode="4" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="6" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_0_init.txt" Height="60" Y="983" X="2075" mode="4" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="7" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES XAtParent="1484" src="benes_0_init.txt" Height="60" Y="976" X="2338" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="3" Height="77" id="0" Index="15" MiddlePosY="0"/>
+                    <INPUT Type="3" id="1" Index="3" MiddlePosY="0"/>
+                    <INPUT Type="3" id="2" Index="7" MiddlePosY="0"/>
+                    <INPUT Type="3" id="3" Index="11" MiddlePosY="0"/>
+                </BENES>
+            </RCU>
+            <RCU XAtParent="50" Height="101" Left="0" Width="1625" Top="0" id="2" YAtParent="352">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="1184" BypassExp="" mod="0" X="55" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="59" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="7" Height="34" Index="10" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="9" addr4="11" addr3="10" mode="0" addr1="8" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="1183" BypassExp="" mod="0" X="232" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="69" Index="4" MiddlePosY="0"/>
+                    <INPUTB Type="7" Height="55" Index="9" MiddlePosY="0"/>
+                    <INPUTT Type="7" Height="22" Index="14" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="1182" BypassExp="" mod="0" X="413" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="61" Index="8" MiddlePosY="0"/>
+                    <INPUTB Type="7" Height="36" Index="13" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="1188" BypassExp="" mod="0" X="584" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="12" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="6" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="484" Height="60" Y="1190" BypassExp="" mod="0" X="762" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="8" Height="45" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="594" Height="60" Y="1192" BypassExp="" mod="0" X="928" func="lu" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="704" Height="60" Y="1192" BypassExp="" mod="0" X="1104" func="lu" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="814" Height="60" Y="1188" BypassExp="" mod="0" X="1267" func="lu" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="3" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_0_init.txt" Height="60" Y="1191" X="1438" mode="4" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Index="4" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_0_init.txt" Height="60" Y="1192" X="1650" mode="4" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Index="5" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1204" src="sbox_0_init.txt" Height="60" Y="1193" X="1857" mode="4" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="6" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_0_init.txt" Height="60" Y="1194" X="2083" mode="4" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="7" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES XAtParent="1484" src="benes_0_init.txt" Height="60" Y="1194" X="2336" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="3" id="0" Index="15" MiddlePosY="0"/>
+                    <INPUT Type="3" id="1" Index="3" MiddlePosY="0"/>
+                    <INPUT Type="3" id="2" Index="7" MiddlePosY="0"/>
+                    <INPUT Type="3" id="3" Index="11" MiddlePosY="0"/>
+                </BENES>
+            </RCU>
+            <RCU XAtParent="50" Height="101" Left="0" Width="1625" Top="0" id="3" YAtParent="503">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="1392" BypassExp="" mod="0" X="56" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="10" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="13" addr4="15" addr3="14" mode="0" addr1="12" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="1391" BypassExp="" mod="0" X="230" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="62" Index="4" MiddlePosY="0"/>
+                    <INPUTB Type="7" Height="53" Index="9" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="14" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="1395" BypassExp="" mod="0" X="408" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="8" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="13" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="1398" BypassExp="" mod="0" X="582" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="12" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="6" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="484" Height="60" Y="1396" BypassExp="" mod="0" X="759" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="594" Height="60" Y="1390" BypassExp="" mod="0" X="923" func="lu" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="704" Height="60" Y="1394" BypassExp="" mod="0" X="1101" func="lu" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="814" Height="60" Y="1397" BypassExp="" mod="0" X="1264" func="lu" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="3" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_0_init.txt" Height="60" Y="1402" X="1438" mode="4" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Index="4" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_0_init.txt" Height="60" Y="1401" X="1649" mode="4" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Index="5" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1204" src="sbox_0_init.txt" Height="60" Y="1403" X="1852" mode="4" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="6" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_0_init.txt" Height="60" Y="1405" X="2082" mode="4" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="7" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES XAtParent="1484" src="benes_0_init.txt" Height="60" Y="1413" X="2343" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="3" id="0" Index="15" MiddlePosY="0"/>
+                    <INPUT Type="3" id="1" Index="3" MiddlePosY="0"/>
+                    <INPUT Type="3" id="2" Index="7" MiddlePosY="0"/>
+                    <INPUT Type="3" id="3" Index="11" MiddlePosY="0"/>
+                </BENES>
+            </RCU>
+            <OUT_FIFO Type="0" id="0" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="0" id="1" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="0" id="2" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="0" id="3" Index="0" MiddlePosY="0"/>
+        </BCU>
+        <BCU router="0" id="1">
+            <RCU id="0">
+                <BFU exp="A^B^T" Y="967" X="67" func="lu" id="0">
+                    <INPUTA Type="7" Index="0"/>
+                    <INPUTB Type="7" Index="5"/>
+                    <INPUTT Type="7" Index="10"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE/>
+                <MEM_READ offset="0" addr2="1" addr4="3" addr3="2" addr1="0"/>
+                <BFU exp="A^B^T" Y="971" X="234" func="lu" id="1">
+                    <INPUTA Type="7" Index="4"/>
+                    <INPUTB Type="7" Index="9"/>
+                    <INPUTT Type="7" Index="14"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="972" X="402" func="lu" id="2">
+                    <INPUTA Type="7" Index="8"/>
+                    <INPUTB Type="7" Index="13"/>
+                    <INPUTT Type="7" Index="2"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="972" X="586" func="lu" id="3">
+                    <INPUTA Type="7" Index="12"/>
+                    <INPUTB Type="7" Index="1"/>
+                    <INPUTT Type="7" Index="6"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="978" X="766" func="lu" id="4">
+                    <INPUTA Type="1" Index="0"/>
+                    <INPUTB Type="8" Index="0"/>
+                    <INPUTT Type="10" Index="0"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="976" X="931" func="lu" id="5">
+                    <INPUTA Type="1" Index="1"/>
+                    <INPUTB Type="8" Index="1"/>
+                    <INPUTT Type="10" Index="1"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="977" X="1103" func="lu" id="6">
+                    <INPUTA Type="1" Index="2"/>
+                    <INPUTB Type="8" Index="2"/>
+                    <INPUTT Type="10" Index="2"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="980" X="1264" func="lu" id="7">
+                    <INPUTA Type="1" Index="3"/>
+                    <INPUTB Type="8" Index="3"/>
+                    <INPUTT Type="10" Index="3"/>
+                </BFU>
+                <SBOX src="sbox_0_init.txt" Y="985" X="1435" mode="4" id="0">
+                    <INPUT Type="1" Index="4"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="985" X="1640" mode="4" id="1">
+                    <INPUT Type="1" Index="5"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="985" X="1849" mode="4" id="2">
+                    <INPUT Type="1" Index="6"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="983" X="2075" mode="4" id="3">
+                    <INPUT Type="1" Index="7"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES src="benes_0_init.txt" Y="976" X="2338" id="0">
+                    <INPUT Type="3" Height="77" id="0" Index="15"/>
+                    <INPUT Type="3" id="1" Index="3"/>
+                    <INPUT Type="3" id="2" Index="7"/>
+                    <INPUT Type="3" id="3" Index="11"/>
+                </BENES>
+            </RCU>
+            <RCU id="1">
+                <BFU exp="A^B^T" Y="1184" X="55" func="lu" id="0">
+                    <INPUTA Type="7" Height="59" Index="0"/>
+                    <INPUTB Type="7" Index="5"/>
+                    <INPUTT Type="7" Height="34" Index="10"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE/>
+                <MEM_READ addr2="5" addr4="7" addr3="6" addr1="4"/>
+                <BFU exp="A^B^T" Y="1183" X="232" func="lu" id="1">
+                    <INPUTA Type="7" Height="69" Index="4"/>
+                    <INPUTB Type="7" Height="55" Index="9"/>
+                    <INPUTT Type="7" Height="22" Index="14"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1182" X="413" func="lu" id="2">
+                    <INPUTA Type="7" Height="61" Index="8"/>
+                    <INPUTB Type="7" Height="36" Index="13"/>
+                    <INPUTT Type="7" Index="2"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1188" X="584" func="lu" id="3">
+                    <INPUTA Type="7" Index="12"/>
+                    <INPUTB Type="7" Index="1"/>
+                    <INPUTT Type="7" Index="6"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1190" X="762" func="lu" id="4">
+                    <INPUTA Type="1" Index="0"/>
+                    <INPUTB Type="8" Height="45" Index="0"/>
+                    <INPUTT Type="10" Index="0"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1192" X="928" func="lu" id="5">
+                    <INPUTA Type="1" Index="1"/>
+                    <INPUTB Type="8" Index="1"/>
+                    <INPUTT Type="10" Index="1"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1192" X="1104" func="lu" id="6">
+                    <INPUTA Type="1" Index="2"/>
+                    <INPUTB Type="8" Index="2"/>
+                    <INPUTT Type="10" Index="2"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1188" X="1267" func="lu" id="7">
+                    <INPUTA Type="1" Index="3"/>
+                    <INPUTB Type="8" Index="3"/>
+                    <INPUTT Type="10" Index="3"/>
+                </BFU>
+                <SBOX src="sbox_0_init.txt" Y="1191" X="1438" mode="4" id="0">
+                    <INPUT Type="1" Index="4"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="1192" X="1650" mode="4" id="1">
+                    <INPUT Type="1" Index="5"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="1193" X="1857" mode="4" id="2">
+                    <INPUT Type="1" Index="6"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="1194" X="2083" mode="4" id="3">
+                    <INPUT Type="1" Index="7"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES src="benes_0_init.txt" Y="1195" X="2336" id="0">
+                    <INPUT Type="3" id="0" Index="15"/>
+                    <INPUT Type="3" id="1" Index="3"/>
+                    <INPUT Type="3" id="2" Index="7"/>
+                    <INPUT Type="3" id="3" Index="11"/>
+                </BENES>
+            </RCU>
+            <RCU id="2">
+                <BFU exp="A^B^T" Y="1392" X="56" func="lu" id="0">
+                    <INPUTA Type="7" Index="0"/>
+                    <INPUTB Type="7" Index="5"/>
+                    <INPUTT Type="7" Index="10"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE/>
+                <MEM_READ offset="0" addr2="9" addr4="11" addr3="10" addr1="8"/>
+                <BFU exp="A^B^T" Y="1391" X="230" func="lu" id="1">
+                    <INPUTA Type="7" Height="62" Index="4"/>
+                    <INPUTB Type="7" Height="53" Index="9"/>
+                    <INPUTT Type="7" Index="14"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1395" X="408" func="lu" id="2">
+                    <INPUTA Type="7" Index="8"/>
+                    <INPUTB Type="7" Index="13"/>
+                    <INPUTT Type="7" Index="2"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1398" X="582" func="lu" id="3">
+                    <INPUTA Type="7" Index="12"/>
+                    <INPUTB Type="7" Index="1"/>
+                    <INPUTT Type="7" Index="6"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1396" X="759" func="lu" id="4">
+                    <INPUTA Type="1" Index="0"/>
+                    <INPUTB Type="8" Index="0"/>
+                    <INPUTT Type="10" Index="0"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1393" X="923" func="lu" id="5">
+                    <INPUTA Type="1" Index="1"/>
+                    <INPUTB Type="8" Index="1"/>
+                    <INPUTT Type="10" Index="1"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1394" X="1101" func="lu" id="6">
+                    <INPUTA Type="1" Index="2"/>
+                    <INPUTB Type="8" Index="2"/>
+                    <INPUTT Type="10" Index="2"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1397" X="1264" func="lu" id="7">
+                    <INPUTA Type="1" Index="3"/>
+                    <INPUTB Type="8" Index="3"/>
+                    <INPUTT Type="10" Index="3"/>
+                </BFU>
+                <SBOX src="sbox_0_init.txt" Y="1402" X="1438" mode="4" id="0">
+                    <INPUT Type="1" Index="4"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="1401" X="1649" mode="4" id="1">
+                    <INPUT Type="1" Index="5"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="1403" X="1852" mode="4" id="2">
+                    <INPUT Type="1" Index="6"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="1405" X="2082" mode="4" id="3">
+                    <INPUT Type="1" Index="7"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES src="benes_0_init.txt" Y="1413" X="2343" id="0">
+                    <INPUT Type="3" id="0" Index="15"/>
+                    <INPUT Type="3" id="1" Index="3"/>
+                    <INPUT Type="3" id="2" Index="7"/>
+                    <INPUT Type="3" id="3" Index="11"/>
+                </BENES>
+            </RCU>
+            <RCU id="3">
+                <BFU exp="A^B^T" Y="1609" X="59" func="lu" id="0">
+                    <INPUTA Type="7" Index="0"/>
+                    <INPUTB Type="7" Index="5"/>
+                    <INPUTT Type="7" Index="10"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE/>
+                <MEM_READ addr2="13" addr4="15" addr3="14" addr1="12"/>
+                <BFU exp="A^B^T" Y="1608" X="227" func="lu" id="1">
+                    <INPUTA Type="7" Index="4"/>
+                    <INPUTB Type="7" Index="9"/>
+                    <INPUTT Type="7" Index="14"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1606" X="404" func="lu" id="2">
+                    <INPUTA Type="7" Index="8"/>
+                    <INPUTB Type="7" Index="13"/>
+                    <INPUTT Type="7" Index="2"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1607" X="580" func="lu" id="3">
+                    <INPUTA Type="7" Height="67" Index="12"/>
+                    <INPUTB Type="7" Height="39" Index="1"/>
+                    <INPUTT Type="7" Height="24" Index="6"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1606" X="756" func="lu" id="4">
+                    <INPUTA Type="1" Index="0"/>
+                    <INPUTB Type="8" Index="0"/>
+                    <INPUTT Type="10" Index="0"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1602" X="927" func="lu" id="5">
+                    <INPUTA Type="1" Index="1"/>
+                    <INPUTB Type="8" Index="1"/>
+                    <INPUTT Type="10" Index="1"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1605" X="1099" func="lu" id="6">
+                    <INPUTA Type="1" Index="2"/>
+                    <INPUTB Type="8" Index="2"/>
+                    <INPUTT Type="10" Index="2"/>
+                </BFU>
+                <BFU exp="A^B^T" Y="1607" X="1260" func="lu" id="7">
+                    <INPUTA Type="1" Height="52" Index="3"/>
+                    <INPUTB Type="8" Index="3"/>
+                    <INPUTT Type="10" Index="3"/>
+                </BFU>
+                <SBOX src="sbox_0_init.txt" Y="1606" X="1437" mode="4" id="0">
+                    <INPUT Type="1" Index="4"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="1604" X="1648" mode="4" id="1">
+                    <INPUT Type="1" Index="5"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="1607" X="1863" mode="4" id="2">
+                    <INPUT Type="1" Index="6"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX src="sbox_0_init.txt" Y="1608" X="2082" mode="4" id="3">
+                    <INPUT Type="1" Index="7"/>
+                    <CNT id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES src="benes_0_init.txt" Y="1609" X="2340" id="0">
+                    <INPUT Type="3" id="0" Index="15"/>
+                    <INPUT Type="3" id="1" Index="3"/>
+                    <INPUT Type="3" id="2" Index="7"/>
+                    <INPUT Type="3" id="3" Index="11"/>
+                </BENES>
+            </RCU>
+            <OUT_FIFO id="0"/>
+            <OUT_FIFO id="1"/>
+            <OUT_FIFO id="2"/>
+            <OUT_FIFO id="3"/>
+        </BCU>
+        <BCU router="1" XAtParent="100" Height="654" Left="0" Width="1725" Top="0" id="2" YAtParent="1608">
+            <RCU XAtParent="50" Height="101" Left="0" Width="1625" Top="0" id="0" YAtParent="50">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="1609" BypassExp="" mod="0" X="59" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="10" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="1" addr4="3" addr3="2" mode="0" addr1="0" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="1608" BypassExp="" mod="0" X="227" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="4" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="9" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="14" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="1606" BypassExp="" mod="0" X="404" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="8" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="13" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="1607" BypassExp="" mod="0" X="580" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="67" Index="12" MiddlePosY="0"/>
+                    <INPUTB Type="7" Height="39" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="7" Height="24" Index="6" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="484" Height="60" Y="1606" BypassExp="" mod="0" X="756" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="594" Height="60" Y="1601" BypassExp="" mod="0" X="927" func="lu" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="704" Height="60" Y="1605" BypassExp="" mod="0" X="1099" func="lu" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="814" Height="60" Y="1607" BypassExp="" mod="0" X="1260" func="lu" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Height="52" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="3" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_0_init.txt" Height="60" Y="1604" X="1437" mode="4" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Index="4" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_0_init.txt" Height="60" Y="1604" X="1648" mode="4" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Index="5" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1204" src="sbox_0_init.txt" Height="60" Y="1607" X="1863" mode="4" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="6" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_0_init.txt" Height="60" Y="1608" X="2082" mode="4" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="7" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES XAtParent="1484" src="benes_0_init.txt" Height="60" Y="1608" X="2340" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="3" id="0" Index="15" MiddlePosY="0"/>
+                    <INPUT Type="3" id="1" Index="3" MiddlePosY="0"/>
+                    <INPUT Type="3" id="2" Index="7" MiddlePosY="0"/>
+                    <INPUT Type="3" id="3" Index="11" MiddlePosY="0"/>
+                </BENES>
+            </RCU>
+            <RCU XAtParent="50" Height="101" Left="0" Width="1625" Top="0" id="1" YAtParent="201">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="1822" BypassExp="" mod="0" X="58" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="82" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="7" Height="69" Index="10" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="5" addr4="7" addr3="6" mode="0" addr1="4" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="1826" BypassExp="" mod="0" X="223" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="76" Index="4" MiddlePosY="0"/>
+                    <INPUTB Type="7" Height="37" Index="9" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="14" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="1827" BypassExp="" mod="0" X="397" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="8" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="13" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="1825" BypassExp="" mod="0" X="570" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="12" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="6" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="484" Height="60" Y="1828" BypassExp="" mod="0" X="747" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="594" Height="60" Y="1824" BypassExp="" mod="0" X="929" func="lu" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="704" Height="60" Y="1827" BypassExp="" mod="0" X="1104" func="lu" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="814" Height="60" Y="1829" BypassExp="" mod="0" X="1266" func="lu" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="3" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_0_init.txt" Height="60" Y="1824" X="1431" mode="4" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Index="4" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_0_init.txt" Height="60" Y="1830" X="1647" mode="4" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Index="5" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1204" src="sbox_0_init.txt" Height="60" Y="1828" X="1867" mode="4" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="6" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_0_init.txt" Height="60" Y="1830" X="2086" mode="4" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="7" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="1" id="1"/>
+                    <CNT value="2" id="2"/>
+                    <CNT value="3" id="3"/>
+                </SBOX>
+                <BENES XAtParent="1484" src="benes_0_init.txt" Height="60" Y="1825" X="2344" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="3" id="0" Index="15" MiddlePosY="0"/>
+                    <INPUT Type="3" id="1" Index="3" MiddlePosY="0"/>
+                    <INPUT Type="3" id="2" Index="7" MiddlePosY="0"/>
+                    <INPUT Type="3" id="3" Index="11" MiddlePosY="0"/>
+                </BENES>
+            </RCU>
+            <RCU XAtParent="50" Height="101" Left="0" Width="1625" Top="0" id="2" YAtParent="352">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="2036" BypassExp="" mod="0" X="52" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="5" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="10" MiddlePosY="0"/>
+                </BFU>
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="9" addr4="11" addr3="10" mode="0" addr1="8" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="2034" BypassExp="" mod="0" X="222" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Height="71" Index="4" MiddlePosY="0"/>
+                    <INPUTB Type="7" Height="60" Index="9" MiddlePosY="0"/>
+                    <INPUTT Type="7" Height="41" Index="14" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="2033" BypassExp="" mod="0" X="400" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="8" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="13" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="2044" BypassExp="" mod="0" X="570" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="7" Index="12" MiddlePosY="0"/>
+                    <INPUTB Type="7" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="7" Index="6" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="484" Height="60" Y="2038" BypassExp="" mod="0" X="760" func="lu" Left="0" Width="90" Top="0" id="4" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="594" Height="60" Y="2042" BypassExp="" mod="0" X="930" func="lu" Left="0" Width="90" Top="0" id="5" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="704" Height="60" Y="2045" BypassExp="" mod="0" X="1104" func="lu" Left="0" Width="90" Top="0" id="6" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="814" Height="60" Y="2049" BypassExp="" mod="0" X="1273" func="lu" Left="0" Width="90" Top="0" id="7" Bypass="0" YAtParent="20">
+                    <INPUTA Type="1" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="8" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="10" Index="3" MiddlePosY="0"/>
+                </BFU>
+                <SBOX XAtParent="924" src="sbox_1_init.txt" Height="60" Y="2043" X="1444" mode="2" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="1" Height="20" Index="4" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="0" id="1"/>
+                    <CNT value="0" id="2"/>
+                    <CNT value="0" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1064" src="sbox_1_init.txt" Height="60" Y="2036" X="1666" mode="2" Left="0" Width="120" Top="0" id="1" YAtParent="20">
+                    <INPUT Type="1" Index="5" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="0" id="1"/>
+                    <CNT value="0" id="2"/>
+                    <CNT value="0" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1204" src="sbox_1_init.txt" Height="60" Y="2045" X="1876" mode="2" Left="0" Width="120" Top="0" id="2" YAtParent="20">
+                    <INPUT Type="1" Index="6" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="0" id="1"/>
+                    <CNT value="0" id="2"/>
+                    <CNT value="0" id="3"/>
+                </SBOX>
+                <SBOX XAtParent="1344" src="sbox_1_init.txt" Height="60" Y="2053" X="2092" mode="2" Left="0" Width="120" Top="0" id="3" YAtParent="20">
+                    <INPUT Type="1" Index="7" MiddlePosY="0"/>
+                    <CNT value="0" id="0"/>
+                    <CNT value="0" id="1"/>
+                    <CNT value="0" id="2"/>
+                    <CNT value="0" id="3"/>
+                </SBOX>
+                <BENES XAtParent="1484" src="benes_1_init.txt" Height="60" Y="2054" X="2335" Left="0" Width="120" Top="0" id="0" YAtParent="20">
+                    <INPUT Type="3" id="0" Index="0" MiddlePosY="0"/>
+                    <INPUT Type="3" id="1" Index="4" MiddlePosY="0"/>
+                    <INPUT Type="3" id="2" Index="8" MiddlePosY="0"/>
+                    <INPUT Type="3" Height="67" id="3" Index="12" MiddlePosY="0"/>
+                </BENES>
+            </RCU>
+            <RCU XAtParent="50" Height="101" Left="0" Width="485" Top="0" id="3" YAtParent="503">
+                <BFU exp="A^B^T" XAtParent="44" Height="60" Y="2236" BypassExp="" mod="0" X="50" func="lu" Left="0" Width="90" Top="0" id="0" Bypass="0" YAtParent="20">
+                    <INPUTA Type="8" Index="0" MiddlePosY="0"/>
+                    <INPUTB Type="10" Index="0" MiddlePosY="0"/>
+                    <INPUTT Type="9" Index="0" MiddlePosY="0"/>
+                </BFU>
+                <MEM_WRITE offset="0" addr="64" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="13" addr4="15" addr3="14" mode="0" addr1="12" threashold="0"/>
+                <BFU exp="A^B^T" XAtParent="154" Height="60" Y="2241" BypassExp="" mod="0" X="222" func="lu" Left="0" Width="90" Top="0" id="1" Bypass="0" YAtParent="20">
+                    <INPUTA Type="8" Index="1" MiddlePosY="0"/>
+                    <INPUTB Type="10" Index="1" MiddlePosY="0"/>
+                    <INPUTT Type="9" Index="1" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="264" Height="60" Y="2240" BypassExp="" mod="0" X="407" func="lu" Left="0" Width="90" Top="0" id="2" Bypass="0" YAtParent="20">
+                    <INPUTA Type="8" Index="2" MiddlePosY="0"/>
+                    <INPUTB Type="10" Index="2" MiddlePosY="0"/>
+                    <INPUTT Type="9" Index="2" MiddlePosY="0"/>
+                </BFU>
+                <BFU exp="A^B^T" XAtParent="374" Height="60" Y="2244" BypassExp="" mod="0" X="579" func="lu" Left="0" Width="90" Top="0" id="3" Bypass="0" YAtParent="20">
+                    <INPUTA Type="8" Index="3" MiddlePosY="0"/>
+                    <INPUTB Type="10" Index="3" MiddlePosY="0"/>
+                    <INPUTT Type="9" Index="3" MiddlePosY="0"/>
+                </BFU>
+            </RCU>
+            <OUT_FIFO Type="1" id="0" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="1" id="1" Index="1" MiddlePosY="0"/>
+            <OUT_FIFO Type="1" id="2" Index="2" MiddlePosY="0"/>
+            <OUT_FIFO Type="1" id="3" Index="3" MiddlePosY="0"/>
+        </BCU>
+        <BCU router="0" XAtParent="100" Height="650" Left="0" Width="1200" Top="0" id="3" YAtParent="2362">
+            <RCU XAtParent="50" Height="100" Left="0" Width="1100" Top="0" id="0" YAtParent="50">
+                <MEM_INPUT id="0"/>
+                <MEM_INPUT id="1"/>
+                <MEM_INPUT id="2"/>
+                <MEM_INPUT id="3"/>
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="0" addr4="0" addr3="0" mode="0" addr1="0" threashold="0"/>
+            </RCU>
+            <RCU XAtParent="50" Height="100" Left="0" Width="1100" Top="0" id="1" YAtParent="200">
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="0" addr4="0" addr3="0" mode="0" addr1="0" threashold="0"/>
+            </RCU>
+            <RCU XAtParent="50" Height="100" Left="0" Width="1100" Top="0" id="2" YAtParent="350">
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="0" addr4="0" addr3="0" mode="0" addr1="0" threashold="0"/>
+            </RCU>
+            <RCU XAtParent="50" Height="100" Left="0" Width="1100" Top="0" id="3" YAtParent="500">
+                <MEM_WRITE offset="0" addr="0" mask="0" mode="0" threashold="0"/>
+                <MEM_READ offset="0" mode128_32="0" addr2="0" addr4="0" addr3="0" mode="0" addr1="0" threashold="0"/>
+            </RCU>
+            <OUT_FIFO Type="0" id="0" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="0" id="1" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="0" id="2" Index="0" MiddlePosY="0"/>
+            <OUT_FIFO Type="0" id="3" Index="0" MiddlePosY="0"/>
+        </BCU>
+    </RCA>
+    <RSM id="0"/>
+    <UIVER ver="3.0.0"/>
+</ALGRITHM>

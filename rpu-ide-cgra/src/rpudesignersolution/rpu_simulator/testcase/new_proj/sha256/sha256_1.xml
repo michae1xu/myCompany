@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALGRITHM name="" MD5="b5beef13a71c84dead9a7428c9070e79" value="F:/project/new_proj/new_proj/sha256/sha256_1.xml" md5="">
+    <RCA id="0">
+        <BCU XAtParent="100" id="0" YAtParent="100" Height="650" Width="914" Left="0" Top="0" router="0">
+            <OUT_FIFO id="0" Index="0" Type="0">
+                <PORT_INFLECTION_POS inflection_pos=""/>
+                <PORT_PRESSED_POS pressed_pos=""/>
+            </OUT_FIFO>
+            <OUT_FIFO id="1" Index="0" Type="0">
+                <PORT_INFLECTION_POS inflection_pos=""/>
+                <PORT_PRESSED_POS pressed_pos=""/>
+            </OUT_FIFO>
+            <OUT_FIFO id="2" Index="0" Type="0">
+                <PORT_INFLECTION_POS inflection_pos=""/>
+                <PORT_PRESSED_POS pressed_pos=""/>
+            </OUT_FIFO>
+            <OUT_FIFO id="3" Index="0" Type="0">
+                <PORT_INFLECTION_POS inflection_pos=""/>
+                <PORT_PRESSED_POS pressed_pos=""/>
+            </OUT_FIFO>
+            <RCU XAtParent="50" id="0" YAtParent="50" Height="100" Width="814" Left="0" Top="0">
+                <MEM_WRITE addr="8" mode="2" mask="0" offset="2" threashold="1"/>
+                <MEM_READ addr4="29" mode="2" addr3="19" addr1="1" mode128_32="1" addr2="3" offset="2" threashold="1"/>
+                <BFU XAtParent="44" func="su" id="0" exp="(A&lt;&lt;&lt;25)^(B&lt;&lt;&lt;14)" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="154" func="su" id="1" exp="(A>>3)^B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="0" Type="2">
+                        <PORT_INFLECTION_POS inflection_pos="-68,44;7,44"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="0" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,48;7,48"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="264" func="su" id="2" exp="(A&lt;&lt;&lt;15)^(B&lt;&lt;&lt;13)" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="3" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="3" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="374" func="su" id="3" exp="(A>>10)^B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="2" Type="2">
+                        <PORT_INFLECTION_POS inflection_pos="-68,28;7,28"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="2" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,32;7,32"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="484" func="au" id="4" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="0" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="2" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="594" func="au" id="5" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="1" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-426,40;7,40"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="3" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-227,24;7,24"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="704" func="au" id="6" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="5" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-96,40;7,40"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="4" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-227,48;7,48"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <MEM_INPUT id="1" Index="6" Type="1"/>
+            </RCU>
+            <RCU XAtParent="50" id="1" YAtParent="200" Height="100" Width="814" Left="0" Top="0">
+                <MEM_WRITE addr="9" mode="2" mask="0" offset="2" threashold="1"/>
+                <MEM_READ addr4="0" mode="2" addr3="23" addr1="5" mode128_32="1" addr2="7" offset="2" threashold="1"/>
+                <BFU XAtParent="44" func="su" id="0" exp="(A&lt;&lt;&lt;25)^(B&lt;&lt;&lt;14)" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="154" func="su" id="1" exp="(A>>3)^B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="0" Type="2">
+                        <PORT_INFLECTION_POS inflection_pos="-68,44;7,44"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="0" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,48;7,48"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="264" func="su" id="2" exp="(A&lt;&lt;&lt;15)^(B&lt;&lt;&lt;13)" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="6" Type="5">
+                        <PORT_INFLECTION_POS inflection_pos="454,-66;7,-66"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="6" Type="5">
+                        <PORT_INFLECTION_POS inflection_pos="433,-66;7,-66"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="374" func="su" id="3" exp="(A>>10)^B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="6" Type="5">
+                        <PORT_INFLECTION_POS inflection_pos="344,-66;7,-66"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="2" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,32;7,32"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="484" func="au" id="4" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="0" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="2" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="594" func="au" id="5" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="1" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-426,40;7,40"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="4" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,48;7,48"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="704" func="au" id="6" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="3" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-316,24;7,24"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="5" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,40;7,40"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <MEM_INPUT id="1" Index="6" Type="1"/>
+            </RCU>
+            <RCU XAtParent="50" id="2" YAtParent="350" Height="100" Width="814" Left="0" Top="0">
+                <MEM_WRITE addr="8" mode="2" mask="0" offset="2" threashold="1"/>
+                <MEM_READ addr4="31" mode="2" addr3="21" addr1="3" mode128_32="1" addr2="5" offset="2" threashold="1"/>
+                <BFU XAtParent="44" func="su" id="0" exp="(A&lt;&lt;&lt;25)^(B&lt;&lt;&lt;14)" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="154" func="su" id="1" exp="(A&lt;&lt;&lt;15)^(B&lt;&lt;&lt;13)" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="3" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="3" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="264" func="au" id="2" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="0" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="2" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="374" func="su" id="3" exp="(A>>3)^B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="0" Type="2">
+                        <PORT_INFLECTION_POS inflection_pos="-288,44;7,44"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="0" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-337,48;7,48"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="484" func="su" id="4" exp="(A>>10)^B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="1" Type="2">
+                        <PORT_INFLECTION_POS inflection_pos="-288,36;7,36"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="1" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-337,40;7,40"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="594" func="au" id="5" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="3" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-206,24;7,24"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="4" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,48;7,48"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="704" func="au" id="6" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="5" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-96,40;7,40"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="2" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-447,32;7,32"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <MEM_INPUT id="3" Index="6" Type="1"/>
+            </RCU>
+            <RCU XAtParent="50" id="3" YAtParent="500" Height="100" Width="814" Left="0" Top="0">
+                <MEM_WRITE addr="9" mode="2" mask="0" offset="2" threashold="1"/>
+                <MEM_READ addr4="0" mode="2" addr3="25" addr1="7" mode128_32="1" addr2="9" offset="2" threashold="1"/>
+                <BFU XAtParent="44" func="su" id="0" exp="(A&lt;&lt;&lt;25)^(B&lt;&lt;&lt;14)" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="154" func="su" id="1" exp="(A>>3)^B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="0" Type="2">
+                        <PORT_INFLECTION_POS inflection_pos="-68,44;7,44"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="0" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,48;7,48"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="264" func="au" id="2" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="0" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="2" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="374" func="su" id="3" exp="(A&lt;&lt;&lt;15)^(B&lt;&lt;&lt;13)" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="6" Type="5">
+                        <PORT_INFLECTION_POS inflection_pos="344,-66;7,-66"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="6" Type="5">
+                        <PORT_INFLECTION_POS inflection_pos="323,-66;7,-66"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="484" func="su" id="4" exp="(A>>10)^B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="6" Type="5">
+                        <PORT_INFLECTION_POS inflection_pos="234,-66;7,-66"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="3" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,24;7,24"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="594" func="au" id="5" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="1" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-426,40;7,40"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="2" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-337,32;7,32"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU XAtParent="704" func="au" id="6" exp="A+B" YAtParent="20" Height="60" Width="90" BypassExp="" Left="0" mod="0" Top="0" Bypass="0">
+                    <INPUTA Index="4" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-206,48;7,48"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="5" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-117,40;7,40"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <MEM_INPUT id="3" Index="6" Type="1"/>
+            </RCU>
+        </BCU>
+    </RCA>
+    <RSM id="0"/>
+    <UIVER ver="3.0.0"/>
+</ALGRITHM>

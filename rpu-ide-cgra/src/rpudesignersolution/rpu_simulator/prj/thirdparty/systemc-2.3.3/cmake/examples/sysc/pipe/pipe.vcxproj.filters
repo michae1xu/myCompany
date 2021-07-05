@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\numgen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\stage1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\stage2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\stage3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\numgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\stage1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\stage2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\stage3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jun\Downloads\systemc-2.3.3\examples\sysc\pipe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{272F3430-7E70-38B6-B239-77D163EB782D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5546E751-EABE-379C-B011-FA20A58B49F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

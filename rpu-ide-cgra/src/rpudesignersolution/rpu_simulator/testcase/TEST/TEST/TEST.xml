@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ALGRITHM MD5="688b969c67b731dd20d9bac087942a60" md5="" value="C:/esl/rpu_simulator/testcase/TEST/TEST/TEST.xml" name="">
+    <RCA id="0">
+        <BCU Width="600" YAtParent="100" burst="0" Left="0" Height="650" gap="0" sort="0" INFIFO_SRC=":/fifo.fifo" XAtParent="102" LFSR_DEPTH="0" id="0" MEM_SRC=":/TEST.memory" IMD_SRC=":/imf.imd" Top="0" router="3" infifosrc="0" imd_mode128_32="0" LFSR_WIDTH="0">
+            <RCU Width="480" Top="0" Left="0" YAtParent="30" id="0" Height="170" XAtParent="60">
+                <OUT_FIFO Index="0" id="0" Type="0">
+                    <PORT_INFLECTION_POS inflection_pos=""/>
+                    <PORT_PRESSED_POS pressed_pos=""/>
+                </OUT_FIFO>
+                <OUT_FIFO Index="0" id="1" Type="0">
+                    <PORT_INFLECTION_POS inflection_pos=""/>
+                    <PORT_PRESSED_POS pressed_pos=""/>
+                </OUT_FIFO>
+                <OUT_FIFO Index="0" id="2" Type="0">
+                    <PORT_INFLECTION_POS inflection_pos=""/>
+                    <PORT_PRESSED_POS pressed_pos=""/>
+                </OUT_FIFO>
+                <OUT_FIFO Index="0" id="3" Type="0">
+                    <PORT_INFLECTION_POS inflection_pos=""/>
+                    <PORT_PRESSED_POS pressed_pos=""/>
+                </OUT_FIFO>
+                <LOOP LOOP_times2="0" LOOP_times="3" LOOP_start_end="1" LOOP_start_end2="0"/>
+                <MEM_WRITE threashold="0" offset="0" addr="0" mode="0" mask="0"/>
+                <MEM_READ mode128_32="0" addr4="0" threashold="0" addr3="0" offset="0" addr1="0" mode="0" addr2="1"/>
+                <RCH mode="0"/>
+                <BFU Width="90" Bypass="1" Top="0" Left="0" YAtParent="55" carry="0" muMod="0" id="0" BypassExp="" Height="60" func="lu" exp="A" mod="0" XAtParent="49">
+                    <INPUTA Index="0" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="1" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU Width="90" Bypass="0" Top="0" Left="0" YAtParent="55" carry="0" muMod="0" id="1" BypassExp="" Height="60" func="au" exp="A" mod="0" XAtParent="159">
+                    <INPUTA Index="0" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-96,53;7,53;7,0;7,15;15,15;15,0"/>
+                        <PORT_PRESSED_POS pressed_pos="8,3;15,15"/>
+                    </INPUTA>
+                    <INPUTB Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <BFU Width="90" Bypass="0" Top="0" Left="0" YAtParent="55" carry="0" muMod="0" id="2" BypassExp="" Height="60" func="au" exp="A+B" mod="0" XAtParent="269">
+                    <INPUTA Index="1" Type="1">
+                        <PORT_INFLECTION_POS inflection_pos="-96,45;7,45"/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="0" Type="2">
+                        <PORT_INFLECTION_POS inflection_pos="-199,49;6,49;6,2;10,2;10,1;7,1"/>
+                        <PORT_PRESSED_POS pressed_pos="6,2;10,1"/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+                <MEM_INPUT Index="2" id="0" Type="1"/>
+            </RCU>
+            <RCU Width="480" Top="0" Left="0" YAtParent="250" id="1" Height="170" XAtParent="60">
+                <OUT_FIFO Index="0" id="0" Type="1">
+                    <PORT_INFLECTION_POS inflection_pos="30.8462,-22;7,-22"/>
+                    <PORT_PRESSED_POS pressed_pos=""/>
+                </OUT_FIFO>
+                <OUT_FIFO Index="0" id="1" Type="0">
+                    <PORT_INFLECTION_POS inflection_pos=""/>
+                    <PORT_PRESSED_POS pressed_pos=""/>
+                </OUT_FIFO>
+                <OUT_FIFO Index="0" id="2" Type="0">
+                    <PORT_INFLECTION_POS inflection_pos=""/>
+                    <PORT_PRESSED_POS pressed_pos=""/>
+                </OUT_FIFO>
+                <OUT_FIFO Index="0" id="3" Type="0">
+                    <PORT_INFLECTION_POS inflection_pos=""/>
+                    <PORT_PRESSED_POS pressed_pos=""/>
+                </OUT_FIFO>
+                <LOOP LOOP_times2="0" LOOP_times="3" LOOP_start_end="2" LOOP_start_end2="0"/>
+                <MEM_WRITE threashold="0" offset="0" addr="0" mode="0" mask="0"/>
+                <MEM_READ mode128_32="0" addr4="0" threashold="0" addr3="0" offset="0" addr1="2" mode="0" addr2="2"/>
+                <RCH mode="0"/>
+                <BFU Width="90" Bypass="0" Top="0" Left="0" YAtParent="55" carry="0" muMod="0" id="0" BypassExp="" Height="60" func="au" exp="" mod="0" XAtParent="94">
+                    <INPUTA Index="0" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTA>
+                    <INPUTB Index="0" Type="10">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTB>
+                    <INPUTT Index="0" Type="0">
+                        <PORT_INFLECTION_POS inflection_pos=""/>
+                        <PORT_PRESSED_POS pressed_pos=""/>
+                    </INPUTT>
+                </BFU>
+            </RCU>
+        </BCU>
+    </RCA>
+    <RSM id="0"/>
+    <UIVER ver="3.0.0"/>
+</ALGRITHM>
