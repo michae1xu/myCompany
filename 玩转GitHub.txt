@@ -1,3 +1,5 @@
+0ga3SobA 65HuiMcm
+
 1、GitHub.com,Create a new repository:
 	1)michae1xu/myCompany
 	2)得到ssh：https://github.com/michae1xu/myCompany.git
