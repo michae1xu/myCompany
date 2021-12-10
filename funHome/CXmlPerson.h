@@ -3,7 +3,7 @@
 
 #include <QObject>
 
-class CXmlPerson
+class CXmlPerson : public QObject
 {
     Q_OBJECT
 public:

@@ -18,14 +18,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     CXmlPerson.cpp \
     main.cpp \
-    MainWindow.cpp
+    MainWindow.cpp \
+    newBloodDialog.cpp
 
 HEADERS += \
     CXmlPerson.h \
-    MainWindow.h
+    MainWindow.h \
+    newBloodDialog.h
 
 FORMS += \
-    MainWindow.ui
+    MainWindow.ui \
+    newBloodDialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
